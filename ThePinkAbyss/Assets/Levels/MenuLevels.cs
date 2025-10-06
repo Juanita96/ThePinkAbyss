@@ -20,12 +20,13 @@ public class MenuLevels : MonoBehaviour
             GameObject buttonObj = Instantiate(levelButtonPrefab, levelButtonContainer);
             buttonObj.GetComponentInChildren<TextMesh>().text = "Level " + i;
 
+
+
             int levelIndex = i; // Capture the current value of i
             buttonObj.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => 
             {
                 SceneManager.LoadScene("Level" + levelIndex);
             });
-
         }
     }
 }
