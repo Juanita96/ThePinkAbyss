@@ -170,8 +170,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58ac0a7283abb054191a7ed8039c4c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Button: {fileID: 0}
-  sceneIndex: 2
+  Button: {fileID: 108648024}
+  sceneIndex: 9
 --- !u!114 &108648027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -260,7 +260,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -367, y: -333}
+  m_AnchoredPosition: {x: -366.99994, y: -333}
   m_SizeDelta: {x: -1820, y: -980}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &303564913
@@ -275,8 +275,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58ac0a7283abb054191a7ed8039c4c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Button: {fileID: 0}
-  sceneIndex: 2
+  Button: {fileID: 303564911}
+  sceneIndex: 18
 --- !u!114 &303564914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -380,8 +380,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58ac0a7283abb054191a7ed8039c4c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Button: {fileID: 0}
-  sceneIndex: 2
+  Button: {fileID: 307802538}
+  sceneIndex: 19
 --- !u!114 &307802541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -470,7 +470,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -667, y: -328}
+  m_AnchoredPosition: {x: -666.99994, y: -328}
   m_SizeDelta: {x: -1820, y: -980}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &318823043
@@ -485,8 +485,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58ac0a7283abb054191a7ed8039c4c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Button: {fileID: 0}
-  sceneIndex: 2
+  Button: {fileID: 318823041}
+  sceneIndex: 17
 --- !u!114 &318823044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -575,7 +575,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -365, y: 335}
+  m_AnchoredPosition: {x: -364.99994, y: 335}
   m_SizeDelta: {x: -1820, y: -980}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &372959107
@@ -590,8 +590,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58ac0a7283abb054191a7ed8039c4c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Button: {fileID: 0}
-  sceneIndex: 2
+  Button: {fileID: 372959105}
+  sceneIndex: 3
 --- !u!114 &372959108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -695,8 +695,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58ac0a7283abb054191a7ed8039c4c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Button: {fileID: 0}
-  sceneIndex: 2
+  Button: {fileID: 448583353}
+  sceneIndex: 15
 --- !u!114 &448583356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -800,8 +800,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58ac0a7283abb054191a7ed8039c4c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Button: {fileID: 0}
-  sceneIndex: 2
+  Button: {fileID: 467621582}
+  sceneIndex: 11
 --- !u!114 &467621585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1020,8 +1020,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58ac0a7283abb054191a7ed8039c4c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Button: {fileID: 0}
-  sceneIndex: 2
+  Button: {fileID: 633306087}
+  sceneIndex: 20
 --- !u!114 &633306090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1247,7 +1247,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -365, y: 111}
+  m_AnchoredPosition: {x: -364.99994, y: 111}
   m_SizeDelta: {x: -1820, y: -980}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &856337720
@@ -1262,8 +1262,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58ac0a7283abb054191a7ed8039c4c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Button: {fileID: 0}
-  sceneIndex: 2
+  Button: {fileID: 856337718}
+  sceneIndex: 8
 --- !u!114 &856337721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1367,8 +1367,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58ac0a7283abb054191a7ed8039c4c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Button: {fileID: 0}
-  sceneIndex: 2
+  Button: {fileID: 903687881}
+  sceneIndex: 5
 --- !u!114 &903687884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1472,8 +1472,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58ac0a7283abb054191a7ed8039c4c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Button: {fileID: 0}
-  sceneIndex: 2
+  Button: {fileID: 911669748}
+  sceneIndex: 21
 --- !u!114 &911669751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1562,7 +1562,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0, y: -91}
+  m_AnchoredPosition: {x: 0, y: -91}
   m_SizeDelta: {x: -1820, y: -980}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1219886835
@@ -1577,8 +1577,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58ac0a7283abb054191a7ed8039c4c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Button: {fileID: 0}
-  sceneIndex: 2
+  Button: {fileID: 1219886833}
+  sceneIndex: 14
 --- !u!114 &1219886836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1804,8 +1804,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58ac0a7283abb054191a7ed8039c4c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Button: {fileID: 0}
-  sceneIndex: 2
+  Button: {fileID: 1304361797}
+  sceneIndex: 16
 --- !u!114 &1304361800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1894,7 +1894,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -679, y: 113}
+  m_AnchoredPosition: {x: -678.99994, y: 113}
   m_SizeDelta: {x: -1820, y: -980}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1375925441
@@ -1909,8 +1909,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58ac0a7283abb054191a7ed8039c4c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Button: {fileID: 0}
-  sceneIndex: 2
+  Button: {fileID: 1375925439}
+  sceneIndex: 7
 --- !u!114 &1375925442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2014,8 +2014,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58ac0a7283abb054191a7ed8039c4c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Button: {fileID: 0}
-  sceneIndex: 2
+  Button: {fileID: 1398298201}
+  sceneIndex: 4
 --- !u!114 &1398298204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2104,7 +2104,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -365, y: -98}
+  m_AnchoredPosition: {x: -364.99994, y: -98}
   m_SizeDelta: {x: -1820, y: -980}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1567945142
@@ -2119,8 +2119,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58ac0a7283abb054191a7ed8039c4c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Button: {fileID: 0}
-  sceneIndex: 2
+  Button: {fileID: 1567945140}
+  sceneIndex: 13
 --- !u!114 &1567945143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2209,7 +2209,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -676, y: 316}
+  m_AnchoredPosition: {x: -675.99994, y: 316}
   m_SizeDelta: {x: -1820, y: -980}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1690162090
@@ -2276,7 +2276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58ac0a7283abb054191a7ed8039c4c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Button: {fileID: 0}
+  Button: {fileID: 1690162088}
   sceneIndex: 2
 --- !u!1 &1730825612
 GameObject:
@@ -2314,7 +2314,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -672, y: -91}
+  m_AnchoredPosition: {x: -671.99994, y: -91}
   m_SizeDelta: {x: -1820, y: -980}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1730825614
@@ -2329,8 +2329,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58ac0a7283abb054191a7ed8039c4c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Button: {fileID: 0}
-  sceneIndex: 2
+  Button: {fileID: 1730825612}
+  sceneIndex: 12
 --- !u!114 &1730825615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2513,8 +2513,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58ac0a7283abb054191a7ed8039c4c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Button: {fileID: 0}
-  sceneIndex: 2
+  Button: {fileID: 2088399154}
+  sceneIndex: 10
 --- !u!114 &2088399157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2618,8 +2618,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58ac0a7283abb054191a7ed8039c4c78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Button: {fileID: 0}
-  sceneIndex: 2
+  Button: {fileID: 2103376940}
+  sceneIndex: 6
 --- !u!114 &2103376943
 MonoBehaviour:
   m_ObjectHideFlags: 0
