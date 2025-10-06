@@ -1,32 +1,13 @@
 using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine.SceneManagement;
-public class MenuLevels : MonoBehaviour
+using UnityEngine.EventSystems;
+
+public class MenuLevels : MonoBehaviour, IPointerClickHandler
 {
-    public GameObject levelButtonPrefab;
-    public Transform levelButtonContainer;
-    public int totalLevels = 20; // Total number of levels
-
-    void Start()
+    [SerializeField] private GameObject Button;
+    [SerializeField] private int sceneIndex;
+    public void OnPointerClick(PointerEventData eventData)
     {
-        GenerateLevelButtons();
-    }
-
-    void GenerateLevelButtons()
-    {
-        for (int i = 1; i <= totalLevels; i++)
-        {
-            GameObject buttonObj = Instantiate(levelButtonPrefab, levelButtonContainer);
-            buttonObj.GetComponentInChildren<TextMesh>().text = "Level " + i;
-
-
-
-            int levelIndex = i; // Capture the current value of i
-            buttonObj.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => 
-            {
-                SceneManager.LoadScene("Level" + levelIndex);
-            });
-        }
+        SceneManager.LoadScene(sceneIndex);
     }
 }
