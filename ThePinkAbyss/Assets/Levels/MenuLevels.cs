@@ -17,11 +17,11 @@ public class MenuLevels : MonoBehaviour
     {
         for (int i = 1; i <= totalLevels; i++)
         {
-            GameObject button = Instantiate(levelButtonPrefab, levelButtonContainer);
-            button.GetComponentInChildren<TextMesh>().text = "Level " + i; //se supone que esta hecho con TextMeshPro pero no me deja usarlo
+            GameObject buttonObj = Instantiate(levelButtonPrefab, levelButtonContainer);
+            buttonObj.GetComponentInChildren<TextMesh>().text = "Level " + i;
 
             int levelIndex = i; // Capture the current value of i
-            button.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => 
+            buttonObj.GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => 
             {
                 SceneManager.LoadScene("Level" + levelIndex);
             });
