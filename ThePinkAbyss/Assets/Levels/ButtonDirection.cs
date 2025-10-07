@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
 
-public class MenuLevels : MonoBehaviour, IPointerClickHandler
+public class ButtonDirection : MonoBehaviour, IPointerClickHandler
 {
     [SerializeField] private GameObject Button;
     [SerializeField] private int sceneIndex;
