@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public static bool gameStarted = false;
+    public static bool gameStarted = true;
 
     [SerializeField] private InputActionReference moveAction;
     public Vector2 moveInput;
@@ -45,6 +45,7 @@ public class PlayerMovement : MonoBehaviour
 
     void HandleMoveInput(InputAction.CallbackContext context)
     {
+        Debug.Log("Move Input Detected");
         moveInput = context.ReadValue<Vector2>();
 
         if (moveInput != Vector2.zero)
