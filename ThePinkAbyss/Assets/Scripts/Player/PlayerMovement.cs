@@ -16,17 +16,23 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private LayerMask groundLayer;
 
-    RaycastHit2D hitFloor; // Raycast to detect ground
+    //raycast
+    public RaycastHit2D hitFloor; 
     public float rayDist = 2f;
     public bool isGrounded = false;
 
-    // Movement parameters
+    //movement
     public float moveSpeed = 7f;
     public float jumpForce = 7f;
 
-    public bool isMoving => Mathf.Abs(moveInput.x) > 0.01f; // Check if the player is moving
-
+    //bools state
+    public bool isMoving => Mathf.Abs(moveInput.x) > 0.01f; 
     public bool jumpOnGround = false;
+    public bool isJumping = false;
+    public bool isFalling = false;
+    public bool isNearGround = false;
+
+    private bool jumpPressed;
 
     private Rigidbody2D rb;
     private SpriteRenderer sr;
@@ -56,21 +62,22 @@ public class PlayerMovement : MonoBehaviour
 
     void HandleJumpInput(InputAction.CallbackContext context)
     {
+        jumpPressed = true;
+
         if (isGrounded == true)
         {
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             jumpOnGround = true;
         }
+
     }
 
     void Update()
     {
         if (!gameStarted) return;
 
-        // Horizontal movement
         rb.linearVelocity = new Vector2(moveInput.x * moveSpeed, rb.linearVelocity.y);
 
-        // Ground check
         hitFloor = Physics2D.Raycast(transform.position, Vector2.down, rayDist, groundLayer);
 
         if (hitFloor.collider != null)
@@ -85,7 +92,26 @@ public class PlayerMovement : MonoBehaviour
             jumpOnGround = false;
         }
 
-        // Flip sprite based on movement direction
+        //types of jumping
+        if (!isGrounded && rb.linearVelocity.y > 0.1f)
+        {
+            isJumping = true;
+            isFalling = false;
+        }
+        else if (!isGrounded && rb.linearVelocity.y < -0.1f)
+        {
+            isJumping = false;
+            isFalling = true;
+        }
+        else if (isGrounded)
+        {
+            isJumping = false;
+            isFalling = false;
+        }
+
+        isNearGround = !isGrounded && hitFloor.collider != null && hitFloor.distance < (rayDist * 0.5f);
+
+        // Flip sprite
         if (moveInput.x > 0.01f)
         {
             sr.flipX = false;
