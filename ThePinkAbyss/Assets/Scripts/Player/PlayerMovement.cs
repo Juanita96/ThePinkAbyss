@@ -51,7 +51,6 @@ public class PlayerMovement : MonoBehaviour
 
     void HandleMoveInput(InputAction.CallbackContext context)
     {
-        Debug.Log("Move Input Detected");
         moveInput = context.ReadValue<Vector2>();
 
         if (moveInput != Vector2.zero)
