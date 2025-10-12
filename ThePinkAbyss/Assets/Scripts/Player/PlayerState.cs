@@ -2,14 +2,8 @@ using UnityEngine;
 
 public class PlayerState : MonoBehaviour
 {
-   
-    void Start()
-    {
-        
-    }
 
-    
-    void Update()
+    public void Die()
     {
         
     }
