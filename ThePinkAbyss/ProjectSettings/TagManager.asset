@@ -55,6 +55,9 @@ TagManager:
   - name: Enemies
     uniqueID: 2666681925
     locked: 0
+  - name: Candy
+    uniqueID: 3065961723
+    locked: 0
   - name: Player
     uniqueID: 3896195767
     locked: 0
