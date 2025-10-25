@@ -1,15 +1,14 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using System.Collections;
 
-public class PlayerController : MonoBehaviour
+public class PlayerViolet : MonoBehaviour
 {
     [Header("Inputs")]
     [SerializeField] private InputActionReference moveAction;
     [SerializeField] private InputActionReference jumpAction;
 
     [Header("Actions")]
-    [SerializeField] public Vector2 moveInput;
+    [SerializeField] private Vector2 moveInput;
     [SerializeField] private bool jumpInput;
 
     [Header("Settings")]
@@ -113,7 +112,7 @@ public class PlayerController : MonoBehaviour
     private void Raycast()
     {
         floorHit = Physics2D.Raycast(transform.position, Vector2.down, rayDistance, groundLayer);
-        
+
         if (floorHit.collider != null)
         {
             isGrounded = true;
@@ -154,7 +153,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void SpriteFlip()
+    private void SpriteFlip()
     {
         if (Mathf.Abs(moveInput.x) > 0.01f)
         {
