@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 861b8481e5a111444bb9f36e4a7a347a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -649847927133520433
+    second: Flowers_deco_0
+  - first:
+      213: -1869995540002486088
+    second: Flowers_deco_1
+  - first:
+      213: -4864093147870587907
+    second: Flowers_deco_2
+  - first:
+      213: 8718805531146326119
+    second: Flowers_deco_3
+  - first:
+      213: -8964892807949843120
+    second: Flowers_deco_4
+  - first:
+      213: 5948837270057638265
+    second: Flowers_deco_5
+  - first:
+      213: 7121058650692794784
+    second: Flowers_deco_6
+  - first:
+      213: -4216727184010704915
+    second: Flowers_deco_7
+  - first:
+      213: -1239566445269574034
+    second: Flowers_deco_8
+  - first:
+      213: -8673471187742665752
+    second: Flowers_deco_9
+  - first:
+      213: 1733468443672114916
+    second: Flowers_deco_10
+  - first:
+      213: -212723240270293774
+    second: Flowers_deco_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Flowers_deco_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 865
+        width: 206
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcdbe29d0c64bf6f0800000000000000
+      internalID: -649847927133520433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flowers_deco_1
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 843
+        width: 271
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8469ac6f07c06e0800000000000000
+      internalID: -1869995540002486088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flowers_deco_2
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 846
+        width: 184
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df313c69d054f7cb0800000000000000
+      internalID: -4864093147870587907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flowers_deco_3
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 838
+        width: 251
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76010b5bf6b6ff870800000000000000
+      internalID: 8718805531146326119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flowers_deco_4
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 872
+        width: 174
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05502bc3d7d469380800000000000000
+      internalID: -8964892807949843120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flowers_deco_5
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 856
+        width: 238
+        height: 572
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979d3649af38e8250800000000000000
+      internalID: 5948837270057638265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flowers_deco_6
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 834
+        width: 183
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a934432d1513d260800000000000000
+      internalID: 7121058650692794784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flowers_deco_7
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 28
+        width: 177
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de70f42a7fc2b75c0800000000000000
+      internalID: -4216727184010704915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flowers_deco_8
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 24
+        width: 350
+        height: 687
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e9632b2ec2ccee0800000000000000
+      internalID: -1239566445269574034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flowers_deco_9
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 10
+        width: 197
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e35305a8e3a1a780800000000000000
+      internalID: -8673471187742665752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flowers_deco_10
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 20
+        width: 343
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e6fc6e7d548e0810800000000000000
+      internalID: 1733468443672114916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flowers_deco_11
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 0
+        width: 299
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4183c07514c0df0800000000000000
+      internalID: -212723240270293774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Flowers_deco_0: -649847927133520433
+      Flowers_deco_1: -1869995540002486088
+      Flowers_deco_10: 1733468443672114916
+      Flowers_deco_11: -212723240270293774
+      Flowers_deco_2: -4864093147870587907
+      Flowers_deco_3: 8718805531146326119
+      Flowers_deco_4: -8964892807949843120
+      Flowers_deco_5: 5948837270057638265
+      Flowers_deco_6: 7121058650692794784
+      Flowers_deco_7: -4216727184010704915
+      Flowers_deco_8: -1239566445269574034
+      Flowers_deco_9: -8673471187742665752
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
