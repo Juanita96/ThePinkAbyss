@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 1ff0d2c3ca8c3f94b85e0b23970cb9df
+guid: 3f9ec9b1ed28ec849b78ce7f865b9075
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3059180048797528898
-    second: Tilemap_Cute_0
+      213: -5235787021838540010
+    second: Tilemap_Horror_NormalMap_1_n_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
-    sRGBTexture: 1
+    enableMipMap: 1
+    sRGBTexture: 0
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -55,9 +55,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 1
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,12 +100,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tilemap_Cute_0
+      name: Tilemap_Horror_NormalMap_1_n_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 769
+        width: 1024
         height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ebc067f24fb9b85d0800000000000000
-      internalID: -3059180048797528898
+      spriteID: 613a6bba17fb657b0800000000000000
+      internalID: -5235787021838540010
       vertices: []
       indices: 
       edges: []
