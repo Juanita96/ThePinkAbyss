@@ -52,8 +52,14 @@ TagManager:
   - name: Background2
     uniqueID: 4223848489
     locked: 0
+  - name: Deco
+    uniqueID: 1761910717
+    locked: 0
   - name: Midground
     uniqueID: 1697250917
+    locked: 0
+  - name: Eyes
+    uniqueID: 1006535001
     locked: 0
   - name: Enemies
     uniqueID: 2666681925
@@ -66,6 +72,9 @@ TagManager:
     locked: 0
   - name: Foreground
     uniqueID: 2377310773
+    locked: 0
+  - name: UI
+    uniqueID: 2894436771
     locked: 0
   m_RenderingLayers:
   - Default
