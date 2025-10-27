@@ -9,6 +9,8 @@ TagManager:
   - GreenLimit
   - GreenEnemy
   - VioletEnemy
+  - OrangeEnemy
+  - BlueEnemy
   layers:
   - Default
   - TransparentFX

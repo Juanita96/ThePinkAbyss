@@ -109,10 +109,10 @@ TextureImporter:
       name: Enemigo_Agua_Dolor_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 18
         y: 256
-        width: 128
-        height: 128
+        width: 93
+        height: 70
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,10 +131,10 @@ TextureImporter:
       name: Enemigo_Agua_Dolor_1
       rect:
         serializedVersion: 2
-        x: 128
+        x: 143
         y: 256
-        width: 128
-        height: 128
+        width: 96
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,10 +153,10 @@ TextureImporter:
       name: Enemigo_Agua_Dolor_2
       rect:
         serializedVersion: 2
-        x: 256
+        x: 269
         y: 256
-        width: 128
-        height: 128
+        width: 98
+        height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

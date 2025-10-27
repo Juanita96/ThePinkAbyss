@@ -13,6 +13,8 @@ public class PowerPlayers : MonoBehaviour
     [SerializeField] private GameObject tentacles;
     [SerializeField] private GameObject greenCatPlayer;
     [SerializeField] private GameObject violetPlayer;
+    [SerializeField] private GameObject orangePlayer;
+    [SerializeField] private GameObject walls;
 
     [Header("Skin Steal Settings")]
     [SerializeField] public bool canStealSkin = true;
@@ -26,11 +28,13 @@ public class PowerPlayers : MonoBehaviour
     [Header("Who Steal")]
     [SerializeField] private bool stoleViolet = false;
     [SerializeField] private bool stoleGreen = false;
+    [SerializeField] private bool stoleOrange = false;
 
     [Header("String to Variable")]
     [SerializeField] private string enemy = "Enemy";
     [SerializeField] private string violetEnemy = "VioletEnemy";
     [SerializeField] private string greenEnemy = "GreenEnemy";
+    [SerializeField] private string orangeEnemy = "OrangeEnemy";
 
     void Start()
     {
@@ -64,12 +68,19 @@ public class PowerPlayers : MonoBehaviour
         {
             violetPlayer.transform.localPosition = player.transform.localPosition;
             violetPlayer.SetActive(true);
+            walls.GetComponent<BoxCollider2D>().enabled = false;
         }
 
         if (stoleGreen == true)
         {
             greenCatPlayer.transform.localPosition = player.transform.localPosition;
             greenCatPlayer.SetActive(true);
+        }
+
+        if (stoleOrange == true)
+        {
+            orangePlayer.transform.localPosition = player.transform.localPosition;
+            orangePlayer.SetActive(true);
         }
 
         isAttaking = false;
@@ -92,6 +103,10 @@ public class PowerPlayers : MonoBehaviour
         if (collision.CompareTag(greenEnemy))
         {
             stoleGreen = true;
+        }
+        if (collision.CompareTag(orangeEnemy))
+        {
+            stoleOrange = true;
         }
     }
 
