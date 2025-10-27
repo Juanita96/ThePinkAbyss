@@ -11,6 +11,10 @@ TagManager:
   - VioletEnemy
   - OrangeEnemy
   - BlueEnemy
+  - Shrubbery
+  - Ramp
+  - Torch
+  - Spikes
   layers:
   - Default
   - TransparentFX

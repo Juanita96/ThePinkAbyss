@@ -30,6 +30,7 @@ public class PlayerController : MonoBehaviour
     [Header("Components")]
     [SerializeField] private Rigidbody2D playerRigidbody;
     [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private Shrubbery shrubbery;
 
     [Header("Check Bools")]
     [SerializeField] public bool isJumping;
@@ -58,6 +59,7 @@ public class PlayerController : MonoBehaviour
     {
         playerRigidbody = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        shrubbery = GetComponent<Shrubbery>();
     }
 
     private void HandleMoveInput(InputAction.CallbackContext context)
@@ -86,6 +88,7 @@ public class PlayerController : MonoBehaviour
     private void Movement()
     {
         playerRigidbody.linearVelocity = new Vector2(moveInput.x * moveSpeed, playerRigidbody.linearVelocity.y);
+        shrubbery.isMoving();
     }
 
     private void Jump()
@@ -108,6 +111,7 @@ public class PlayerController : MonoBehaviour
             isFalling = false;
             isNearFloor = false;
         }
+        shrubbery.isMoving();
     }
 
     private void Raycast()
