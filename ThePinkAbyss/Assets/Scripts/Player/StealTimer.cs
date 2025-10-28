@@ -8,6 +8,8 @@ public class StealTimer : MonoBehaviour
     [SerializeField] private GameObject enemyPlayer;
     [SerializeField] private GameObject player;
     [SerializeField] private GameObject walls;
+    [SerializeField] private PlayerAttack playerAttack;
+    [SerializeField] private BlueAttack playerBlue;
 
     private void OnEnable()
     {
@@ -16,6 +18,7 @@ public class StealTimer : MonoBehaviour
 
     IEnumerator Timer()
     {
+
         yield return new WaitForSeconds(timer);
 
         player.transform.localPosition = enemyPlayer.transform.localPosition;
@@ -23,6 +26,10 @@ public class StealTimer : MonoBehaviour
         walls.GetComponent<BoxCollider2D>().enabled = true;
 
         enemyPlayer.SetActive(false);
+
         player.SetActive(true);
+
+        playerAttack.attackInput.action.Enable();
+        playerBlue.attackInput.action.Disable();
     }
 }

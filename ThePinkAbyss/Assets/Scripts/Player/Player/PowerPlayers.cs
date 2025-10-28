@@ -14,7 +14,10 @@ public class PowerPlayers : MonoBehaviour
     [SerializeField] private GameObject greenCatPlayer;
     [SerializeField] private GameObject violetPlayer;
     [SerializeField] private GameObject orangePlayer;
+    [SerializeField] private GameObject bluePlayer;
     [SerializeField] private GameObject walls;
+    [SerializeField] private BlueAttack playerBlue;
+    [SerializeField] private PlayerAttack playerAttack;
 
     [Header("Skin Steal Settings")]
     [SerializeField] public bool canStealSkin = true;
@@ -29,12 +32,14 @@ public class PowerPlayers : MonoBehaviour
     [SerializeField] private bool stoleViolet = false;
     [SerializeField] private bool stoleGreen = false;
     [SerializeField] private bool stoleOrange = false;
+    [SerializeField] private bool stoleBlue = false;
 
     [Header("String to Variable")]
-    [SerializeField] private string enemy = "Enemy";
-    [SerializeField] private string violetEnemy = "VioletEnemy";
-    [SerializeField] private string greenEnemy = "GreenEnemy";
-    [SerializeField] private string orangeEnemy = "OrangeEnemy";
+    [SerializeField] public string enemy = "Enemy";
+    [SerializeField] public string violetEnemy = "VioletEnemy";
+    [SerializeField] public string greenEnemy = "GreenEnemy";
+    [SerializeField] public string orangeEnemy = "OrangeEnemy";
+    [SerializeField] public string blueEnemy = "BlueEnemy";
 
     void Start()
     {
@@ -83,10 +88,20 @@ public class PowerPlayers : MonoBehaviour
             orangePlayer.SetActive(true);
         }
 
+        if (stoleBlue == true)
+        {
+            bluePlayer.transform.localPosition = player.transform.localPosition;
+            bluePlayer.SetActive(true); 
+            player.SetActive(false);
+            playerBlue.attackInput.action.Enable();
+            playerAttack.attackInput.action.Disable();
+        }
+
         isAttaking = false;
         hasSkin = false;
         canStealSkin = true;
         player.SetActive(false);
+        playerAttack.attackInput.action.Disable();
 
     }
 
@@ -108,6 +123,10 @@ public class PowerPlayers : MonoBehaviour
         {
             stoleOrange = true;
         }
+        if (collision.CompareTag(blueEnemy))
+        {
+            stoleBlue = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -126,7 +145,11 @@ public class PowerPlayers : MonoBehaviour
         }
         if (collision.CompareTag(orangeEnemy))
         {
-            stoleOrange = true;
+            stoleOrange = false;
+        }
+        if (collision.CompareTag(blueEnemy))
+        {
+            stoleBlue = false;
         }
     }
 }

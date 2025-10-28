@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
+using UnityEngine.UIElements;
 
 public class PlayerController : MonoBehaviour
 {
@@ -36,6 +37,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] public bool isFalling;
     [SerializeField] public bool isMoving;
     [SerializeField] private bool showDebug;
+
+    [Header("View Direction")]
+    [SerializeField] public float lastViewX = 1f;
 
     private void OnEnable()
     {
@@ -83,6 +87,7 @@ public class PlayerController : MonoBehaviour
         RayNearFloor();
         SpriteFlip();
         Jump();
+        UpdateLastView();
     }
 
     private void Movement()
@@ -178,6 +183,13 @@ public class PlayerController : MonoBehaviour
         if (Mathf.Abs(moveInput.x) > 0.01f)
         {
             spriteRenderer.flipX = moveInput.x < 0;
+        }
+    }
+    private void UpdateLastView()
+    {
+        if (Mathf.Abs(moveInput.x) > 0.01f)
+        {
+            lastViewX = Mathf.Sign(moveInput.x);
         }
     }
 }
