@@ -1,5 +1,7 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UIElements;
 
 public class PlayerBlue : MonoBehaviour
 {
@@ -34,6 +36,9 @@ public class PlayerBlue : MonoBehaviour
     [SerializeField] public bool isJumping;
     [SerializeField] public bool isFalling;
     [SerializeField] private bool showDebug;
+
+    [Header("View Direction")]
+    [SerializeField] public float lastViewX = 1f;
 
     private void OnEnable()
     {
@@ -80,6 +85,7 @@ public class PlayerBlue : MonoBehaviour
         RayNearFloor();
         SpriteFlip();
         Jump();
+        UpdateLastView();
     }
 
     private void Movement()
@@ -158,6 +164,13 @@ public class PlayerBlue : MonoBehaviour
         if (Mathf.Abs(moveInput.x) > 0.01f)
         {
             spriteRenderer.flipX = moveInput.x < 0;
+        }
+    }
+    private void UpdateLastView()
+    {
+        if (Mathf.Abs(moveInput.x) > 0.01f)
+        {
+            lastViewX = Mathf.Sign(moveInput.x);
         }
     }
 }

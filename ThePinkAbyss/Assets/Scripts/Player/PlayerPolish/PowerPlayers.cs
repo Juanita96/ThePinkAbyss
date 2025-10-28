@@ -124,5 +124,9 @@ public class PowerPlayers : MonoBehaviour
         {
             stoleGreen = false;
         }
+        if (collision.CompareTag(orangeEnemy))
+        {
+            stoleOrange = true;
+        }
     }
 }
