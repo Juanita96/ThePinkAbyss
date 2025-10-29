@@ -115,12 +115,12 @@ TextureImporter:
       name: Enemigo_Atraviesa_Hurt_Power_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 266
-        width: 99
-        height: 92
+        x: 0
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -137,12 +137,12 @@ TextureImporter:
       name: Enemigo_Atraviesa_Hurt_Power_1
       rect:
         serializedVersion: 2
-        x: 151
-        y: 275
-        width: 85
-        height: 74
+        x: 128
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -159,12 +159,12 @@ TextureImporter:
       name: Enemigo_Atraviesa_Hurt_Power_2
       rect:
         serializedVersion: 2
-        x: 263
-        y: 258
-        width: 113
-        height: 109
+        x: 256
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -181,12 +181,12 @@ TextureImporter:
       name: Enemigo_Atraviesa_Hurt_Power_3
       rect:
         serializedVersion: 2
-        x: 15
-        y: 138
-        width: 99
-        height: 92
+        x: 0
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -203,12 +203,12 @@ TextureImporter:
       name: Enemigo_Atraviesa_Hurt_Power_4
       rect:
         serializedVersion: 2
-        x: 143
-        y: 138
-        width: 99
-        height: 92
+        x: 128
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

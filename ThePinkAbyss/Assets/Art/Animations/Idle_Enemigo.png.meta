@@ -127,12 +127,12 @@ TextureImporter:
       name: Idle_Enemigo_0
       rect:
         serializedVersion: 2
-        x: 33
+        x: 0
         y: 256
-        width: 62
-        height: 63
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -149,12 +149,12 @@ TextureImporter:
       name: Idle_Enemigo_1
       rect:
         serializedVersion: 2
-        x: 155
+        x: 128
         y: 256
-        width: 72
-        height: 57
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -171,12 +171,12 @@ TextureImporter:
       name: Idle_Enemigo_2
       rect:
         serializedVersion: 2
-        x: 280
+        x: 256
         y: 256
-        width: 76
-        height: 52
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -193,12 +193,12 @@ TextureImporter:
       name: Idle_Enemigo_3
       rect:
         serializedVersion: 2
-        x: 17
-        y: 140
-        width: 95
-        height: 87
+        x: 0
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -215,12 +215,12 @@ TextureImporter:
       name: Idle_Enemigo_4
       rect:
         serializedVersion: 2
-        x: 148
-        y: 137
-        width: 88
-        height: 87
+        x: 128
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -237,12 +237,12 @@ TextureImporter:
       name: Idle_Enemigo_5
       rect:
         serializedVersion: 2
-        x: 273
-        y: 134
-        width: 93
-        height: 87
+        x: 256
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -259,12 +259,12 @@ TextureImporter:
       name: Idle_Enemigo_6
       rect:
         serializedVersion: 2
-        x: 18
+        x: 0
         y: 0
-        width: 93
-        height: 70
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -281,12 +281,12 @@ TextureImporter:
       name: Idle_Enemigo_7
       rect:
         serializedVersion: 2
-        x: 146
+        x: 128
         y: 0
-        width: 94
-        height: 71
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -303,12 +303,12 @@ TextureImporter:
       name: Idle_Enemigo_8
       rect:
         serializedVersion: 2
-        x: 274
+        x: 256
         y: 0
-        width: 96
-        height: 74
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

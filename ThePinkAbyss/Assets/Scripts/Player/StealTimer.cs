@@ -8,8 +8,6 @@ public class StealTimer : MonoBehaviour
     [SerializeField] private GameObject enemyPlayer;
     [SerializeField] private GameObject player;
     [SerializeField] private GameObject walls;
-    [SerializeField] private PlayerAttack playerAttack;
-    [SerializeField] private BlueAttack playerBlue;
 
     private void OnEnable()
     {
@@ -28,8 +26,5 @@ public class StealTimer : MonoBehaviour
         enemyPlayer.SetActive(false);
 
         player.SetActive(true);
-
-        playerAttack.attackInput.action.Enable();
-        playerBlue.attackInput.action.Disable();
     }
 }

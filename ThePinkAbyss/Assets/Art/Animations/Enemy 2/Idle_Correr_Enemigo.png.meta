@@ -115,12 +115,12 @@ TextureImporter:
       name: Idle_Correr_Enemigo_0
       rect:
         serializedVersion: 2
-        x: 33
+        x: 0
         y: 192
-        width: 68
-        height: 190
+        width: 128
+        height: 192
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -137,12 +137,12 @@ TextureImporter:
       name: Idle_Correr_Enemigo_1
       rect:
         serializedVersion: 2
-        x: 153
+        x: 128
         y: 192
-        width: 84
-        height: 190
+        width: 128
+        height: 192
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -159,12 +159,12 @@ TextureImporter:
       name: Idle_Correr_Enemigo_2
       rect:
         serializedVersion: 2
-        x: 269
+        x: 256
         y: 192
-        width: 111
-        height: 189
+        width: 128
+        height: 192
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -181,12 +181,12 @@ TextureImporter:
       name: Idle_Correr_Enemigo_3
       rect:
         serializedVersion: 2
-        x: 27
+        x: 0
         y: 0
-        width: 68
+        width: 128
         height: 192
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -203,12 +203,12 @@ TextureImporter:
       name: Idle_Correr_Enemigo_4
       rect:
         serializedVersion: 2
-        x: 155
+        x: 128
         y: 0
-        width: 67
-        height: 188
+        width: 128
+        height: 192
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -225,12 +225,12 @@ TextureImporter:
       name: Idle_Correr_Enemigo_5
       rect:
         serializedVersion: 2
-        x: 283
+        x: 256
         y: 0
-        width: 67
-        height: 190
+        width: 128
+        height: 192
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

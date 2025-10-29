@@ -112,12 +112,12 @@ TextureImporter:
       name: Enemigo_Agua_Ataque_0
       rect:
         serializedVersion: 2
-        x: 23
+        x: 0
         y: 256
-        width: 76
-        height: 71
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -134,12 +134,12 @@ TextureImporter:
       name: Enemigo_Agua_Ataque_1
       rect:
         serializedVersion: 2
-        x: 156
+        x: 128
         y: 256
-        width: 55
-        height: 56
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -156,12 +156,12 @@ TextureImporter:
       name: Enemigo_Agua_Ataque_2
       rect:
         serializedVersion: 2
-        x: 268
+        x: 256
         y: 256
-        width: 97
-        height: 80
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -178,12 +178,12 @@ TextureImporter:
       name: Enemigo_Agua_Ataque_3
       rect:
         serializedVersion: 2
-        x: 3
+        x: 0
         y: 128
-        width: 120
+        width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -205,7 +205,7 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

@@ -16,8 +16,6 @@ public class PowerPlayers : MonoBehaviour
     [SerializeField] private GameObject orangePlayer;
     [SerializeField] private GameObject bluePlayer;
     [SerializeField] private GameObject walls;
-    [SerializeField] private BlueAttack playerBlue;
-    [SerializeField] private PlayerAttack playerAttack;
 
     [Header("Skin Steal Settings")]
     [SerializeField] public bool canStealSkin = true;
@@ -92,17 +90,12 @@ public class PowerPlayers : MonoBehaviour
         {
             bluePlayer.transform.localPosition = player.transform.localPosition;
             bluePlayer.SetActive(true); 
-            player.SetActive(false);
-            playerBlue.attackInput.action.Enable();
-            playerAttack.attackInput.action.Disable();
         }
 
         isAttaking = false;
         hasSkin = false;
         canStealSkin = true;
         player.SetActive(false);
-        playerAttack.attackInput.action.Disable();
-
     }
 
     void OnTriggerEnter2D(UnityEngine.Collider2D collision)

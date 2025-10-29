@@ -115,12 +115,12 @@ TextureImporter:
       name: Enemigo_Salta_Ataque_0
       rect:
         serializedVersion: 2
-        x: 31
+        x: 0
         y: 256
-        width: 66
-        height: 66
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -137,12 +137,12 @@ TextureImporter:
       name: Enemigo_Salta_Ataque_1
       rect:
         serializedVersion: 2
-        x: 155
+        x: 128
         y: 256
-        width: 74
-        height: 72
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -159,12 +159,12 @@ TextureImporter:
       name: Enemigo_Salta_Ataque_2
       rect:
         serializedVersion: 2
-        x: 277
+        x: 256
         y: 256
-        width: 88
-        height: 72
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -181,12 +181,12 @@ TextureImporter:
       name: Enemigo_Salta_Ataque_3
       rect:
         serializedVersion: 2
-        x: 22
-        y: 134
-        width: 83
-        height: 64
+        x: 0
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -203,12 +203,12 @@ TextureImporter:
       name: Enemigo_Salta_Ataque_4
       rect:
         serializedVersion: 2
-        x: 150
-        y: 136
-        width: 81
-        height: 59
+        x: 128
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

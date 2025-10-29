@@ -118,12 +118,12 @@ TextureImporter:
       name: Idle_Ataque_Fuego_0
       rect:
         serializedVersion: 2
-        x: 24
-        y: 220
-        width: 79
-        height: 147
+        x: 0
+        y: 192
+        width: 128
+        height: 192
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -140,12 +140,12 @@ TextureImporter:
       name: Idle_Ataque_Fuego_1
       rect:
         serializedVersion: 2
-        x: 152
-        y: 220
-        width: 79
-        height: 148
+        x: 128
+        y: 192
+        width: 128
+        height: 192
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -162,12 +162,12 @@ TextureImporter:
       name: Idle_Ataque_Fuego_2
       rect:
         serializedVersion: 2
-        x: 280
-        y: 220
-        width: 79
-        height: 148
+        x: 256
+        y: 192
+        width: 128
+        height: 192
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -184,12 +184,12 @@ TextureImporter:
       name: Idle_Ataque_Fuego_3
       rect:
         serializedVersion: 2
-        x: 27
+        x: 0
         y: 0
-        width: 68
-        height: 191
+        width: 128
+        height: 192
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -206,12 +206,12 @@ TextureImporter:
       name: Idle_Ataque_Fuego_4
       rect:
         serializedVersion: 2
-        x: 149
+        x: 128
         y: 0
-        width: 81
-        height: 188
+        width: 128
+        height: 192
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -228,12 +228,12 @@ TextureImporter:
       name: Idle_Ataque_Fuego_5
       rect:
         serializedVersion: 2
-        x: 268
+        x: 256
         y: 0
-        width: 98
-        height: 190
+        width: 128
+        height: 192
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
