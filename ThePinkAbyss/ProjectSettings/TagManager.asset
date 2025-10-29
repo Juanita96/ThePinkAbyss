@@ -12,9 +12,12 @@ TagManager:
   - OrangeEnemy
   - BlueEnemy
   - Shrubbery
-  - Ramp
   - Torch
   - Spikes
+  - LeftRamp
+  - RightRamp
+  - Ramp
+  - PlayerFire
   layers:
   - Default
   - TransparentFX

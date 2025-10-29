@@ -2862,21 +2862,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab48b07884462a24c806442043250fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveAction: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  jumpAction: {fileID: -2099379676528639254, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  moveAction: {fileID: 0}
+  jumpAction: {fileID: 0}
   moveInput: {x: 0, y: 0}
   jumpInput: 0
   moveSpeed: 5
-  jumpForce: 25
-  rayDistance: 1.7
+  jumpForce: 5
+  rayDistance: 1.5
   isGrounded: 0
   groundLayer:
     serializedVersion: 2
-    m_Bits: 8
-  rayNearDist: 0
+    m_Bits: 0
+  rayNearDist: 2
   isNearFloor: 0
-  playerRigidbody: {fileID: 3628072595202966174}
-  spriteRenderer: {fileID: 4068628190969689171}
+  playerRigidbody: {fileID: 0}
+  spriteRenderer: {fileID: 0}
   isJumping: 0
   isFalling: 0
   showDebug: 0
@@ -2936,21 +2936,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da6058705b2ece14a87a327db383879d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveAction: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  jumpAction: {fileID: -2099379676528639254, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  moveAction: {fileID: 0}
+  jumpAction: {fileID: 0}
   moveInput: {x: 0, y: 0}
   jumpInput: 0
   moveSpeed: 5
   jumpForce: 5
-  rayDistance: 1.6
+  rayDistance: 1.5
   isGrounded: 0
   groundLayer:
     serializedVersion: 2
-    m_Bits: 8
-  rayNearDist: 0
+    m_Bits: 0
+  rayNearDist: 2
   isNearFloor: 0
-  playerRigidbody: {fileID: 7656281272462687078}
-  spriteRenderer: {fileID: 3434813538442762782}
+  playerRigidbody: {fileID: 0}
+  spriteRenderer: {fileID: 0}
   isJumping: 0
   isFalling: 0
   showDebug: 0
@@ -2992,9 +2992,9 @@ MonoBehaviour:
   collidesEnemy: 0
   hasSkin: 0
   isAttaking: 0
-  animDuration: 0.3
+  animDuration: 1
   isTentacleAttack: 0
-  tentacleDuration: 0.3
+  tentacleDuration: 1
   stoleViolet: 0
   stoleGreen: 0
   stoleOrange: 0
@@ -3173,6 +3173,7 @@ GameObject:
   - component: {fileID: 7219567313465193507}
   - component: {fileID: 1385505908765282624}
   - component: {fileID: 3004273341135561461}
+  - component: {fileID: 7449611387563043695}
   m_Layer: 0
   m_Name: PlayerChar
   m_TagString: Player
@@ -3209,9 +3210,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 7
-  enemyPlayer: {fileID: 9222226091208645578}
-  player: {fileID: 730920674779432908}
-  walls: {fileID: 1727796519}
+  enemyPlayer: {fileID: 0}
+  player: {fileID: 0}
+  walls: {fileID: 0}
 --- !u!114 &894198284614889586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3302,9 +3303,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 7
-  enemyPlayer: {fileID: 1379279070606474266}
-  player: {fileID: 730920674779432908}
-  walls: {fileID: 1727796519}
+  enemyPlayer: {fileID: 0}
+  player: {fileID: 0}
+  walls: {fileID: 0}
 --- !u!114 &1081549928235154715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3841,21 +3842,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b2b11e1fd238294a9b9a9a2ea7b207f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveAction: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  jumpAction: {fileID: -2099379676528639254, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  moveAction: {fileID: 0}
+  jumpAction: {fileID: 0}
   moveInput: {x: 0, y: 0}
   jumpInput: 0
   moveSpeed: 5
-  jumpForce: 15
-  rayDistance: 0.8
+  jumpForce: 5
+  rayDistance: 1.5
   isGrounded: 0
   groundLayer:
     serializedVersion: 2
-    m_Bits: 8
-  rayNearDist: 0
+    m_Bits: 0
+  rayNearDist: 2
   isNearFloor: 0
-  playerRigidbody: {fileID: 35787914602527207}
-  spriteRenderer: {fileID: 5342528017581247969}
+  playerRigidbody: {fileID: 0}
+  spriteRenderer: {fileID: 0}
   isJumping: 0
   isFalling: 0
   showDebug: 0
@@ -4147,7 +4148,7 @@ Transform:
   m_GameObject: {fileID: 730920674779432908}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.8, y: -12.54, z: 0}
+  m_LocalPosition: {x: -5.21, y: -9.48, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4169,21 +4170,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f1c4fc59a38d4948b5610678d7d3621, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveAction: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  jumpAction: {fileID: -2099379676528639254, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  moveAction: {fileID: 0}
+  jumpAction: {fileID: 0}
   moveInput: {x: 0, y: 0}
   jumpInput: 0
   moveSpeed: 5
-  jumpForce: 12
-  rayDistance: 1
+  jumpForce: 5
+  rayDistance: 1.5
   isGrounded: 0
   groundLayer:
     serializedVersion: 2
-    m_Bits: 8
-  rayNearDist: 0
+    m_Bits: 0
+  rayNearDist: 2
   isNearFloor: 0
-  playerRigidbody: {fileID: 1639487816548865466}
-  spriteRenderer: {fileID: 5996243917449743894}
+  playerRigidbody: {fileID: 0}
+  spriteRenderer: {fileID: 0}
   isJumping: 0
   isFalling: 0
   showDebug: 0
@@ -4552,9 +4553,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 7
-  enemyPlayer: {fileID: 1941719603727010911}
-  player: {fileID: 730920674779432908}
-  walls: {fileID: 1727796519}
+  enemyPlayer: {fileID: 0}
+  player: {fileID: 0}
+  walls: {fileID: 0}
 --- !u!1 &3724230706681052936
 GameObject:
   m_ObjectHideFlags: 0
@@ -14467,16 +14468,17 @@ MonoBehaviour:
   moveInput: {x: 0, y: 0}
   jumpInput: 0
   moveSpeed: 5
-  jumpForce: 15
-  rayDistance: 1
+  jumpForce: 5
+  rayDistance: 1.5
   isGrounded: 0
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
-  rayNearDist: 1.5
+  rayNearDist: 2
   isNearFloor: 0
   playerRigidbody: {fileID: 7449611387563043694}
   spriteRenderer: {fileID: 4556887279472563729}
+  ramp: {fileID: 0}
   isJumping: 0
   isFalling: 0
   isMoving: 0
@@ -14886,10 +14888,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3bb276367dc9ac49b6ae5a8ed7908ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 5121791232718650545}
-  playerPower: {fileID: 420344402249350754}
-  spriteRenderer: {fileID: 2462727399354555704}
-  playerController: {fileID: 730920674779432908}
+  animator: {fileID: 0}
+  playerPower: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  playerController: {fileID: 0}
   attack: isAttaking
 --- !u!222 &6199226936719469027
 CanvasRenderer:
@@ -15359,9 +15361,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 7
-  enemyPlayer: {fileID: 676017063361619729}
-  player: {fileID: 730920674779432908}
-  walls: {fileID: 1727796519}
+  enemyPlayer: {fileID: 0}
+  player: {fileID: 0}
+  walls: {fileID: 0}
 --- !u!4 &7333564912737046354
 Transform:
   m_ObjectHideFlags: 0
@@ -15425,6 +15427,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &7449611387563043695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 730920674779432908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdc190f67d24b249b45401a79fcfb7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ramp: {fileID: 0}
+  playerController: {fileID: 4628899183155233251}
+  isOnRamp: 0
+  leftRamp: 0
+  rightRamp: 0
+  rampSpeedModifier: 4
+  normalSpeed: 0
 --- !u!1 &7490613633696345256
 GameObject:
   m_ObjectHideFlags: 0
@@ -15519,8 +15540,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b38ad6b6a844b04a84c2d450b62f032, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerInput: {fileID: -6257255407642677516, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  powerHitbox: {fileID: 8885119685250107300}
+  powerInput: {fileID: 0}
+  powerHitbox: {fileID: 0}
   powerDuration: 1
 --- !u!224 &7848930546916022967
 RectTransform:
@@ -15675,10 +15696,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5232208434ff73a4fa4f30cc37acb1b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackInput: {fileID: -6257255407642677516, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  particleLeft: {fileID: 7490613633696345256}
-  particleRight: {fileID: 8642903004038887548}
-  playerBlue: {fileID: 2948575441733243004}
+  attackInput: {fileID: 0}
+  particleLeft: {fileID: 0}
+  particleRight: {fileID: 0}
+  playerBlue: {fileID: 0}
   attackDuration: 1
 --- !u!1 &8642903004038887548
 GameObject:
@@ -15742,7 +15763,7 @@ GameObject:
   - component: {fileID: 1775132795681445966}
   m_Layer: 0
   m_Name: AttackHitbox
-  m_TagString: Untagged
+  m_TagString: PlayerFire
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

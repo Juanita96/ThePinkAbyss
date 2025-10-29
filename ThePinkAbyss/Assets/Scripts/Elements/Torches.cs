@@ -1,16 +1,36 @@
 using UnityEngine;
 
-public class Torches : MonoBehaviour
+public class Lamp : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+
+    public GameObject LampLight;
+
+    private Vector3 originalScale;
+    private float scaleMultiplier = 1.2f;
+
+    private void Start()
     {
-        
+        originalScale = transform.localScale;
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("PlayerFire"))
+        {
+            LampLight.SetActive(true);
+
+        }
+        else if (other.CompareTag("Player"))
+        {
+            transform.localScale = originalScale * scaleMultiplier;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerExit2D(Collider2D other)
     {
-        
+        if (other.CompareTag("Player"))
+        {
+            transform.localScale = originalScale;
+        }
     }
+
 }
