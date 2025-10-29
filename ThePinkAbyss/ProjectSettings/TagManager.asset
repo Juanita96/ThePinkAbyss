@@ -18,6 +18,7 @@ TagManager:
   - RightRamp
   - Ramp
   - PlayerFire
+  - Fire
   layers:
   - Default
   - TransparentFX
