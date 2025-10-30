@@ -19,6 +19,8 @@ TagManager:
   - Ramp
   - PlayerFire
   - Fire
+  - Candy
+  - Orb
   layers:
   - Default
   - TransparentFX

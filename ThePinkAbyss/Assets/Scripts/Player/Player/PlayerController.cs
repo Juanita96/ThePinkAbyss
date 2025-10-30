@@ -42,6 +42,9 @@ public class PlayerController : MonoBehaviour
     [Header("View Direction")]
     [SerializeField] public float lastViewX = 1f;
 
+    [Header("Lives")]
+    public int lives = 1;
+
     private void OnEnable()
     {
         moveAction.action.started += HandleMoveInput;
