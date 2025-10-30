@@ -12,6 +12,7 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private GameObject attackHitboxRight;
     [SerializeField] private GameObject attackHitboxLeft;
     [SerializeField] private PlayerController playerController;
+    [SerializeField] private PlayerView playerView;
 
     [Header("Attack Settings")]
     [SerializeField] private float attackDuration = 1.0f;
@@ -24,8 +25,11 @@ public class PlayerAttack : MonoBehaviour
     {
         if (playerController == null)
             playerController = GetComponentInParent<PlayerController>();
+        if (playerView == null)
+            playerView = GetComponentInParent<PlayerView>();
 
         attackInput.action.performed += HandleAttackInput;
+
     }
     private void OnDisable()
     {
@@ -34,6 +38,7 @@ public class PlayerAttack : MonoBehaviour
 
     void HandleAttackInput(InputAction.CallbackContext context)
     {
+        playerView.AttackAnimation();
 
         if (playerController.lastViewX == 1)
         {

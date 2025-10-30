@@ -8,10 +8,18 @@ public class StealTimer : MonoBehaviour
     [SerializeField] private GameObject enemyPlayer;
     [SerializeField] private GameObject player;
     [SerializeField] private GameObject walls;
+    public HUD hud;
 
     private void OnEnable()
     {
         StartCoroutine(Timer());
+        
+        hud.cooldownActive = true;
+    }
+
+    private void start()
+    {
+      hud = GetComponent<HUD>();
     }
 
     IEnumerator Timer()
@@ -26,5 +34,7 @@ public class StealTimer : MonoBehaviour
         enemyPlayer.SetActive(false);
 
         player.SetActive(true);
+
+        hud.cooldownActive = false;
     }
 }

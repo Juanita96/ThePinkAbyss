@@ -13,7 +13,7 @@ public class PlayerView : MonoBehaviour
     private string isFalling = "isFalling";
 
     private string power = "Power";
-    private string isAttaking = "isAttaking";
+    private string isUsingPower = "isUsingPower";
 
     void Start()
     {
@@ -28,11 +28,24 @@ public class PlayerView : MonoBehaviour
         animator.SetBool(isFalling, player.isFalling);
         animator.SetBool(isNearGround, player.isNearFloor);
         animator.SetBool(isGrounded, player.isGrounded);
-        animator.SetBool(isAttaking, playerPower.isAttaking);
+        animator.SetBool(isUsingPower, playerPower.isAttaking);
 
         if (playerPower.hasSkin == true)
         {
             animator.SetTrigger(power);
         }
+
     }
+
+    public void AttackAnimation()
+    {
+        animator.SetTrigger("Attack");
+    }
+
+    public void Hurt()
+    {
+        animator.SetTrigger("Hurt");
+    }
+
+
 }

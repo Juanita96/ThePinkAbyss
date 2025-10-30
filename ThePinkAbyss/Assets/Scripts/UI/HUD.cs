@@ -16,7 +16,7 @@ public class HUD : MonoBehaviour
     public GameObject candy3;
     public GameObject cooldownSprite;
     public GameObject victoryScreen;
-    public PlayerController player;
+    public PlayerHurt playerHurt;
     public Orbs orbs;
     public Candies candies;
     public Pause pause;
@@ -31,7 +31,7 @@ public class HUD : MonoBehaviour
     private int orbsInLevel;
 
     [SerializeField] private float cooldownTimer = 0f;
-    [SerializeField] private bool cooldownActive = false;
+    [SerializeField] public bool cooldownActive = false;
 
     [SerializeField] private bool paused = false;
     [SerializeField] private bool victoryScreenActive = false;
@@ -40,12 +40,12 @@ public class HUD : MonoBehaviour
     private void Start()
     {
 
-         orbs = FindObjectOfType<Orbs>();
-         player = FindObjectOfType<PlayerController>();
-         candies = FindObjectOfType<Candies>();
-         pause = FindObjectOfType<Pause>();
+        orbs = FindAnyObjectByType<Orbs>();
+        candies = FindAnyObjectByType<Candies>();
+        pause = FindAnyObjectByType<Pause>();
+        playerHurt = FindAnyObjectByType<PlayerHurt>();
 
-        if (player != null) lives = player.lives;
+        if (playerHurt != null) lives = playerHurt.lives;
         if (pause != null) paused = pause.isPaused;
 
         lives3Display.SetActive(livesDisplayActive);

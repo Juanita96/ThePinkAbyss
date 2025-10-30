@@ -16,6 +16,7 @@ public class VioletEnemy_Controller : MonoBehaviour
     [SerializeField] private bool isChasing = false;
 
     [SerializeField] private Rigidbody2D rigidBody;
+    [SerializeField] private PlayerHurt playerHurt;
 
     void Start()
     {
@@ -24,7 +25,7 @@ public class VioletEnemy_Controller : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (player == null) return;
 
@@ -63,6 +64,7 @@ public class VioletEnemy_Controller : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             Debug.Log("Fantasma colisionó con el jugador!");
+            playerHurt.lives -= 1;
         }
     }
 }

@@ -117,12 +117,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 02daca96d93a1c850800000000000000
       internalID: 6395572842320932128
@@ -139,12 +139,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 80072fe3b7ff51ad0800000000000000
       internalID: -2731996694128201720
@@ -161,12 +161,12 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 9bce7dadc619c9db0800000000000000
       internalID: -4783788807460229959
@@ -183,12 +183,27 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: -8, y: 50}
+        - {x: -20, y: 53}
+        - {x: -41, y: 44}
+        - {x: -27, y: 41}
+        - {x: 0, y: 33}
+      - - {x: 61, y: -36}
+        - {x: 61, y: -24}
+        - {x: 30, y: 18}
+        - {x: 24, y: 18}
+        - {x: 23, y: 17}
+        - {x: 22, y: 18}
+        - {x: -63, y: 18}
+        - {x: -63, y: -62}
+        - {x: -51, y: -64}
+        - {x: 33, y: -64}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 81c057e040d94f3f0800000000000000
       internalID: -867896187427681256
@@ -205,7 +220,7 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
