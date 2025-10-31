@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class PlayerView : MonoBehaviour
 {
@@ -45,6 +46,18 @@ public class PlayerView : MonoBehaviour
     public void Hurt()
     {
         animator.SetTrigger("Hurt");
+    }
+
+    public IEnumerator Die()
+    {
+
+        if (animator != null)
+        {
+            animator.SetTrigger("Die");
+        }
+        yield return new WaitForSeconds(2f);
+        Destroy(player, 2f);
+
     }
 
 
