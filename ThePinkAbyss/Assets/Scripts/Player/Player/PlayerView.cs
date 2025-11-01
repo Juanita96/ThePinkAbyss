@@ -7,6 +7,7 @@ public class PlayerView : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private PlayerController player;
     [SerializeField] private PowerPlayers playerPower;
+    [SerializeField] private PlayerAttack playerAttack;
 
     private string isGrounded = "isGrounded";
     private string isJumping = "isJumping";
@@ -15,38 +16,50 @@ public class PlayerView : MonoBehaviour
 
     private string power = "Power";
     private string isUsingPower = "isUsingPower";
+    private bool isAttacking = false;
 
     void Start()
     {
         animator = GetComponent<Animator>();
         player = GetComponent<PlayerController>();
         playerPower = GetComponent<PowerPlayers>();
+        playerAttack = GetComponent<PlayerAttack>();
     }
 
     void Update()
     {
-        animator.SetBool(isJumping, player.isJumping);
-        animator.SetBool(isFalling, player.isFalling);
-        animator.SetBool(isNearGround, player.isNearFloor);
-        animator.SetBool(isGrounded, player.isGrounded);
+        
+        isAttacking = playerAttack.isAttacking;
+
+        if(!isAttacking) {
+            animator.SetBool(isJumping, player.isJumping);
+            animator.SetBool(isFalling, player.isFalling);
+            animator.SetBool(isNearGround, player.isNearFloor);
+            animator.SetBool(isGrounded, player.isGrounded);
+           
+        } 
+        
         animator.SetBool(isUsingPower, playerPower.isAttaking);
 
         if (playerPower.hasSkin == true)
         {
             animator.SetTrigger(power);
         }
+        
 
     }
 
-    public void AttackAnimation()
+    public void PlayAttack()
+    {
+        if (!isAttacking) StartCoroutine(AttackAnimation());
+    }
+
+    public IEnumerator AttackAnimation()
     {
         animator.SetTrigger("Attack");
+        yield return new WaitForSeconds(0.45f); 
     }
 
-    public void Hurt()
-    {
-        animator.SetTrigger("Hurt");
-    }
 
     public IEnumerator Die()
     {

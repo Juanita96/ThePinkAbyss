@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
-using Unity.VisualScripting;
 
 public class PlayerAttack : MonoBehaviour
 {
@@ -15,13 +14,16 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private PlayerView playerView;
 
     [Header("Attack Settings")]
-    [SerializeField] private float attackDuration = 1.0f;
+    [SerializeField] private float attackDuration = 0.45f; 
+
+    public bool isAttacking = false;
 
     private void OnEnable()
     {
         attackInput.action.Enable();
     }
-    void Start()
+
+    private void Start()
     {
         if (playerController == null)
             playerController = GetComponentInParent<PlayerController>();
@@ -29,43 +31,43 @@ public class PlayerAttack : MonoBehaviour
             playerView = GetComponentInParent<PlayerView>();
 
         attackInput.action.performed += HandleAttackInput;
-
     }
+
     private void OnDisable()
     {
         attackInput.action.Disable();
     }
 
-    void HandleAttackInput(InputAction.CallbackContext context)
+    private void HandleAttackInput(InputAction.CallbackContext context)
     {
-        playerView.AttackAnimation();
-
-        if (playerController.lastViewX == 1)
+        if (!isAttacking)
         {
-            StartCoroutine(AttackRight());
-        }
-
-        if (playerController.lastViewX == -1)
-        {
-            StartCoroutine(AttackLeft());
+            StartCoroutine(AttackSequence());
         }
     }
 
-    IEnumerator AttackRight()
+    private IEnumerator AttackSequence()
     {
-        attackHitboxRight.SetActive(true);
+        isAttacking = true;
+
+        yield return StartCoroutine(playerView.AttackAnimation());
+
+        if (playerController.lastViewX == 1)
+        {
+            attackHitboxRight.SetActive(true);
+        }
+        else if (playerController.lastViewX == -1)
+        {
+            attackHitboxLeft.SetActive(true);
+        }
 
         yield return new WaitForSeconds(attackDuration);
 
         attackHitboxRight.SetActive(false);
-    }
-
-    IEnumerator AttackLeft()
-    {
-        attackHitboxLeft.SetActive(true);
-
-        yield return new WaitForSeconds(attackDuration);
-
         attackHitboxLeft.SetActive(false);
+
+        isAttacking = false;
     }
+
+   
 }
