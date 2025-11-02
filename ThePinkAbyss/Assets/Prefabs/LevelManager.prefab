@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8912675300870387957
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 382577827869495079}
+  - component: {fileID: 1380154741780846765}
+  m_Layer: 5
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &382577827869495079
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8912675300870387957}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 79.99988, y: -15}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1380154741780846765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8912675300870387957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d243df94df704745be39b9a1133182f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levels:
+  - levelName: Level_01
+    isActive: 1
+    candiesCollected: 0
+  - levelName: Level_02
+    isActive: 0
+    candiesCollected: 0
+  - levelName: Level_03
+    isActive: 0
+    candiesCollected: 0
+  - levelName: Level_04
+    isActive: 0
+    candiesCollected: 0
+  - levelName: Level_05
+    isActive: 0
+    candiesCollected: 0
+  - levelName: Level_06
+    isActive: 0
+    candiesCollected: 0
+  - levelName: Level_07
+    isActive: 0
+    candiesCollected: 0
+  - levelName: Level_08
+    isActive: 0
+    candiesCollected: 0
+  - levelName: Level_09
+    isActive: 0
+    candiesCollected: 0
+  - levelName: Level_10
+    isActive: 0
+    candiesCollected: 0
+  - levelName: Level_11
+    isActive: 0
+    candiesCollected: 0
+  - levelName: Level_12
+    isActive: 0
+    candiesCollected: 0
+  - levelName: Level_13
+    isActive: 0
+    candiesCollected: 0
+  - levelName: Level_14
+    isActive: 0
+    candiesCollected: 0
+  - levelName: Level_15
+    isActive: 0
+    candiesCollected: 0
+  - levelName: Level_16
+    isActive: 0
+    candiesCollected: 0
+  - levelName: Level_17
+    isActive: 0
+    candiesCollected: 0
+  - levelName: Level_18
+    isActive: 0
+    candiesCollected: 0
+  - levelName: Level_19
+    isActive: 0
+    candiesCollected: 0
+  - levelName: Level_20
+    isActive: 0
+    candiesCollected: 0

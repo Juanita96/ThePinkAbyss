@@ -7883,6 +7883,7 @@ MonoBehaviour:
   player: {fileID: 7597525939362126970}
   isChasing: 0
   rigidBody: {fileID: 341656732}
+  playerHurt: {fileID: 0}
 --- !u!50 &341656732
 Rigidbody2D:
   serializedVersion: 5
@@ -23222,6 +23223,7 @@ MonoBehaviour:
   animator: {fileID: 7454344523064640008}
   player: {fileID: 1080673964855550238}
   playerPower: {fileID: 5410839069784497823}
+  playerAttack: {fileID: 6771226079559610813}
 --- !u!114 &4812730877990248857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23827,6 +23829,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lives: 1
+  player: {fileID: 4964853610423625521}
+  playerview: {fileID: 4737817160651644390}
 --- !u!61 &6664746982228241434
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23912,8 +23916,9 @@ MonoBehaviour:
   attackHitboxRight: {fileID: 8534772405387644711}
   attackHitboxLeft: {fileID: 7487629872387260133}
   playerController: {fileID: 1080673964855550238}
-  playerView: {fileID: 0}
+  playerView: {fileID: 4737817160651644390}
   attackDuration: 1
+  isAttacking: 0
 --- !u!81 &6879932485880962684
 AudioListener:
   m_ObjectHideFlags: 0
