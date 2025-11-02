@@ -29,17 +29,30 @@ public class LevelScreenManager : MonoBehaviour
     [Header("Contador general de caramelos")]
     public TMP_Text totalCandiesText;
 
-    private void Start()
+    private void Awake()
     {
-        
+
         rightArrow.onClick.AddListener(ShowGroup2);
         leftArrow.onClick.AddListener(ShowGroup1);
-
-        leftArrow.gameObject.SetActive(false); 
-        rightArrow.gameObject.SetActive(true);
-
         UpdateAllLevels();
         UpdateTotalCandies();
+    }
+
+
+    private void OnEnable()
+    {
+        if (Active_Levels.instance != null)
+        {
+            group1.SetActive(true);
+            group2.SetActive(false);
+
+            leftArrow.gameObject.SetActive(false);
+            rightArrow.gameObject.SetActive(true);
+
+            UpdateAllLevels();
+            UpdateTotalCandies();
+
+        }
     }
 
     private void ShowGroup2()
