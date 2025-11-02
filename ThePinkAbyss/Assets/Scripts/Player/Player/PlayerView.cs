@@ -28,20 +28,20 @@ public class PlayerView : MonoBehaviour
 
     void Update()
     {
-        
-        isAttacking = playerAttack.isAttacking;
 
-        if(!isAttacking) {
+        if (playerAttack != null) isAttacking = playerAttack.isAttacking;
+
+        if(!isAttacking && player != null) {
             animator.SetBool(isJumping, player.isJumping);
             animator.SetBool(isFalling, player.isFalling);
             animator.SetBool(isNearGround, player.isNearFloor);
             animator.SetBool(isGrounded, player.isGrounded);
            
-        } 
-        
-        animator.SetBool(isUsingPower, playerPower.isAttaking);
+        }
 
-        if (playerPower.hasSkin == true)
+        if (playerPower != null) animator.SetBool(isUsingPower, playerPower.isAttaking);
+
+        if (playerPower != null && playerPower.hasSkin == true)
         {
             animator.SetTrigger(power);
         }
@@ -69,7 +69,7 @@ public class PlayerView : MonoBehaviour
             animator.SetTrigger("Die");
         }
         yield return new WaitForSeconds(2f);
-        Destroy(player, 2f);
+        Destroy(gameObject, 2f);
 
     }
 
