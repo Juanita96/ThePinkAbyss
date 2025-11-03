@@ -6,7 +6,9 @@ public class TentacleView : MonoBehaviour
     [SerializeField] private PowerPlayers playerPower;
 
     [SerializeField] private SpriteRenderer spriteRenderer;
-    [SerializeField] private GameObject playerController;
+    [SerializeField] private PlayerController playerController;
+
+    [SerializeField] private float lastViewTen = 1;
 
     [SerializeField] private string attack = "isAttaking";
 
@@ -18,9 +20,16 @@ public class TentacleView : MonoBehaviour
 
     void Update()
     {
-        SpriteRenderer parentRenderer = playerController.GetComponent<SpriteRenderer>();
+        lastViewTen = playerController.lastViewX;
 
-        spriteRenderer.flipX = parentRenderer.flipX;
+        if (lastViewTen <= -1)
+        {
+            spriteRenderer.flipX = true;
+        }
+        else
+        {
+            spriteRenderer.flipX= false;
+        }
 
         animator.SetBool(attack, playerPower.isTentacleAttack);
     }

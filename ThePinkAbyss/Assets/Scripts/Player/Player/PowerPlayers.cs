@@ -15,6 +15,7 @@ public class PowerPlayers : MonoBehaviour
     [SerializeField] private GameObject violetPlayer;
     [SerializeField] private GameObject orangePlayer;
     [SerializeField] private GameObject bluePlayer;
+    [SerializeField] private GameObject currentEnemy;
     [SerializeField] private GameObject walls;
 
     [Header("Skin Steal Settings")]
@@ -71,6 +72,7 @@ public class PowerPlayers : MonoBehaviour
         {
             violetPlayer.transform.localPosition = player.transform.localPosition;
             violetPlayer.SetActive(true);
+            Destroy(currentEnemy);
             walls.GetComponent<BoxCollider2D>().enabled = false;
         }
 
@@ -78,18 +80,21 @@ public class PowerPlayers : MonoBehaviour
         {
             greenCatPlayer.transform.localPosition = player.transform.localPosition;
             greenCatPlayer.SetActive(true);
+            Destroy(currentEnemy);
         }
 
         if (stoleOrange == true)
         {
             orangePlayer.transform.localPosition = player.transform.localPosition;
             orangePlayer.SetActive(true);
+            Destroy(currentEnemy);
         }
 
         if (stoleBlue == true)
         {
             bluePlayer.transform.localPosition = player.transform.localPosition;
-            bluePlayer.SetActive(true); 
+            bluePlayer.SetActive(true);
+            Destroy(currentEnemy);
         }
 
         isAttaking = false;
@@ -99,7 +104,9 @@ public class PowerPlayers : MonoBehaviour
     }
 
     void OnTriggerEnter2D(UnityEngine.Collider2D collision)
-    { 
+    {
+        GameObject enemyRoot = collision.transform.root.gameObject;
+
         if (collision.CompareTag(enemy))
         {
             collidesEnemy = true;
@@ -107,18 +114,26 @@ public class PowerPlayers : MonoBehaviour
         if (collision.CompareTag(violetEnemy))
         {
             stoleViolet = true;
+
+            currentEnemy = enemyRoot;
         }
         if (collision.CompareTag(greenEnemy))
         {
             stoleGreen = true;
+
+            currentEnemy = enemyRoot;
         }
         if (collision.CompareTag(orangeEnemy))
         {
             stoleOrange = true;
+
+            currentEnemy = enemyRoot;
         }
         if (collision.CompareTag(blueEnemy))
         {
             stoleBlue = true;
+
+            currentEnemy = enemyRoot;
         }
     }
 

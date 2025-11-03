@@ -67,7 +67,18 @@ public class PlayerAttack : MonoBehaviour
         attackHitboxLeft.SetActive(false);
 
         isAttacking = false;
+
+        StartCoroutine(ResetDetectionCollider());
     }
 
-   
+    private IEnumerator ResetDetectionCollider()
+    {
+        Collider2D detectionCollider = GetComponentInParent<Collider2D>();
+        detectionCollider.enabled = false;
+        yield return null;
+        detectionCollider.enabled = true;
+    }
+
+
+
 }
