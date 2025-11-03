@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 using TMPro;
 
 public class HUD : MonoBehaviour
@@ -25,7 +26,6 @@ public class HUD : MonoBehaviour
     [SerializeField] public float score = 0f;
     [SerializeField] private float timer = 0f;
     [SerializeField] private float cooldown = 7.5f;
-    [SerializeField] private int lives;
     [SerializeField] public int candiesCollected;
     private int orbsInLevel;
 
@@ -35,6 +35,10 @@ public class HUD : MonoBehaviour
     [SerializeField] private bool paused = false;
     [SerializeField] private bool livesDisplayActive = true;
 
+    private bool candy1EffectActive = false;
+    private bool candy2EffectActive = false;
+    private bool candy3EffectActive = false;
+
     private void Start()
     {
 
@@ -43,7 +47,6 @@ public class HUD : MonoBehaviour
         pause = FindAnyObjectByType<Pause>();
         playerHurt = FindAnyObjectByType<PlayerHurt>();
 
-        if (playerHurt != null) lives = playerHurt.lives;
         if (pause != null) paused = pause.isPaused;
 
         lives3Display.SetActive(livesDisplayActive);
@@ -163,14 +166,57 @@ public class HUD : MonoBehaviour
         }
     }
 
-   private  void UpdateCandies()
+   private void UpdateCandies()
     {
         if (candy1 != null && candy2 != null && candy3 != null)
         {
-            candy1.SetActive(candiesCollected >= 1);
-            candy2.SetActive(candiesCollected >= 2);
-            candy3.SetActive(candiesCollected == 3);
+            if( candiesCollected == 0)
+            {
+                candy1.SetActive(false);
+                candy2.SetActive(false);
+                candy3.SetActive(false);
+                candy1EffectActive = false;
+                candy2EffectActive = false;
+                candy3EffectActive = false;
+            }
+            if (candiesCollected >= 1 && !candy1EffectActive)
+            {
+                candy1.SetActive(true);
+                StartCoroutine(CandyEffect(candy1.transform));
+                candy1EffectActive = true;
+            }
+           if (candiesCollected >= 2 && !candy2EffectActive)
+            {
+                candy2.SetActive(true);
+                StartCoroutine(CandyEffect(candy2.transform));
+                candy2EffectActive = true;
+            }
+            if (candiesCollected >= 3 && !candy3EffectActive)
+            {
+                candy3.SetActive(true);
+                StartCoroutine(CandyEffect(candy3.transform));
+                candy3EffectActive = true;
+            }
         }
+    }
+
+   private IEnumerator CandyEffect(Transform candy)
+    {
+        Vector3 originalScale = candy.localScale;
+        Quaternion originalRotation = candy.localRotation;
+
+        candy.localScale = originalScale * 1.3f;
+        yield return new WaitForSeconds(0.1f);
+
+        for (int i = 0; i< 6; i++)
+        {
+            candy.localRotation = Quaternion.Euler(0, 0, Random.Range(-15f, 15f));
+            yield return new WaitForSeconds(0.03f);
+        }
+
+        candy.localRotation = originalRotation;
+        candy.localScale = originalScale;
+
     }
 
 

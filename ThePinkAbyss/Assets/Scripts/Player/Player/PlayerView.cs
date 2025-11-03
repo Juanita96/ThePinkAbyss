@@ -18,7 +18,6 @@ public class PlayerView : MonoBehaviour
     private string power = "Power";
     private string isUsingPower = "isUsingPower";
     private bool isAttacking = false;
-    private bool isHurt = false;
 
     void Start()
     {
@@ -74,17 +73,19 @@ public class PlayerView : MonoBehaviour
         yield return new WaitForSeconds(0.45f); 
     }
 
-
-    public IEnumerator Die()
+    public void Die()
     {
+        StartCoroutine(DieAnimation());
+    }
 
+    public IEnumerator DieAnimation()
+    {
         if (animator != null)
         {
             animator.SetTrigger("Hurt");
         }
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1.5f);
         SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
-
     }
 
 
