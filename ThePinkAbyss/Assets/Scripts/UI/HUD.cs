@@ -129,7 +129,7 @@ public class HUD : MonoBehaviour
             if (cooldownActive)
             {
                 float tiempoRestante = cooldownTimer;
-                string texto = "CD: " + tiempoRestante.ToString("F1") + "s";
+                string texto = tiempoRestante.ToString("F1") + "s";
                 powerUpCooldownText.text = texto;
             }
             else
@@ -145,7 +145,7 @@ public class HUD : MonoBehaviour
     {
         if (scoreText != null)
         {
-            scoreText.text = score + "%";
+            scoreText.text = score.ToString("00") + "%";
         }
 
     }
@@ -156,9 +156,9 @@ public class HUD : MonoBehaviour
     
         if (livesDisplayActive && lives3Display != null && lives2Display != null && lives1Display != null && lives0Display != null)
         {
-            lives3Display.SetActive(lives == 3);
-            lives2Display.SetActive(lives == 2);
-            lives1Display.SetActive(lives == 1);
+            lives3Display.SetActive(playerHurt.lives == 3);
+            lives2Display.SetActive(playerHurt.lives == 2);
+            lives1Display.SetActive(playerHurt.lives == 1);
             lives0Display.SetActive(true);
         }
     }

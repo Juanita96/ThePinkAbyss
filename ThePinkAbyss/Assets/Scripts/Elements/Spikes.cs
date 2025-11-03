@@ -2,19 +2,14 @@ using UnityEngine;
 
 public class Spikes : MonoBehaviour
 {
-    public PlayerController player;
+    public PlayerHurt player;
 
     private Vector3 originalScale;
     private float scaleMultiplier = 1.2f;
 
     private void Start()
     {
-        GameObject playerObject = GameObject.FindWithTag("Player");
-        if (playerObject != null)
-        {
-            player = playerObject.GetComponent<PlayerController>();
-        }
-
+        player = FindAnyObjectByType<PlayerHurt>();
         originalScale = transform.localScale;
     }
 
@@ -22,7 +17,7 @@ public class Spikes : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            player.lives -= 1;
+            player.TakeDamage();
             transform.localScale = originalScale * scaleMultiplier;
         }
     }

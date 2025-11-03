@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class PlayerView : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class PlayerView : MonoBehaviour
     private string power = "Power";
     private string isUsingPower = "isUsingPower";
     private bool isAttacking = false;
+    private bool isHurt = false;
 
     void Start()
     {
@@ -49,6 +51,18 @@ public class PlayerView : MonoBehaviour
 
     }
 
+    public void PlayHurt()
+    {
+       StartCoroutine(HurtAnimation());
+    }
+
+    public IEnumerator HurtAnimation()
+    {
+        animator.SetTrigger("Hurt");
+        yield return new WaitForSeconds(0.2f);
+    }
+
+
     public void PlayAttack()
     {
         if (!isAttacking) StartCoroutine(AttackAnimation());
@@ -66,10 +80,10 @@ public class PlayerView : MonoBehaviour
 
         if (animator != null)
         {
-            animator.SetTrigger("Die");
+            animator.SetTrigger("Hurt");
         }
         yield return new WaitForSeconds(2f);
-        Destroy(gameObject, 2f);
+        SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
 
     }
 
