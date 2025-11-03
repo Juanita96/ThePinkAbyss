@@ -39,10 +39,10 @@ public class Active_Levels : MonoBehaviour
             levels[levelNumber].isActive = true;
     }
 
-    public void AddCandies(int levelNumber, int amount)
+    public void SetCandies(int levelNumber, int amount)
     {
         if (levelNumber >= 0 && levelNumber < levels.Count)
-            levels[levelNumber].candiesCollected += amount;
+            levels[levelNumber].candiesCollected = amount;
     }
 
     public int GetCandies(int levelNumber)

@@ -15,7 +15,6 @@ public class HUD : MonoBehaviour
     public GameObject candy2;
     public GameObject candy3;
     public GameObject cooldownSprite;
-    public GameObject victoryScreen;
     public PlayerHurt playerHurt;
     public Orbs orbs;
     public Candies candies;
@@ -23,18 +22,17 @@ public class HUD : MonoBehaviour
     
 
     [Header("Valores iniciales")]
-    [SerializeField] private float score = 0f;
+    [SerializeField] public float score = 0f;
     [SerializeField] private float timer = 0f;
     [SerializeField] private float cooldown = 7.5f;
     [SerializeField] private int lives;
-    [SerializeField] private int candiesCollected;
+    [SerializeField] public int candiesCollected;
     private int orbsInLevel;
 
     [SerializeField] private float cooldownTimer = 0f;
     [SerializeField] public bool cooldownActive = false;
 
     [SerializeField] private bool paused = false;
-    [SerializeField] private bool victoryScreenActive = false;
     [SerializeField] private bool livesDisplayActive = true;
 
     private void Start()
