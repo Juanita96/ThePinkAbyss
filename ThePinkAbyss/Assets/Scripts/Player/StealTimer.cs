@@ -14,13 +14,15 @@ public class StealTimer : MonoBehaviour
     private void OnEnable()
     {
         StartCoroutine(Timer());
-        
-        hud.cooldownActive = true;
+        hud.cooldown = timer;
+        hud.StartCooldown();
     }
 
     private void Start()
     {
       hud = FindAnyObjectByType<HUD>();
+
+        
     }
 
     IEnumerator Timer()
@@ -30,7 +32,8 @@ public class StealTimer : MonoBehaviour
 
         player.transform.localPosition = enemyPlayer.transform.localPosition;
 
-        walls.GetComponent<TilemapCollider2D>().enabled = true;
+        if(walls!= null)
+            walls.GetComponent<TilemapCollider2D>().enabled = true;
 
         enemyPlayer.SetActive(false);
 

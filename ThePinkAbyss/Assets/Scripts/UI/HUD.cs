@@ -24,7 +24,7 @@ public class HUD : MonoBehaviour
     [Header("Valores iniciales")]
     [SerializeField] public float score = 0f;
     [SerializeField] private float timer = 0f;
-    [SerializeField] private float cooldown = 7.5f;
+    [SerializeField] public float cooldown = 7.5f;
     [SerializeField] public int candiesCollected;
     private int orbsInLevel;
 
@@ -37,6 +37,8 @@ public class HUD : MonoBehaviour
     private bool candy1EffectActive = false;
     private bool candy2EffectActive = false;
     private bool candy3EffectActive = false;
+
+    private  bool scoreEffectActive = false;
 
     private void Start()
     {
@@ -129,13 +131,14 @@ public class HUD : MonoBehaviour
         {
             if (cooldownActive)
             {
-                float tiempoRestante = cooldownTimer;
-                string texto = tiempoRestante.ToString("F1") + "s";
+                int tiempoRestante = Mathf.CeilToInt(cooldownTimer);
+                string texto = tiempoRestante.ToString() + "s";
                 powerUpCooldownText.text = texto;
             }
             else
             {
                 powerUpCooldownText.text = "";
+                cooldownSprite.SetActive(false);
             }
 
         }
@@ -147,7 +150,16 @@ public class HUD : MonoBehaviour
         if (scoreText != null)
         {
             scoreText.text = score.ToString("00") + "%";
+
+            if(score >= 70 && !scoreEffectActive)
+            {
+                scoreEffectActive = true;
+                StartCoroutine(ScoreEffect(scoreText.transform));
+            }
+
+
         }
+
 
     }
 
@@ -217,8 +229,23 @@ public class HUD : MonoBehaviour
 
     }
 
+    private IEnumerator ScoreEffect(Transform scoreText)
+    {
+        Vector3 originalScale = scoreText.transform.localScale;
 
-   private  void UpdateTimerText()
+        for(int i =0; i<6; i++)
+        {
+           scoreText.localScale = originalScale * 1.2f;
+            yield return new WaitForSeconds(0.2f);
+            scoreText.localScale = originalScale;
+            yield return new WaitForSeconds(0.2f);
+        }
+
+        scoreText.localScale = originalScale;
+    }
+
+
+    private  void UpdateTimerText()
     {
         if (timerText != null)
         {
