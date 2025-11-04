@@ -196,15 +196,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 3
   moveDistance: 3
-  jumpForce: 5
+  jumpForce: 7
   jumpInterval: 2
   isJumping: 0
-  rayDistance: 1.5
+  rayDistance: 1.7
   isGrounded: 0
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
-  showDebug: 0
+  showDebug: 1
 --- !u!95 &1106479646529648470
 Animator:
   serializedVersion: 7
