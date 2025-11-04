@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
+using UnityEngine.Tilemaps;
 
 public class PowerPlayers : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class PowerPlayers : MonoBehaviour
     [SerializeField] private GameObject bluePlayer;
     [SerializeField] private GameObject currentEnemy;
     [SerializeField] private GameObject walls;
+    public CameraFollow cameraFollow;
 
     [Header("Skin Steal Settings")]
     [SerializeField] public bool canStealSkin = true;
@@ -43,6 +45,7 @@ public class PowerPlayers : MonoBehaviour
     void Start()
     {
         stealSkinInput.action.performed += HandleStealSkin;
+        cameraFollow = FindAnyObjectByType<CameraFollow>();
     }
 
     void HandleStealSkin(InputAction.CallbackContext context)
@@ -73,7 +76,7 @@ public class PowerPlayers : MonoBehaviour
             violetPlayer.transform.localPosition = player.transform.localPosition;
             violetPlayer.SetActive(true);
             Destroy(currentEnemy);
-            walls.GetComponent<BoxCollider2D>().enabled = false;
+            walls.GetComponent<TilemapCollider2D>().enabled = false;
         }
 
         if (stoleGreen == true)
@@ -142,22 +145,27 @@ public class PowerPlayers : MonoBehaviour
         if (collision.CompareTag(enemy))
         {
             collidesEnemy = false;
+            cameraFollow.SetTarget(player.transform);
         }
         if (collision.CompareTag(violetEnemy))
         {
             stoleViolet = false;
+            cameraFollow.SetTarget(player.transform);
         }
         if (collision.CompareTag(greenEnemy))
         {
             stoleGreen = false;
+            cameraFollow.SetTarget(player.transform);
         }
         if (collision.CompareTag(orangeEnemy))
         {
             stoleOrange = false;
+            cameraFollow.SetTarget(player.transform);
         }
         if (collision.CompareTag(blueEnemy))
         {
             stoleBlue = false;
+            cameraFollow.SetTarget(player.transform);
         }
     }
 }

@@ -61,8 +61,7 @@ public class Shrubbery : MonoBehaviour
         if (canHide && !isHiding)
         {
             isHiding = true;
-            playerCamera.orthographicSize = 8f;
-            //Enemigos no ven al player mientras esta escondido
+            playerCamera.orthographicSize = 5f;
             Color currentCollor = spriteRenderer.material.color;
             Color newColor = new Color(currentCollor.r, currentCollor.g, currentCollor.b, playerAlpha);
             spriteRenderer.material.color = newColor;
@@ -74,7 +73,7 @@ public class Shrubbery : MonoBehaviour
         if (isHiding && playerController.isMoving || playerController.isJumping)
         {
             isHiding = false;
-            playerCamera.orthographicSize = 5f;
+            playerCamera.orthographicSize = 7f;
             Color currentCollor = spriteRenderer.material.color;
             Color newColor = new Color(currentCollor.r, currentCollor.g, currentCollor.b, 1);
             spriteRenderer.material.color = newColor;

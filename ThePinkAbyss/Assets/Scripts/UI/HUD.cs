@@ -17,8 +17,7 @@ public class HUD : MonoBehaviour
     public GameObject candy3;
     public GameObject cooldownSprite;
     public PlayerHurt playerHurt;
-    public Orbs orbs;
-    public Candies candies;
+    public CandiesAndOrbsCounter candiesAndOrbsCounter;
     public Pause pause;
     
 
@@ -42,8 +41,7 @@ public class HUD : MonoBehaviour
     private void Start()
     {
 
-        orbs = FindAnyObjectByType<Orbs>();
-        candies = FindAnyObjectByType<Candies>();
+        candiesAndOrbsCounter = FindAnyObjectByType<CandiesAndOrbsCounter>();
         pause = FindAnyObjectByType<Pause>();
         playerHurt = FindAnyObjectByType<PlayerHurt>();
 
@@ -59,7 +57,7 @@ public class HUD : MonoBehaviour
     private void Update()
     {
        
-        if (candies != null) candiesCollected = candies.candyCollected;
+        if (candiesAndOrbsCounter != null) candiesCollected = candiesAndOrbsCounter.candyCollected;
         UpdateCandies();
       
         UpdateLives();
@@ -73,9 +71,9 @@ public class HUD : MonoBehaviour
 
             
 
-            if (orbs != null && orbsInLevel>0)
+            if (candiesAndOrbsCounter != null && orbsInLevel>0)
             {
-                score = ((float)orbs.orbsCollected / orbsInLevel) * 100f;
+                score = ((float)candiesAndOrbsCounter.orbsCollected / orbsInLevel) * 100f;
                 UpdateScoreText();
             }else if(orbsInLevel == 0)
             {

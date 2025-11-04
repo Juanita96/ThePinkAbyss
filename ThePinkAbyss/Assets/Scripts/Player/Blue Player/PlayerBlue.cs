@@ -14,7 +14,7 @@ public class PlayerBlue : MonoBehaviour
     [SerializeField] private bool jumpInput;
 
     [Header("Settings")]
-    [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] public float moveSpeed = 5f;
     [SerializeField] private float jumpForce = 5f;
 
     [Header("Raycast")]
@@ -31,6 +31,7 @@ public class PlayerBlue : MonoBehaviour
     [Header("Components")]
     [SerializeField] private Rigidbody2D playerRigidbody;
     [SerializeField] private SpriteRenderer spriteRenderer;
+    public Ramp ramp;
 
     [Header("Check Bools")]
     [SerializeField] public bool isJumping;
@@ -62,6 +63,7 @@ public class PlayerBlue : MonoBehaviour
     {
         playerRigidbody = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        ramp = FindAnyObjectByType<Ramp>();
     }
 
     private void HandleMoveInput(InputAction.CallbackContext context)
@@ -90,7 +92,15 @@ public class PlayerBlue : MonoBehaviour
 
     private void Movement()
     {
-        playerRigidbody.linearVelocity = new Vector2(moveInput.x * moveSpeed, playerRigidbody.linearVelocity.y);
+        if (!ramp.isOnRamp)
+        {
+            playerRigidbody.linearVelocity = new Vector2(moveInput.x * moveSpeed, playerRigidbody.linearVelocity.y);
+        }
+        else if (ramp.isOnRamp)
+        {
+            if (ramp.rightRamp) playerRigidbody.linearVelocity = new Vector2(1 * moveSpeed, playerRigidbody.linearVelocity.y);
+            if (ramp.leftRamp) playerRigidbody.linearVelocity = new Vector2(-1 * moveSpeed, playerRigidbody.linearVelocity.y);
+        }
     }
 
     private void Jump()

@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.Tilemaps;
 
 public class StealTimer : MonoBehaviour
 {
@@ -17,9 +18,9 @@ public class StealTimer : MonoBehaviour
         hud.cooldownActive = true;
     }
 
-    private void start()
+    private void Start()
     {
-      hud = GetComponent<HUD>();
+      hud = FindAnyObjectByType<HUD>();
     }
 
     IEnumerator Timer()
@@ -29,7 +30,7 @@ public class StealTimer : MonoBehaviour
 
         player.transform.localPosition = enemyPlayer.transform.localPosition;
 
-        walls.GetComponent<BoxCollider2D>().enabled = true;
+        walls.GetComponent<TilemapCollider2D>().enabled = true;
 
         enemyPlayer.SetActive(false);
 

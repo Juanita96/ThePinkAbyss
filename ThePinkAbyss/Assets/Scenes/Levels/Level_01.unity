@@ -207,27 +207,27 @@ PrefabInstance:
     - target: {fileID: 434481323565580191, guid: d3e52fe7f1015fc46b520b8a8b650b6a, type: 3}
       propertyPath: hud
       value: 
-      objectReference: {fileID: 1104380998}
+      objectReference: {fileID: 0}
     - target: {fileID: 434481323565580191, guid: d3e52fe7f1015fc46b520b8a8b650b6a, type: 3}
       propertyPath: timer
       value: 
-      objectReference: {fileID: 1439196480}
+      objectReference: {fileID: 0}
     - target: {fileID: 434481323565580191, guid: d3e52fe7f1015fc46b520b8a8b650b6a, type: 3}
       propertyPath: candy1
       value: 
-      objectReference: {fileID: 556344289}
+      objectReference: {fileID: 0}
     - target: {fileID: 434481323565580191, guid: d3e52fe7f1015fc46b520b8a8b650b6a, type: 3}
       propertyPath: candy2
       value: 
-      objectReference: {fileID: 1190024746}
+      objectReference: {fileID: 0}
     - target: {fileID: 434481323565580191, guid: d3e52fe7f1015fc46b520b8a8b650b6a, type: 3}
       propertyPath: candy3
       value: 
-      objectReference: {fileID: 692103153}
+      objectReference: {fileID: 0}
     - target: {fileID: 434481323565580191, guid: d3e52fe7f1015fc46b520b8a8b650b6a, type: 3}
       propertyPath: finalTime
       value: 
-      objectReference: {fileID: 212452822}
+      objectReference: {fileID: 0}
     - target: {fileID: 434481323565580191, guid: d3e52fe7f1015fc46b520b8a8b650b6a, type: 3}
       propertyPath: victoryScreen
       value: 
@@ -275,7 +275,7 @@ PrefabInstance:
     - target: {fileID: 4865906502679231088, guid: d3e52fe7f1015fc46b520b8a8b650b6a, type: 3}
       propertyPath: hud
       value: 
-      objectReference: {fileID: 1104380998}
+      objectReference: {fileID: 0}
     - target: {fileID: 5433307833536848287, guid: d3e52fe7f1015fc46b520b8a8b650b6a, type: 3}
       propertyPath: m_Name
       value: FinalPortal
@@ -473,17 +473,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0eab186e91b1b08439006ae15b1e574e, type: 3}
---- !u!114 &212452822 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7440541888062221332, guid: 046c5c40206a40349a6858c205d7555d, type: 3}
-  m_PrefabInstance: {fileID: 572706915}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &259050472 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 562935148906492898, guid: 0e6efa8c0ae3e2e47b70c0a70d67a433, type: 3}
@@ -832,11 +821,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6731496853974272915, guid: a561fba0f572c78428b7c93687e22e02, type: 3}
   m_PrefabInstance: {fileID: 8176416416189977213}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &556344289 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5194675628875959354, guid: 046c5c40206a40349a6858c205d7555d, type: 3}
-  m_PrefabInstance: {fileID: 572706915}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &556941935
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -955,22 +939,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 342071258779683440, guid: 046c5c40206a40349a6858c205d7555d, type: 3}
+      propertyPath: candiesAndOrbsCounter
+      value: 
+      objectReference: {fileID: 1123380016}
+    - target: {fileID: 4267951041582000563, guid: 046c5c40206a40349a6858c205d7555d, type: 3}
+      propertyPath: candiesAndOrbsCounter
+      value: 
+      objectReference: {fileID: 1123380016}
     - target: {fileID: 5563532409788175500, guid: 046c5c40206a40349a6858c205d7555d, type: 3}
       propertyPath: m_Name
       value: PlayerComplete
       objectReference: {fileID: 0}
-    - target: {fileID: 5563532409788175500, guid: 046c5c40206a40349a6858c205d7555d, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 7563785078366299241, guid: 046c5c40206a40349a6858c205d7555d, type: 3}
-      propertyPath: blood
+    - target: {fileID: 5606741444817560525, guid: 046c5c40206a40349a6858c205d7555d, type: 3}
+      propertyPath: candiesAndOrbsCounter
       value: 
-      objectReference: {fileID: 1247400593}
-    - target: {fileID: 7563785078366299241, guid: 046c5c40206a40349a6858c205d7555d, type: 3}
-      propertyPath: lives
-      value: 3
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1123380016}
+    - target: {fileID: 7169907054678175818, guid: 046c5c40206a40349a6858c205d7555d, type: 3}
+      propertyPath: candiesAndOrbsCounter
+      value: 
+      objectReference: {fileID: 1123380016}
+    - target: {fileID: 8846468489121124220, guid: 046c5c40206a40349a6858c205d7555d, type: 3}
+      propertyPath: candiesAndOrbsCounter
+      value: 
+      objectReference: {fileID: 1123380016}
+    - target: {fileID: 8908352111920004935, guid: 046c5c40206a40349a6858c205d7555d, type: 3}
+      propertyPath: candiesAndOrbsCounter
+      value: 
+      objectReference: {fileID: 1123380016}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1001,11 +997,6 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4233444084147705801, guid: 248fcb7ad53767247897225f3b933177, type: 3}
   m_PrefabInstance: {fileID: 439998356}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &692103153 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2813927839213965324, guid: 046c5c40206a40349a6858c205d7555d, type: 3}
-  m_PrefabInstance: {fileID: 572706915}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &736383693
 GameObject:
@@ -1825,17 +1816,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b872ef72c96b264aa8f453b01331134, type: 3}
---- !u!114 &1104380998 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7167266525270146260, guid: 046c5c40206a40349a6858c205d7555d, type: 3}
-  m_PrefabInstance: {fileID: 572706915}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ac58286de2070441ae3e294de9de7ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1112862800
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1905,16 +1885,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e6efa8c0ae3e2e47b70c0a70d67a433, type: 3}
---- !u!1 &1190024746 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7748234325340006885, guid: 046c5c40206a40349a6858c205d7555d, type: 3}
+--- !u!114 &1123380016 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2813324806550317348, guid: 046c5c40206a40349a6858c205d7555d, type: 3}
   m_PrefabInstance: {fileID: 572706915}
   m_PrefabAsset: {fileID: 0}
---- !u!198 &1247400593 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 5764749616402203727, guid: 046c5c40206a40349a6858c205d7555d, type: 3}
-  m_PrefabInstance: {fileID: 572706915}
-  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad41c500862785b4b8e35664b09c3887, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1247999059 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4233444084147705801, guid: 248fcb7ad53767247897225f3b933177, type: 3}
@@ -2227,17 +2208,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 296820419909404223, guid: fe8186bc729c1a147a0142dda165e459, type: 3}
   m_PrefabInstance: {fileID: 2023056362}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1439196480 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2213098866690821852, guid: 046c5c40206a40349a6858c205d7555d, type: 3}
-  m_PrefabInstance: {fileID: 572706915}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1526996943
 PrefabInstance:
   m_ObjectHideFlags: 0

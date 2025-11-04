@@ -31,7 +31,8 @@ public class PlayerController : MonoBehaviour
     [Header("Components")]
     [SerializeField] private Rigidbody2D playerRigidbody;
     [SerializeField] private SpriteRenderer spriteRenderer;
-    [SerializeField] private Ramp ramp;
+    public Ramp ramp;
+    public PlayerHurt playerHurt;
 
     [Header("Check Bools")]
     [SerializeField] public bool isJumping;
@@ -67,7 +68,8 @@ public class PlayerController : MonoBehaviour
     {
         playerRigidbody = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        ramp = GetComponent<Ramp>();
+        ramp = FindAnyObjectByType<Ramp>();
+        playerHurt = FindAnyObjectByType<PlayerHurt>();
     }
 
     private void HandleMoveInput(InputAction.CallbackContext context)
@@ -87,6 +89,8 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        lives = playerHurt.lives;
+
         Movement();
         Raycast();
         RayNearFloor();

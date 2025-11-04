@@ -30,10 +30,10 @@ public class GreenCatMovement : MonoBehaviour
         jumpTimer = jumpInterval;
     }
 
-    void Update() 
+    void Update()
     {
         float distanceFromStart = transform.position.x - startPos.x;
-        
+
         if (isGrounded)
         {
             if (movingRight && distanceFromStart >= moveDistance)
@@ -55,10 +55,10 @@ public class GreenCatMovement : MonoBehaviour
         }
         else
         {
-            rigidBody.linearVelocity = new Vector2(0 , rigidBody.linearVelocity.y);
+            rigidBody.linearVelocity = new Vector2(0, rigidBody.linearVelocity.y);
         }
 
-            Raycast();
+        Raycast();
 
         jumpTimer -= Time.deltaTime;
         if (jumpTimer <= 0f)
@@ -67,7 +67,7 @@ public class GreenCatMovement : MonoBehaviour
             {
                 Jump();
             }
-            
+
             jumpTimer = jumpInterval;
         }
     }

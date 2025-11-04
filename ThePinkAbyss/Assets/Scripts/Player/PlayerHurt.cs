@@ -1,4 +1,6 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHurt : MonoBehaviour
 {
@@ -16,14 +18,22 @@ public class PlayerHurt : MonoBehaviour
 
     private void Update()
     {
-        
+
         if (lives <= 0 && die == false)
         {
             die = true;
             blood.Play();
             Debug.Log("Player Died");
-            playerview.Die();
-            
+            bool playerActive = player.activeInHierarchy;
+            if (playerActive)
+            {
+                playerview.Die();
+            }
+            else
+            {
+                StartCoroutine(Die());
+
+            }
         }
     }
 
@@ -33,10 +43,22 @@ public class PlayerHurt : MonoBehaviour
         if (lives > 0)
         {
             blood.Play();
-            playerview.PlayHurt();
+            bool playerActive = player.activeInHierarchy;
+            if (playerActive) playerview.PlayHurt();
+                
         }
     }
 
+    private IEnumerator Die()
+    {
+        yield return new WaitForSeconds(1.5f);
+        SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+    }
 }
+
+
+
+
+
 
 
