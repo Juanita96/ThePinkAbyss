@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class CameraFollow : MonoBehaviour
 {
@@ -68,6 +69,29 @@ public class CameraFollow : MonoBehaviour
     {
         if (target != newTarget) SetTarget(newTarget);
     }
+
+    public IEnumerator JakeCamera()
+    {
+        Transform camTransform = transform; 
+        Vector3 originalPos = camTransform.localPosition;
+        Quaternion originalRot = camTransform.localRotation;
+
+        
+        camTransform.localScale = Vector3.one * 1.05f;
+        yield return new WaitForSeconds(0.1f);
+
+        for (int i = 0; i < 6; i++)
+        {
+            camTransform.localPosition = originalPos + new Vector3(Random.Range(-0.1f, 0.1f), Random.Range(-0.1f, 0.1f), 0);
+            camTransform.localRotation = Quaternion.Euler(0, 0, Random.Range(-3f, 3f));
+            yield return new WaitForSeconds(0.03f);
+        }
+
+        camTransform.localPosition = originalPos;
+        camTransform.localRotation = originalRot;
+        camTransform.localScale = Vector3.one;
+    }
+
 
 }
 

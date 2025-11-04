@@ -9,20 +9,22 @@ public class StealTimer : MonoBehaviour
     [SerializeField] private GameObject enemyPlayer;
     [SerializeField] private GameObject player;
     [SerializeField] private GameObject walls;
+    public CameraFollow cameraFollow;
     public HUD hud;
+
+    private void Awake()
+    {
+        hud = FindAnyObjectByType<HUD>();
+        cameraFollow = FindAnyObjectByType<CameraFollow>();
+    }
 
     private void OnEnable()
     {
         StartCoroutine(Timer());
+        cameraFollow.StartCoroutine(cameraFollow.JakeCamera());
+
         hud.cooldown = timer;
         hud.StartCooldown();
-    }
-
-    private void Start()
-    {
-      hud = FindAnyObjectByType<HUD>();
-
-        
     }
 
     IEnumerator Timer()
@@ -36,6 +38,8 @@ public class StealTimer : MonoBehaviour
             walls.GetComponent<TilemapCollider2D>().enabled = true;
 
         enemyPlayer.SetActive(false);
+
+        cameraFollow.StartCoroutine(cameraFollow.JakeCamera());
 
         player.SetActive(true);
 
