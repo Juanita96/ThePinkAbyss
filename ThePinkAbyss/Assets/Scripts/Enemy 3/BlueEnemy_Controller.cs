@@ -13,6 +13,9 @@ public class BlueEnemy_Controller : MonoBehaviour
 
     public GameObject damageArea;
 
+    [SerializeField] private Animator animator;
+    private string attack = "Anim_Attack_Blue";
+
     private void Start()
     {
         if (damageArea != null)
@@ -26,9 +29,11 @@ public class BlueEnemy_Controller : MonoBehaviour
     {
         while (true)
         {
+
             yield return new WaitForSeconds(attackInterval);
 
-            
+            animator.Play(attack);
+
             if (damageArea != null)
             {
                 damageArea.SetActive(true);

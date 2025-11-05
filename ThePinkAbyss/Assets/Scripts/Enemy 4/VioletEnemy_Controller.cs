@@ -63,8 +63,7 @@ public class VioletEnemy_Controller : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Fantasma colisionó con el jugador!");
-            playerHurt.lives -= 1;
+
         }
     }
 }

@@ -20,7 +20,7 @@ public class PlayerAttack : MonoBehaviour
 
     private void OnEnable()
     {
-        attackInput.action.Enable();
+        attackInput.action.performed += HandleAttackInput;
     }
 
     private void Start()
@@ -29,13 +29,12 @@ public class PlayerAttack : MonoBehaviour
             playerController = GetComponentInParent<PlayerController>();
         if (playerView == null)
             playerView = GetComponentInParent<PlayerView>();
-
-        attackInput.action.performed += HandleAttackInput;
     }
 
     private void OnDisable()
     {
-        attackInput.action.Disable();
+        StopAllCoroutines();
+        attackInput.action.performed -= HandleAttackInput;
     }
 
     private void HandleAttackInput(InputAction.CallbackContext context)

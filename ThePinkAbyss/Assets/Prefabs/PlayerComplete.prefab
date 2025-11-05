@@ -19265,10 +19265,6 @@ MonoBehaviour:
   bluePlayer: {fileID: 2809728243031019478}
   currentEnemy: {fileID: 0}
   walls: {fileID: 0}
-  greenHitbox: {fileID: 0}
-  blueHitbox: {fileID: 0}
-  violetHitbox: {fileID: 0}
-  orangeHitbox: {fileID: 0}
   cameraFollow: {fileID: 574134083503331155}
   canStealSkin: 1
   collidesEnemy: 0
@@ -24762,7 +24758,7 @@ GameObject:
   - component: {fileID: 6083707310271419811}
   m_Layer: 0
   m_Name: AttackHitboxR
-  m_TagString: Untagged
+  m_TagString: AttackHitbox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25225,7 +25221,7 @@ GameObject:
   - component: {fileID: 6833531427467886865}
   m_Layer: 0
   m_Name: AttackHitboxL
-  m_TagString: Untagged
+  m_TagString: AttackHitbox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

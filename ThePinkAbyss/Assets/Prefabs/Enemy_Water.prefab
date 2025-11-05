@@ -416,6 +416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyHealth: 3
+  animator: {fileID: 3068450124222368828}
   enemy: {fileID: 6848105121695753252}
 --- !u!95 &3068450124222368828
 Animator:
@@ -453,9 +454,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waterParticles: {fileID: 8839460850547656645}
   attackInterval: 3
-  damageDuration: 2
+  damageDuration: 1
   damageToPlayer: 1
   damageArea: {fileID: 5100779225785204667}
+  animator: {fileID: 3068450124222368828}
 --- !u!1 &8839460850547656645
 GameObject:
   m_ObjectHideFlags: 0

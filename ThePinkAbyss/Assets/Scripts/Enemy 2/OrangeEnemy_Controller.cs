@@ -18,8 +18,8 @@ public class OrangeEnemy_Controller : MonoBehaviour
     [SerializeField] private float fireCooldown = 3.0f;
 
     [Header("Stats")]
-    [SerializeField] private bool isChasing = false;
-    [SerializeField] private bool fireActive = false;
+    [SerializeField] public bool isChasing = false;
+    [SerializeField] public bool fireActive = false;
 
     private Vector2 startPos;
     private bool movingRight = true;

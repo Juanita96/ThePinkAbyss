@@ -182,6 +182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyHealth: 3
+  animator: {fileID: 1106479646529648470}
   enemy: {fileID: 977811793232682287}
 --- !u!114 &8797043612254159791
 MonoBehaviour:
@@ -196,9 +197,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
-  moveDistance: 3
-  jumpForce: 7
-  jumpInterval: 2
+  moveDistance: 2
+  jumpForce: 15
+  jumpInterval: 5
   isJumping: 0
   rayDistance: 1.7
   isGrounded: 0
@@ -206,6 +207,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   showDebug: 1
+  animator: {fileID: 1106479646529648470}
 --- !u!95 &1106479646529648470
 Animator:
   serializedVersion: 7

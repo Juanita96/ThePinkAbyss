@@ -22,6 +22,8 @@ public class GreenCatMovement : MonoBehaviour
     private Vector2 startPos;
     private bool movingRight = true;
     private float jumpTimer;
+    [SerializeField] private Animator animator;
+    private string jump = "Jump";
 
     void Start()
     {
@@ -33,6 +35,18 @@ public class GreenCatMovement : MonoBehaviour
     void Update()
     {
         float distanceFromStart = transform.position.x - startPos.x;
+        animator.SetBool("isGrounded", isGrounded);
+        animator.SetBool(jump, isJumping);
+
+        if (!isGrounded)
+        {
+            isJumping = true;
+        }
+        else
+        {
+            isJumping = false;
+        }
+
 
         if (isGrounded)
         {
@@ -85,7 +99,6 @@ public class GreenCatMovement : MonoBehaviour
         if (floorHit.collider != null)
         {
             isGrounded = true;
-            isJumping = false;
             if (showDebug == true)
             {
                 Debug.DrawRay(transform.position, Vector2.down * rayDistance, Color.green);

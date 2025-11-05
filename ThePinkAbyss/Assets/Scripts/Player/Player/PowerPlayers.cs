@@ -18,10 +18,6 @@ public class PowerPlayers : MonoBehaviour
     [SerializeField] private GameObject bluePlayer;
     [SerializeField] private GameObject currentEnemy;
     [SerializeField] private GameObject walls;
-    [SerializeField] private GameObject greenHitbox;
-    [SerializeField] private GameObject blueHitbox;
-    [SerializeField] private GameObject violetHitbox;
-    [SerializeField] private GameObject orangeHitbox;
     public CameraFollow cameraFollow;
 
     [Header("Skin Steal Settings")]
@@ -68,11 +64,13 @@ public class PowerPlayers : MonoBehaviour
         isAttaking = true;
         isTentacleAttack = true;
         tentacles.SetActive(true);
-        orangeHitbox.SetActive(false);
-        greenHitbox.SetActive(false);
-        blueHitbox.SetActive(false);
-        violetHitbox.SetActive(false);
 
+        if (currentEnemy != null)
+        {
+            Transform hitbox = currentEnemy.transform.Find("EnemyHitbox");
+            if (hitbox != null)
+                hitbox.gameObject.SetActive(false);
+        }
         yield return new WaitForSeconds(tentacleDuration);
 
         tentacles.SetActive(false);
@@ -116,11 +114,6 @@ public class PowerPlayers : MonoBehaviour
         isAttaking = false;
         hasSkin = false;
         canStealSkin = true;
-
-        orangeHitbox.SetActive(true);
-        greenHitbox.SetActive(true);
-        blueHitbox.SetActive(true);
-        violetHitbox.SetActive(true);
     }
 
     void OnTriggerEnter2D(UnityEngine.Collider2D collision)

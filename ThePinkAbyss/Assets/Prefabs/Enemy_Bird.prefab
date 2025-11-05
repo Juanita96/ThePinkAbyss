@@ -238,6 +238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyHealth: 2
+  animator: {fileID: 2764383905637229218}
   enemy: {fileID: 831828899325776382}
 --- !u!95 &2764383905637229218
 Animator:
@@ -306,7 +307,7 @@ MonoBehaviour:
   startPos: {x: 0, y: 0}
   angle: 0
   detectionRadius: 5
-  chaseSpeed: 4
+  chaseSpeed: 3
   player: {fileID: 0}
   isChasing: 0
   rigidBody: {fileID: 34560702265098009}
