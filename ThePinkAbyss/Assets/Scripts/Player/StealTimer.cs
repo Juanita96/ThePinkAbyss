@@ -4,7 +4,7 @@ using UnityEngine.Tilemaps;
 
 public class StealTimer : MonoBehaviour
 {
-
+    [SerializeField] private PowerPlayers powerPlayers;
     [SerializeField] private float timer = 7.0f;
     [SerializeField] private GameObject enemyPlayer;
     [SerializeField] private GameObject player;
@@ -44,5 +44,7 @@ public class StealTimer : MonoBehaviour
         player.SetActive(true);
 
         hud.cooldownActive = false;
+
+        powerPlayers.isOrangeVisible = false;
     }
 }

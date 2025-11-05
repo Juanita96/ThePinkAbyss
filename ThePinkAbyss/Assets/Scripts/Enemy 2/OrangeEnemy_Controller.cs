@@ -25,6 +25,7 @@ public class OrangeEnemy_Controller : MonoBehaviour
     private bool movingRight = true;
     private Rigidbody2D rigidBody;
     private float fireTimer = 0f;
+    [SerializeField] private PowerPlayers powerPlayers;
 
     private void Start()
     {
@@ -35,21 +36,24 @@ public class OrangeEnemy_Controller : MonoBehaviour
 
     private void Update()
     {
-        if (!isChasing)
-        {
-            Patrol();
-        }
-        else
-        {
-            ChasePlayer();
-        }
+            if (!isChasing)
+            {
+                Patrol();
+            }
+            else
+            {
+                if (!powerPlayers.isOrangeVisible)
+                {
+                    ChasePlayer();
+                }
+            }
 
-        DetectPlayer();
+            DetectPlayer();
 
-        if (fireTimer > 0)
-        {
-            fireTimer -= Time.deltaTime;
-        }
+            if (fireTimer > 0)
+            {
+                fireTimer -= Time.deltaTime;
+            }
     }
 
     private void Patrol()

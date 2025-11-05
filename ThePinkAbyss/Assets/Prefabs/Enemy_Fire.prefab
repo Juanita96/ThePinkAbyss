@@ -262,6 +262,7 @@ MonoBehaviour:
   fireCooldown: 3
   isChasing: 0
   fireActive: 0
+  powerPlayers: {fileID: 0}
 --- !u!95 &3915501165800064750
 Animator:
   serializedVersion: 7

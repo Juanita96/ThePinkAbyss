@@ -6318,7 +6318,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1924553079178689128}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6330,7 +6330,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -697, y: 440.6045}
-  m_SizeDelta: {x: 444.56128, y: -91.208984}
+  m_SizeDelta: {x: 444.56128, y: 91.20898}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5951819071599557864
 CanvasRenderer:
@@ -7146,6 +7146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4f1e9040bd6654479f277348443ac9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  powerPlayers: {fileID: 6688012805793049214}
   timer: 7
   enemyPlayer: {fileID: 2809728243031019478}
   player: {fileID: 5990074806691435472}
@@ -17777,6 +17778,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4f1e9040bd6654479f277348443ac9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  powerPlayers: {fileID: 6688012805793049214}
   timer: 7
   enemyPlayer: {fileID: 4897553023534110787}
   player: {fileID: 5990074806691435472}
@@ -18421,6 +18423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4f1e9040bd6654479f277348443ac9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  powerPlayers: {fileID: 6688012805793049214}
   timer: 7
   enemyPlayer: {fileID: 5341808151296124934}
   player: {fileID: 5990074806691435472}
@@ -18798,6 +18801,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4f1e9040bd6654479f277348443ac9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  powerPlayers: {fileID: 6688012805793049214}
   timer: 7
   enemyPlayer: {fileID: 5792883492139184909}
   player: {fileID: 5990074806691435472}
@@ -19261,6 +19265,10 @@ MonoBehaviour:
   bluePlayer: {fileID: 2809728243031019478}
   currentEnemy: {fileID: 0}
   walls: {fileID: 0}
+  greenHitbox: {fileID: 0}
+  blueHitbox: {fileID: 0}
+  violetHitbox: {fileID: 0}
+  orangeHitbox: {fileID: 0}
   cameraFollow: {fileID: 574134083503331155}
   canStealSkin: 1
   collidesEnemy: 0
@@ -19273,6 +19281,7 @@ MonoBehaviour:
   stoleGreen: 0
   stoleOrange: 0
   stoleBlue: 0
+  isOrangeVisible: 0
   enemy: Enemy
   violetEnemy: VioletEnemy
   greenEnemy: GreenEnemy

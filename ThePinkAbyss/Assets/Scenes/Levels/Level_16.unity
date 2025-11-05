@@ -85913,6 +85913,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2347686330333099662, guid: 046c5c40206a40349a6858c205d7555d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 91.20898
+      objectReference: {fileID: 0}
+    - target: {fileID: 2347686330333099662, guid: 046c5c40206a40349a6858c205d7555d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4327709453031207083, guid: 046c5c40206a40349a6858c205d7555d, type: 3}
       propertyPath: walls
       value: 

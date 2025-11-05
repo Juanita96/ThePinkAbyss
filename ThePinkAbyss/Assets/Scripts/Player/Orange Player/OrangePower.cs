@@ -14,13 +14,23 @@ public class OrangePower : MonoBehaviour
     [Header("Power Settings")]
     [SerializeField] private float powerDuration = 1f;
 
-    void Start()
+    private void OnEnable()
     {
         powerInput.action.performed += HandlePowerInput;
     }
 
+    private void OnDisable()
+    {
+        StopAllCoroutines();
+        powerInput.action.performed -= HandlePowerInput;
+    }
+
     void HandlePowerInput(InputAction.CallbackContext context)
     {
+        if (!isActiveAndEnabled)
+        {
+            return;
+        }
         StartCoroutine(powerUse());
     }
 
