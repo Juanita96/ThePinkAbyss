@@ -42,47 +42,26 @@ public class Ramp : MonoBehaviour
 
     private void FindActiveController()
     {
-        
-        if (playerController != null && playerController.gameObject.activeInHierarchy && !playerControllerActive)
-        {
+        playerControllerActive = false;
+        playerGreenControllerActive = false;
+        playerBlueControllerActive = false;
+        playerOrangeControllerActive = false;
+        playerVioletControllerActive = false;
+
+        if (playerController != null && playerController.gameObject.activeInHierarchy)
             playerControllerActive = true;
-            playerGreenControllerActive = false;
-            playerBlueControllerActive = false;
-            playerOrangeControllerActive = false;
-            playerVioletControllerActive = false;
-        }
-        else if (playerGreenController != null && playerGreenController.gameObject.activeInHierarchy && !playerGreenController)
-        {
+
+        if (playerGreenController != null && playerGreenController.gameObject.activeInHierarchy)
             playerGreenControllerActive = true;
-            playerBlueControllerActive = false;
-            playerOrangeControllerActive = false;
-            playerVioletControllerActive = false;
-            playerControllerActive = false;
-        }
-        else if (playerBlue != null && playerBlue.gameObject.activeInHierarchy && !playerBlueControllerActive)
-        {
+
+        if (playerBlue != null && playerBlue.gameObject.activeInHierarchy)
             playerBlueControllerActive = true;
-            playerOrangeControllerActive = false;
-            playerVioletControllerActive = false;
-            playerControllerActive = false;
-            playerGreenControllerActive = false;
-        }
-        else if (playerOrange != null && playerOrange.gameObject.activeInHierarchy && !playerOrangeControllerActive)
-        {
+
+        if (playerOrange != null && playerOrange.gameObject.activeInHierarchy)
             playerOrangeControllerActive = true;
-            playerVioletControllerActive = false;
-            playerControllerActive = false;
-            playerGreenControllerActive = false;
-            playerBlueControllerActive = false;
-        }
-        else if (playerViolet != null && playerViolet.gameObject.activeInHierarchy && !playerVioletControllerActive)
-        {
+
+        if (playerViolet != null && playerViolet.gameObject.activeInHierarchy)
             playerVioletControllerActive = true;
-            playerOrangeControllerActive = false;
-            playerVioletControllerActive = false;
-            playerBlueControllerActive = false;
-            playerOrangeControllerActive = false;
-        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -157,6 +136,25 @@ public class Ramp : MonoBehaviour
             }
         }
     }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("LeftRamp"))
+        {
+            leftRamp = true;
+            rightRamp = false;
+            isOnRamp = true;
+        }
+        else if (collision.gameObject.CompareTag("RightRamp"))
+        {
+            rightRamp = true;
+            leftRamp = false;
+            isOnRamp = true;
+        }
+    }
+
+
+
 
     private void OnCollisionExit2D(Collision2D collision)
     {

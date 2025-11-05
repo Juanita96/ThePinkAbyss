@@ -122,7 +122,7 @@ public class PlayerGreenController : MonoBehaviour
     private void Raycast()
     {
         floorHit = Physics2D.Raycast(transform.position, Vector2.down, rayDistance, groundLayer);
-
+         
         if (floorHit.collider != null)
         {
             isGrounded = true;
