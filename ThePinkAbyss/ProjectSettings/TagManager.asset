@@ -21,6 +21,7 @@ TagManager:
   - Fire
   - Candy
   - Orb
+  - EnemyHitZone
   layers:
   - Default
   - TransparentFX

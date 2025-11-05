@@ -82845,6 +82845,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_Fire
       objectReference: {fileID: 0}
+    - target: {fileID: 6076844672249192854, guid: f332a90dcb71cc143b26926a8489e9e2, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1316825924}
+    - target: {fileID: 6793884199183109990, guid: f332a90dcb71cc143b26926a8489e9e2, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1316825924}
     - target: {fileID: 8895600071307606782, guid: f332a90dcb71cc143b26926a8489e9e2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 56.45463
@@ -86001,6 +86009,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 811051dea4568e844b354a08fc0f1d53, type: 3}
+--- !u!114 &1316825924 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7563785078366299241, guid: 046c5c40206a40349a6858c205d7555d, type: 3}
+  m_PrefabInstance: {fileID: 1284698545}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de89ed3b6ce400245ab47b8aaf6caf05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1385931976 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7333159046492680597, guid: fd2c8357ebb0617448033b11e84f44c1, type: 3}
@@ -86407,6 +86426,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_Cat (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4187982506727017364, guid: 7a1d016be58b9f1449ead4f5e5c61e65, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1316825924}
     - target: {fileID: 7613035400432883757, guid: 7a1d016be58b9f1449ead4f5e5c61e65, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.494284
@@ -87050,6 +87073,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_Cat
       objectReference: {fileID: 0}
+    - target: {fileID: 4187982506727017364, guid: 7a1d016be58b9f1449ead4f5e5c61e65, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 1316825924}
     - target: {fileID: 7613035400432883757, guid: 7a1d016be58b9f1449ead4f5e5c61e65, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.98867

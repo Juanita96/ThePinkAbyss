@@ -77,6 +77,7 @@ public class PowerPlayers : MonoBehaviour
             violetPlayer.SetActive(true);
             currentEnemy.SetActive(false);
             walls.GetComponent<TilemapCollider2D>().enabled = false;
+            player.SetActive(false);
         }
 
         else if (stoleGreen == true)
@@ -84,6 +85,7 @@ public class PowerPlayers : MonoBehaviour
             greenCatPlayer.transform.localPosition = player.transform.localPosition;
             greenCatPlayer.SetActive(true);
             currentEnemy.SetActive(false);
+            player.SetActive(false);
         }
 
         else if (stoleOrange == true)
@@ -91,6 +93,7 @@ public class PowerPlayers : MonoBehaviour
             orangePlayer.transform.localPosition = player.transform.localPosition;
             orangePlayer.SetActive(true);
             currentEnemy.SetActive(false);
+            player.SetActive(false);
         }
 
         else if (stoleBlue == true)
@@ -98,12 +101,11 @@ public class PowerPlayers : MonoBehaviour
             bluePlayer.transform.localPosition = player.transform.localPosition;
             bluePlayer.SetActive(true);
             currentEnemy.SetActive(false);
+            player.SetActive(false);
         }
-
         isAttaking = false;
         hasSkin = false;
         canStealSkin = true;
-        player.SetActive(false);
     }
 
     void OnTriggerEnter2D(UnityEngine.Collider2D collision)
