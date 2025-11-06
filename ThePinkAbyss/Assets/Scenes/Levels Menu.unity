@@ -19977,8 +19977,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1380154741780846765, guid: 9d638bcae8ea32f4a86d4927d19952b3, type: 3}
+      propertyPath: levels.Array.data[0].levelName
+      value: Level_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1380154741780846765, guid: 9d638bcae8ea32f4a86d4927d19952b3, type: 3}
       propertyPath: levels.Array.data[10].isActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1380154741780846765, guid: 9d638bcae8ea32f4a86d4927d19952b3, type: 3}
+      propertyPath: levels.Array.data[15].isActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1380154741780846765, guid: 9d638bcae8ea32f4a86d4927d19952b3, type: 3}
       propertyPath: levels.Array.data[0].candiesCollected

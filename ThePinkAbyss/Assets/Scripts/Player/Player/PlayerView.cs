@@ -9,6 +9,7 @@ public class PlayerView : MonoBehaviour
     [SerializeField] private PlayerController player;
     [SerializeField] private PowerPlayers playerPower;
     [SerializeField] private PlayerAttack playerAttack;
+    public CameraFollow cameraFollow;
 
     private string isGrounded = "isGrounded";
     private string isJumping = "isJumping";
@@ -25,6 +26,7 @@ public class PlayerView : MonoBehaviour
         player = GetComponent<PlayerController>();
         playerPower = GetComponent<PowerPlayers>();
         playerAttack = GetComponent<PlayerAttack>();
+        cameraFollow = FindAnyObjectByType<CameraFollow>();
     }
 
     void Update()
@@ -84,7 +86,8 @@ public class PlayerView : MonoBehaviour
         {
             animator.SetTrigger("Hurt");
         }
-        yield return new WaitForSeconds(1.5f);
+        cameraFollow.StartCoroutine(cameraFollow.FadeOut(2f));
+        yield return new WaitForSeconds(2f);
         SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
     }
 

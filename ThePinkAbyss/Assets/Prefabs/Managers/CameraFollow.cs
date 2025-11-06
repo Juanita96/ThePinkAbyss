@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class CameraFollow : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class CameraFollow : MonoBehaviour
     public GameObject playerOrange;
     public GameObject playerViolet;
 
+    [Header("Visual Effects")]
+    public Image fadeImage;
 
     private bool playerActive = false;
     private bool playerGreenActive = false;
@@ -91,6 +94,40 @@ public class CameraFollow : MonoBehaviour
         camTransform.localRotation = originalRot;
         camTransform.localScale = Vector3.one;
     }
+
+    public IEnumerator FadeOut(float duration)
+    {
+        float elapsedTime = 0f;
+        Color currentColor = fadeImage.color;
+        while (elapsedTime < duration)
+        {
+            float progress = elapsedTime / duration;
+            currentColor.a = Mathf.Lerp(0f, 1f, progress);
+            fadeImage.color = currentColor;
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+        currentColor.a = 1f;
+        fadeImage.color = currentColor;
+    }
+
+    public IEnumerator FadeIn(float duration)
+    {
+        float elapsedTime = 0f;
+        Color currentColor = Color.white;
+        fadeImage.color = currentColor;
+        while (elapsedTime < duration)
+        {
+            float progress = elapsedTime / duration;
+            currentColor.a = Mathf.Lerp(1f, 0f, progress);
+            fadeImage.color = currentColor;
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+        currentColor.a = 0f;
+        fadeImage.color = currentColor;
+    }
+
 
 
 }
