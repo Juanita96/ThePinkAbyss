@@ -10,6 +10,7 @@ public class Pause : MonoBehaviour
     public GameObject pauseMenu;
     public TMP_Text timerText;
     public TMP_Text pausedTimerText;
+    public GameObject configMenu;
 
     public bool isPaused = false;
     
@@ -41,6 +42,17 @@ public class Pause : MonoBehaviour
         isPaused = false;
         Time.timeScale = 1f;
         SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+    }
+
+    public void ConfigMenu()
+    {
+        if (configMenu != null) configMenu.SetActive(true);
+        pauseMenu.SetActive(false);
+    }
+    public void GoBack()
+    {
+        if(configMenu != null) configMenu.SetActive(false);
+        pauseMenu.SetActive(true);
     }
 
 }

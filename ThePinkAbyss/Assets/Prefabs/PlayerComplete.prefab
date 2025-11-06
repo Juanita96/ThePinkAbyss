@@ -17455,9 +17455,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8383514119968477751}
+      - m_Target: {fileID: 11500000, guid: f26ae056b773a3a49bb758aecda25bae, type: 3}
         m_TargetAssemblyTypeName: Pause, Assembly-CSharp
-        m_MethodName: PauseGame
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -19866,6 +19866,7 @@ MonoBehaviour:
   pauseMenu: {fileID: 3434889126027936452}
   timerText: {fileID: 3982308257156062420}
   pausedTimerText: {fileID: 3152853850708086837}
+  configMenu: {fileID: 0}
   isPaused: 0
 --- !u!1 &6836054103621011480
 GameObject:
