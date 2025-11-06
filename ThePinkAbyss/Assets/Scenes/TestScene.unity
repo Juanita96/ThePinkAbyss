@@ -600,11 +600,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!95 &294168041 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 3915501165800064750, guid: f332a90dcb71cc143b26926a8489e9e2, type: 3}
-  m_PrefabInstance: {fileID: 7022331258546398615}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &311970188
 GameObject:
   m_ObjectHideFlags: 0
@@ -1613,11 +1608,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &1013610192 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 2764383905637229218, guid: 87c9f0596a132c94baa74252fde1ce2a, type: 3}
-  m_PrefabInstance: {fileID: 6190072695180142112}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1058706091
 GameObject:
   m_ObjectHideFlags: 0
@@ -1921,11 +1911,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &1559375443 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 1106479646529648470, guid: 7a1d016be58b9f1449ead4f5e5c61e65, type: 3}
-  m_PrefabInstance: {fileID: 701201276839637609}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1610549979
 GameObject:
   m_ObjectHideFlags: 0
@@ -2060,11 +2045,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &1723449047 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 3068450124222368828, guid: 9c25e42bc76dcff4a85a0e2ac0c95be0, type: 3}
-  m_PrefabInstance: {fileID: 8542975434697340661}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1727796519
 GameObject:
   m_ObjectHideFlags: 0
@@ -2809,10 +2789,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 560535935044052123, guid: 7a1d016be58b9f1449ead4f5e5c61e65, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 1559375443}
     - target: {fileID: 977811793232682287, guid: 7a1d016be58b9f1449ead4f5e5c61e65, type: 3}
       propertyPath: m_Name
       value: GreenCuteEnemy
@@ -2857,10 +2833,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8797043612254159791, guid: 7a1d016be58b9f1449ead4f5e5c61e65, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 1559375443}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2880,7 +2852,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 150689716577854549, guid: 046c5c40206a40349a6858c205d7555d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.6
+      value: -22.56
       objectReference: {fileID: 0}
     - target: {fileID: 150689716577854549, guid: 046c5c40206a40349a6858c205d7555d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3027,10 +2999,6 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 9148527352659027891}
-    - target: {fileID: 6762228452071262434, guid: 87c9f0596a132c94baa74252fde1ce2a, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 1013610192}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3044,10 +3012,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 236482971120545494, guid: f332a90dcb71cc143b26926a8489e9e2, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 294168041}
     - target: {fileID: 1453789295256422831, guid: f332a90dcb71cc143b26926a8489e9e2, type: 3}
       propertyPath: m_Name
       value: OrangeCuteEnemy
@@ -3113,10 +3077,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1204028991045477655, guid: 9c25e42bc76dcff4a85a0e2ac0c95be0, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 1723449047}
     - target: {fileID: 4283729930448352156, guid: 9c25e42bc76dcff4a85a0e2ac0c95be0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15.36
@@ -3157,10 +3117,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6475024373518674978, guid: 9c25e42bc76dcff4a85a0e2ac0c95be0, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 1723449047}
     - target: {fileID: 6848105121695753252, guid: 9c25e42bc76dcff4a85a0e2ac0c95be0, type: 3}
       propertyPath: m_Name
       value: BlueCuteEnemy
