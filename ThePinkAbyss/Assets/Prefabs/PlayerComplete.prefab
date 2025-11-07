@@ -19244,7 +19244,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5355397369903705024}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 
@@ -19310,7 +19310,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lives: 3
   player: {fileID: 5990074806691435472}
-  playerview: {fileID: 6199111265422780679}
   blood: {fileID: 5764749616402203727}
 --- !u!114 &9202001917748063091
 MonoBehaviour:
@@ -20263,7 +20262,6 @@ MonoBehaviour:
   player: {fileID: 1817451488305993215}
   playerPower: {fileID: 6688012805793049214}
   playerAttack: {fileID: 5350148261724505436}
-  cameraFollow: {fileID: 574134083503331155}
 --- !u!114 &6688012805793049214
 MonoBehaviour:
   m_ObjectHideFlags: 0

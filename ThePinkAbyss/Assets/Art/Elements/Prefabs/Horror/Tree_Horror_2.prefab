@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 7362389851947025135}
   - component: {fileID: 2658665407442393341}
   - component: {fileID: 386319081523726094}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tree_Horror_2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
