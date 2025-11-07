@@ -457,6 +457,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageCooldown: 1
+  timeToDamage: 0.5
 --- !u!1 &5709649717844162050
 GameObject:
   m_ObjectHideFlags: 0
@@ -549,6 +550,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageCooldown: 1
+  timeToDamage: 0.5
 --- !u!1 &6325705991915413324
 GameObject:
   m_ObjectHideFlags: 0
