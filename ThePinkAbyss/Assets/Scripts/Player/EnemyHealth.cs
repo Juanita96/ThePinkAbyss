@@ -11,6 +11,8 @@ public class EnemyHealth : MonoBehaviour
 
     [SerializeField] private GameObject enemy;
 
+    [SerializeField] private GameObject enemyHitbox;
+
     private string enemyHurt = "Anim_Hurt";
 
     private string attackHitbox = "AttackHitbox";
@@ -25,6 +27,7 @@ public class EnemyHealth : MonoBehaviour
 
     IEnumerator EnemyDeath()
     {
+        enemyHitbox.SetActive(false);
         animator.Play(enemyHurt);
 
         yield return new WaitForSeconds(1);

@@ -418,6 +418,7 @@ MonoBehaviour:
   enemyHealth: 3
   animator: {fileID: 3068450124222368828}
   enemy: {fileID: 6848105121695753252}
+  enemyHitbox: {fileID: 2074478506675601655}
 --- !u!95 &3068450124222368828
 Animator:
   serializedVersion: 7
@@ -1447,20 +1448,20 @@ ParticleSystem:
         - serializedVersion: 3
           time: 0
           value: 1
-          inSlope: -1
-          outSlope: -1
+          inSlope: -0.40000153
+          outSlope: -0.40000153
           tangentMode: 34
           weightedMode: 0
           inWeight: 0
-          outWeight: 0
+          outWeight: 0.33333334
         - serializedVersion: 3
           time: 1
-          value: 0
-          inSlope: -1
-          outSlope: -1
+          value: 0.5999985
+          inSlope: -0.40000153
+          outSlope: -0.40000153
           tangentMode: 34
           weightedMode: 0
-          inWeight: 0
+          inWeight: 0.33333334
           outWeight: 0
         m_PreInfinity: 2
         m_PostInfinity: 2

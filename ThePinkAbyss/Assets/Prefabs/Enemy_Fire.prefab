@@ -243,6 +243,7 @@ MonoBehaviour:
   enemyHealth: 1
   animator: {fileID: 3915501165800064750}
   enemy: {fileID: 1453789295256422831}
+  enemyHitbox: {fileID: 5709649717844162050}
 --- !u!114 &4866412752668748627
 MonoBehaviour:
   m_ObjectHideFlags: 0

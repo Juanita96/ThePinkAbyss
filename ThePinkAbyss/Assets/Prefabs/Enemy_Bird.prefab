@@ -240,6 +240,7 @@ MonoBehaviour:
   enemyHealth: 2
   animator: {fileID: 2764383905637229218}
   enemy: {fileID: 831828899325776382}
+  enemyHitbox: {fileID: 5669587488748502107}
 --- !u!95 &2764383905637229218
 Animator:
   serializedVersion: 7
