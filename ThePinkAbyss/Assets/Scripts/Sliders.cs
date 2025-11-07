@@ -11,25 +11,21 @@ public class Sliders : MonoBehaviour
 
     private void Start()
     {
-  
-        if (audioManager == null)
-        {
-            audioManager = FindAnyObjectByType<AudioManager>();
-        }
+        audioManager = FindAnyObjectByType<AudioManager>();
 
-      
+        
         float musicValue = PlayerPrefs.GetFloat("MusicSliderValue", 1f);
         float sfxValue = PlayerPrefs.GetFloat("SFXSliderValue", 1f);
 
-       
+        
         musicSlider.value = musicValue;
         sfxSlider.value = sfxValue;
 
-  
+       
         audioManager.SetMusicVolume(musicValue);
         audioManager.SetSFXVolume(sfxValue);
 
-    
+      
         musicSlider.onValueChanged.AddListener(SetMusicVolume);
         sfxSlider.onValueChanged.AddListener(SetSFXVolume);
     }

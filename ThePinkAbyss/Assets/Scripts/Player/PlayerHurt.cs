@@ -8,32 +8,24 @@ public class PlayerHurt : MonoBehaviour
     private bool die = false;
 
     [SerializeField] private GameObject player;
-    [SerializeField] private PlayerView playerview;
     public ParticleSystem blood;
+
+    private CameraFollow cameraFollow;
 
     private void Start()
     {
-        playerview = FindAnyObjectByType<PlayerView>();
+        cameraFollow = FindAnyObjectByType<CameraFollow>();
     }
 
     private void Update()
     {
-
-        if (lives <= 0 && die == false)
+        if (lives <= 0 && !die)
         {
             die = true;
             blood.Play();
             Debug.Log("Player Died");
-            bool playerActive = player.activeInHierarchy;
-            if (playerActive)
-            {
-                playerview.Die();
-            }
-            else
-            {
-                StartCoroutine(Die());
 
-            }
+            StartCoroutine(HandleDeath());
         }
     }
 
@@ -43,22 +35,17 @@ public class PlayerHurt : MonoBehaviour
         if (lives > 0)
         {
             blood.Play();
-            bool playerActive = player.activeInHierarchy;
-            if (playerActive) playerview.PlayHurt();
-                
         }
     }
 
-    private IEnumerator Die()
+    private IEnumerator HandleDeath()
     {
-        yield return new WaitForSeconds(1.5f);
-        SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+        
+        if (cameraFollow != null)
+            yield return StartCoroutine(cameraFollow.FadeOut(2f));
+
+        yield return new WaitForSeconds(0.5f);
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
-
-
-
-
-
-
-

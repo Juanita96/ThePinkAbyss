@@ -256,12 +256,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 328d91a0883038a4d8a2140c61ba0c04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
+  moveSpeed: 1.5
   moveRange: 3
   detectionRange: 5
   player: {fileID: 0}
   fireEffect: {fileID: 6979419755355892799}
-  fireDuration: 2
+  fireDuration: 1
   fireCooldown: 3
   isChasing: 0
   fireActive: 0
@@ -5536,7 +5536,7 @@ MonoBehaviour:
     m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 2
+  m_PointLightInnerRadius: 1
   m_PointLightOuterRadius: 2
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
