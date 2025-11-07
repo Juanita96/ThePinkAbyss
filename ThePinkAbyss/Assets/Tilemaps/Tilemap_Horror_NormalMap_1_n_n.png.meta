@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d41addfca905ac740b18184e18bf8af3
+guid: ee4231dc6b9c57a4a9149984221c0a73
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7842661639175637832
-    second: Tilemap_Cute_NormalMap_n_0
+      213: 1225794733696219688
+    second: Tilemap_Horror_NormalMap_1_n_n_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tilemap_Cute_NormalMap_n_0
+      name: Tilemap_Horror_NormalMap_1_n_n_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 84b85a8653bb6dc60800000000000000
-      internalID: 7842661639175637832
+      spriteID: 82af185d0d5e20110800000000000000
+      internalID: 1225794733696219688
       vertices: []
       indices: 
       edges: []
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tilemap_Horror_NormalMap_1_n_n_0: 1225794733696219688
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

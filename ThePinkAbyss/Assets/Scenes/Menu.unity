@@ -150,6 +150,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainMixer: {fileID: 24100000, guid: 861a561a0a2cb1543876f310c551b99a, type: 2}
+  menuMusic: {fileID: 0}
+  gameMusic: {fileID: 0}
 --- !u!82 &191926051
 AudioSource:
   m_ObjectHideFlags: 0
@@ -766,6 +768,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1122251956}
   m_CullTransparentMesh: 1
+--- !u!1001 &1341666053
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1837186079763703476, guid: 319bb19bad17bc54b82ad2688b7e53a0, type: 3}
+      propertyPath: m_Name
+      value: SoundManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 2922909395882247656, guid: 319bb19bad17bc54b82ad2688b7e53a0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 935.1812
+      objectReference: {fileID: 0}
+    - target: {fileID: 2922909395882247656, guid: 319bb19bad17bc54b82ad2688b7e53a0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 547.9098
+      objectReference: {fileID: 0}
+    - target: {fileID: 2922909395882247656, guid: 319bb19bad17bc54b82ad2688b7e53a0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.96915
+      objectReference: {fileID: 0}
+    - target: {fileID: 2922909395882247656, guid: 319bb19bad17bc54b82ad2688b7e53a0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2922909395882247656, guid: 319bb19bad17bc54b82ad2688b7e53a0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2922909395882247656, guid: 319bb19bad17bc54b82ad2688b7e53a0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2922909395882247656, guid: 319bb19bad17bc54b82ad2688b7e53a0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2922909395882247656, guid: 319bb19bad17bc54b82ad2688b7e53a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2922909395882247656, guid: 319bb19bad17bc54b82ad2688b7e53a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2922909395882247656, guid: 319bb19bad17bc54b82ad2688b7e53a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 319bb19bad17bc54b82ad2688b7e53a0, type: 3}
 --- !u!1 &1342148070
 GameObject:
   m_ObjectHideFlags: 0
@@ -1170,7 +1229,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Configuration
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1914166852
@@ -1242,6 +1301,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainMixer: {fileID: 24100000, guid: 861a561a0a2cb1543876f310c551b99a, type: 2}
+  menuMusic: {fileID: 0}
+  gameMusic: {fileID: 0}
 --- !u!82 &1933595479
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1416,6 +1477,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 827497613}
+  - {fileID: 1341666053}
   - {fileID: 7927903290013502534}
   - {fileID: 1342148074}
   - {fileID: 1462029687}

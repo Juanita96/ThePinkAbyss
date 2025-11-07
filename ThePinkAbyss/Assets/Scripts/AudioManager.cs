@@ -1,10 +1,19 @@
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;
+
+    [Header("Mixer")]
     public AudioMixer mainMixer;
+
+    [Header("Music Sources")]
+    public AudioSource menuMusic;
+    public AudioSource gameMusic;
+
+    private string[] menuScenes = { "Menu", "Configuration", "Credits", "Levels Menu" };
 
     void Awake()
     {
@@ -15,6 +24,8 @@ public class AudioManager : MonoBehaviour
         }
         Instance = this;
         DontDestroyOnLoad(gameObject);
+
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
     void Start()
@@ -23,6 +34,47 @@ public class AudioManager : MonoBehaviour
         float sfx = PlayerPrefs.GetFloat("SFXVolume", 0f);
         mainMixer.SetFloat("MusicVolume", music);
         mainMixer.SetFloat("SFXVolume", sfx);
+
+        PlayMenuMusic(); 
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        
+        bool isMenuScene = false;
+        foreach (var name in menuScenes)
+        {
+            if (scene.name.Contains(name))
+            {
+                isMenuScene = true;
+                break;
+            }
+        }
+
+        if (isMenuScene)
+            PlayMenuMusic();
+        else
+            PlayGameMusic();
+    }
+
+    public void PlayMenuMusic()
+    {
+        if (gameMusic.isPlaying) gameMusic.Stop();
+        if (!menuMusic.isPlaying)
+        {
+            menuMusic.loop = true;
+            menuMusic.Play();
+        }
+    }
+
+    public void PlayGameMusic()
+    {
+        if (menuMusic.isPlaying) menuMusic.Stop();
+        if (!gameMusic.isPlaying)
+        {
+            gameMusic.loop = true;
+            gameMusic.Play();
+        }
     }
 
     public void SetMusicVolume(float value)

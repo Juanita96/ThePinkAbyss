@@ -23,6 +23,7 @@ TagManager:
   - Orb
   - EnemyHitZone
   - AttackHitbox
+  - TorchLight
   layers:
   - Default
   - TransparentFX

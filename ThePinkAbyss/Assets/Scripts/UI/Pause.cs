@@ -26,6 +26,8 @@ public class Pause : MonoBehaviour
     {
         isPaused = false;
         Time.timeScale = 1f;
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.SetMusicVolume(1f);
         if (pauseMenu != null) pauseMenu.SetActive(false);
     }
 
@@ -35,6 +37,8 @@ public class Pause : MonoBehaviour
         Time.timeScale = 0f;
         if (pauseMenu != null) pauseMenu.SetActive(true);
         pausedTimerText.text = timerText.text;
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.SetMusicVolume(0.2f);
     }
 
     public void RestartGame()
