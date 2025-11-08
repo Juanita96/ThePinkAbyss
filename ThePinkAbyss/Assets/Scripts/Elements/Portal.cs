@@ -18,6 +18,7 @@ public class Portal : MonoBehaviour
         {
             if (victoryScreen != null && hud.score > 70)
             {
+                AudioManager.Instance.GetComponent<SFX>().PlayPortal();
                 victoryScreen.ShowVictoryScreen();
             }
         }

@@ -37,6 +37,8 @@ public class PlayerBlue : MonoBehaviour
     [SerializeField] public bool isJumping;
     [SerializeField] public bool isFalling;
     [SerializeField] private bool showDebug;
+    private bool hasPlayedLandSound = false;
+    private bool hasPlayedJumpSound = false;
 
     [Header("View Direction")]
     [SerializeField] public float lastViewX = 1f;
@@ -76,6 +78,12 @@ public class PlayerBlue : MonoBehaviour
         if (isGrounded && !isJumping)
         {
             isJumping = true;
+            hasPlayedLandSound = false;
+            if (!hasPlayedJumpSound)
+            {
+                AudioManager.Instance.sfxManager.PlayJump();
+                hasPlayedJumpSound = true;
+            }
             playerRigidbody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
     }
@@ -154,6 +162,13 @@ public class PlayerBlue : MonoBehaviour
         if (nearFloor.collider != null)
         {
             isNearFloor = true;
+            if (!hasPlayedLandSound && isFalling)
+            {
+                AudioManager.Instance.sfxManager.PlayLand();
+                hasPlayedLandSound = true;
+                hasPlayedJumpSound = false;
+            }
+
             if (showDebug == true)
             {
                 Debug.DrawRay(transform.position, Vector2.down * rayNearDist, Color.yellow);

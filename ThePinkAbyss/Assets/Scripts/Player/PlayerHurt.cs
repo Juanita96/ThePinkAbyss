@@ -25,6 +25,8 @@ public class PlayerHurt : MonoBehaviour
             blood.Play();
             Debug.Log("Player Died");
 
+            AudioManager.Instance.GetComponent<SFX>().PlayDeath();
+
             StartCoroutine(HandleDeath());
         }
     }
@@ -35,6 +37,7 @@ public class PlayerHurt : MonoBehaviour
         if (lives > 0)
         {
             blood.Play();
+            AudioManager.Instance.GetComponent<SFX>().PlayPlayerHurt();
         }
     }
 

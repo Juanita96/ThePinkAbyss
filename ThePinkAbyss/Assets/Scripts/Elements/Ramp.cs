@@ -72,6 +72,7 @@ public class Ramp : MonoBehaviour
             {
                 leftRamp = true;
                 isOnRamp = true;
+                AudioManager.Instance.sfxManager.PlayRamp();
                 if (playerControllerActive)
                 {
                 normalSpeed = playerController.moveSpeed;
@@ -106,6 +107,7 @@ public class Ramp : MonoBehaviour
             {
                 rightRamp = true;
                 isOnRamp = true;
+                AudioManager.Instance.sfxManager.PlayRamp();
 
                 if (playerControllerActive)
                 {

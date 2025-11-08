@@ -10,6 +10,11 @@ public class GreenCatMovement : MonoBehaviour
     [SerializeField] private float jumpForce = 5.0f;
     [SerializeField] private float jumpInterval = 2.0f;
     [SerializeField] public bool isJumping = false;
+    [SerializeField] private float detectionRange = 5f;
+    [SerializeField] private float soundCooldown = 3f;
+    private float soundTimer;
+    private Transform player;
+
 
     [Header("Raycast")]
     private RaycastHit2D floorHit;
@@ -30,6 +35,9 @@ public class GreenCatMovement : MonoBehaviour
         rigidBody = GetComponent<Rigidbody2D>();
         startPos = transform.position;
         jumpTimer = jumpInterval;
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        soundTimer = soundCooldown;
+
     }
 
     void Update()
@@ -84,11 +92,25 @@ public class GreenCatMovement : MonoBehaviour
 
             jumpTimer = jumpInterval;
         }
+
+        soundTimer -= Time.deltaTime;
+        if (player != null && soundTimer <= 0f)
+        {
+            float distance = Vector2.Distance(transform.position, player.position);
+            if (distance <= detectionRange)
+            {
+                AudioManager.Instance.sfxManager.PlayEnemyIdleSound("green");
+                soundTimer = soundCooldown;
+            }
+        }
+
+
     }
 
     void Jump()
     {
         isJumping = true;
+        AudioManager.Instance.sfxManager.PlayEnemyPower("green");
         rigidBody.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
     }
 
@@ -113,4 +135,7 @@ public class GreenCatMovement : MonoBehaviour
             }
         }
     }
+
+
+
 }

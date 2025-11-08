@@ -49,6 +49,8 @@ public class PlayerAttack : MonoBehaviour
     {
         isAttacking = true;
 
+        AudioManager.Instance.GetComponent<SFX>().PlayPlayerAttack();
+
         yield return StartCoroutine(playerView.AttackAnimation());
 
         if (playerController.lastViewX == 1)

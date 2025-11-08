@@ -17,6 +17,7 @@ public class Orbs : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             candiesAndOrbsCounter.orbsCollected++;
+            AudioManager.Instance.GetComponent<SFX>().PlayOrbPickup();
         }
     }
 

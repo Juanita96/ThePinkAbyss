@@ -12,30 +12,40 @@ public class VioletEnemy_Controller : MonoBehaviour
     [Header("Detection")]
     [SerializeField] public float detectionRadius = 5f;
     [SerializeField] public float chaseSpeed = 3f;
-    [SerializeField] private Transform player;
-    [SerializeField] private bool isChasing = false;
+    private bool isChasing = false;
+
+    [Header("Sounds")]
+    [SerializeField] private float soundDetectionRange = 5f;
+    [SerializeField] private float soundCooldown = 3f;
+    private float soundTimer;
 
     [SerializeField] private Rigidbody2D rigidBody;
-    [SerializeField] private PlayerHurt playerHurt;
+    private PlayerController playerController;
 
     void Start()
     {
         rigidBody = GetComponent<Rigidbody2D>();
         startPos = transform.position;
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        playerController = FindAnyObjectByType<PlayerController>();
     }
 
     void FixedUpdate()
     {
-        if (player == null) return;
-
-        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
-
-        isChasing = distanceToPlayer <= detectionRadius;
-
-        if (isChasing)
+        if (playerController != null)
         {
-            ChasePlayer();
+            float distanceToPlayer = Vector2.Distance(transform.position, playerController.transform.position);
+            isChasing = distanceToPlayer <= detectionRadius;
+
+            HandleEnemySounds(distanceToPlayer);
+
+            if (isChasing)
+            {
+                ChasePlayer();
+            }
+            else
+            {
+                MoveCircular();
+            }
         }
         else
         {
@@ -54,16 +64,24 @@ public class VioletEnemy_Controller : MonoBehaviour
 
     void ChasePlayer()
     {
-        Vector2 dir = (player.position - transform.position).normalized;
+        Vector2 dir = (playerController.transform.position - transform.position).normalized;
         Vector2 newPos = rigidBody.position + dir * chaseSpeed * Time.deltaTime;
         rigidBody.MovePosition(newPos);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void HandleEnemySounds(float distanceToPlayer)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (soundTimer > 0f)
         {
+            soundTimer -= Time.deltaTime;
+            return;
+        }
 
+        if (distanceToPlayer <= soundDetectionRange)
+        {
+            AudioManager.Instance.sfxManager.PlayEnemyIdleSound("violet");
+            soundTimer = soundCooldown;
         }
     }
+
 }

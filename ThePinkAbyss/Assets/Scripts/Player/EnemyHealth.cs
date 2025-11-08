@@ -39,6 +39,7 @@ public class EnemyHealth : MonoBehaviour
     {
         if (collision.CompareTag(attackHitbox))
         {
+            AudioManager.Instance.sfxManager.PlayEnemyHurt();
             animator.Play(enemyHurt);
         }
     }

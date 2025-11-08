@@ -35,6 +35,9 @@ public class PlayerGreenController : MonoBehaviour
     [SerializeField] public bool isJumping;
     [SerializeField] public bool isFalling;
     [SerializeField] private bool showDebug;
+    private bool hasPlayedLandSound = false;
+    private bool hasPlayedJumpSound = false;
+
 
     private void OnEnable()
     {
@@ -66,14 +69,22 @@ public class PlayerGreenController : MonoBehaviour
         moveInput = context.ReadValue<Vector2>();
     }
 
+   
     private void HandleJumpInput(InputAction.CallbackContext context)
     {
         if (isGrounded && !isJumping)
         {
             isJumping = true;
+            hasPlayedLandSound = false;
+            if (!hasPlayedJumpSound)
+            {
+                AudioManager.Instance.sfxManager.PlayJump();
+                hasPlayedJumpSound = true;
+            }
             playerRigidbody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
     }
+
 
     private void Update()
     {
@@ -148,7 +159,16 @@ public class PlayerGreenController : MonoBehaviour
         if (nearFloor.collider != null)
         {
             isNearFloor = true;
-            if (showDebug == true)
+
+            
+            if (!hasPlayedLandSound && isFalling)
+            {
+                AudioManager.Instance.sfxManager.PlayLand();
+                hasPlayedLandSound = true;
+                hasPlayedJumpSound = false; 
+            }
+
+            if (showDebug)
             {
                 Debug.DrawRay(transform.position, Vector2.down * rayNearDist, Color.yellow);
             }
@@ -156,12 +176,13 @@ public class PlayerGreenController : MonoBehaviour
         else
         {
             isNearFloor = false;
-            if (showDebug == true)
+            if (showDebug)
             {
                 Debug.DrawRay(transform.position, Vector2.down * rayNearDist, Color.blue);
             }
         }
     }
+
 
     private void SpriteFlip()
     {

@@ -17,6 +17,7 @@ public class Lamp : MonoBehaviour
         if (other.CompareTag("PlayerFire"))
         {
             LampLight.SetActive(true);
+            AudioManager.Instance.GetComponent<SFX>().PlayTorch();
         }
         else if (other.CompareTag("Player"))
         {

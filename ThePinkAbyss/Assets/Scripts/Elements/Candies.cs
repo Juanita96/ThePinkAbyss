@@ -15,6 +15,7 @@ public class Candies : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             candiesAndOrbsCounter.candyCollected++;
+            AudioManager.Instance.GetComponent<SFX>().PlayCandyPickup();
         }
     }
 }

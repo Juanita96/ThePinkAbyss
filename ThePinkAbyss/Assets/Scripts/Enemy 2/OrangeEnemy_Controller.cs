@@ -21,6 +21,11 @@ public class OrangeEnemy_Controller : MonoBehaviour
     [SerializeField] public bool isChasing = false;
     [SerializeField] public bool fireActive = false;
 
+    [Header("Sounds")]
+    [SerializeField] private float soundDetectionRange = 5f;
+    [SerializeField] private float soundCooldown = 3f;
+    private float soundTimer;
+
     private Vector2 startPos;
     private bool movingRight = true;
     private Rigidbody2D rigidBody;
@@ -49,8 +54,9 @@ public class OrangeEnemy_Controller : MonoBehaviour
             }
 
             DetectPlayer();
+            HandleEnemySounds();
 
-            if (fireTimer > 0)
+        if (fireTimer > 0)
             {
                 fireTimer -= Time.deltaTime;
             }
@@ -97,6 +103,7 @@ public class OrangeEnemy_Controller : MonoBehaviour
 
         if (!fireActive && fireTimer <= 0)
         {
+            AudioManager.Instance.sfxManager.PlayEnemyPower("orange");
             StartCoroutine(ActiveFire());
             fireTimer = fireCooldown;
         }
@@ -124,4 +131,27 @@ public class OrangeEnemy_Controller : MonoBehaviour
         }
     }
 
-} 
+    private void HandleEnemySounds()
+    {
+        if (player == null)
+            return;
+
+        float dist = Vector2.Distance(transform.position, player.position);
+
+        if (dist <= soundDetectionRange)
+        {
+            if (soundTimer > 0)
+            {
+                soundTimer -= Time.deltaTime;
+                return;
+            }
+
+
+            AudioManager.Instance.sfxManager.PlayEnemyIdleSound("orange");
+
+            soundTimer = soundCooldown;
+        }
+    }
+
+
+}

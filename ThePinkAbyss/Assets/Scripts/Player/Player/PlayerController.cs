@@ -39,6 +39,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] public bool isFalling;
     [SerializeField] public bool isMoving;
     [SerializeField] private bool showDebug;
+    private bool wasGrounded;
+
 
     [Header("View Direction")]
     [SerializeField] public float lastViewX = 1f;
@@ -83,6 +85,7 @@ public class PlayerController : MonoBehaviour
         if (isGrounded && !isJumping)
         {
             isJumping = true;
+            AudioManager.Instance.sfxManager.PlayJump();
             playerRigidbody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
     }
@@ -155,13 +158,18 @@ public class PlayerController : MonoBehaviour
     private void Raycast()
     {
         floorHit = Physics2D.Raycast(transform.position, Vector2.down, rayDistance, groundLayer);
-        
+        bool wasPreviouslyGrounded = isGrounded;
+
         if (floorHit.collider != null)
         {
             isGrounded = true;
             if (showDebug == true)
             {
                 Debug.DrawRay(transform.position, Vector2.down * rayDistance, Color.green);
+            }
+            if (isGrounded && !wasPreviouslyGrounded)
+            {
+                AudioManager.Instance.sfxManager.PlayLand();
             }
         }
         else
@@ -173,6 +181,8 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+
+
 
     private void RayNearFloor()
     {

@@ -79,7 +79,8 @@ public class CameraFollow : MonoBehaviour
         Vector3 originalPos = camTransform.localPosition;
         Quaternion originalRot = camTransform.localRotation;
 
-        
+        AudioManager.Instance.GetComponent<SFX>().PlayPlayerPower();
+
         camTransform.localScale = Vector3.one * 1.05f;
         yield return new WaitForSeconds(0.1f);
 
@@ -97,6 +98,7 @@ public class CameraFollow : MonoBehaviour
 
     public IEnumerator FadeOut(float duration)
     {
+        AudioManager.Instance.GetComponent<SFX>().PlayDeathTransition();
         float elapsedTime = 0f;
         Color currentColor = fadeImage.color;
         while (elapsedTime < duration)
