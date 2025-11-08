@@ -17,7 +17,6 @@ public class Lamp : MonoBehaviour
         if (other.CompareTag("PlayerFire"))
         {
             LampLight.SetActive(true);
-
         }
         else if (other.CompareTag("Player"))
         {
