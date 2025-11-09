@@ -29,6 +29,12 @@ public class VioletEnemy_Controller : MonoBehaviour
         playerController = FindAnyObjectByType<PlayerController>();
     }
 
+    void OnEnable()
+    {
+        soundTimer = soundCooldown;
+    }
+
+
     void FixedUpdate()
     {
         if (playerController != null)
@@ -36,7 +42,10 @@ public class VioletEnemy_Controller : MonoBehaviour
             float distanceToPlayer = Vector2.Distance(transform.position, playerController.transform.position);
             isChasing = distanceToPlayer <= detectionRadius;
 
-            HandleEnemySounds(distanceToPlayer);
+            if (distanceToPlayer <= soundDetectionRange && rigidBody != null)
+            {
+                HandleEnemySounds(distanceToPlayer);
+            }
 
             if (isChasing)
             {

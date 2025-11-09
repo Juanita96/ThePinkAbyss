@@ -202,6 +202,8 @@ MonoBehaviour:
   jumpForce: 15
   jumpInterval: 5
   isJumping: 0
+  detectionRange: 5
+  soundCooldown: 3
   rayDistance: 1.7
   isGrounded: 0
   groundLayer:
@@ -447,6 +449,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageCooldown: 1
+  timeToDamage: 0.5
 --- !u!1 &1479945242191013883
 GameObject:
   m_ObjectHideFlags: 0
@@ -494,9 +497,9 @@ MonoBehaviour:
   m_ComponentVersion: 2
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.5
+  m_FalloffIntensity: 0.912
   m_Color: {r: 0.42420337, g: 1, b: 0.0047169924, a: 1}
-  m_Intensity: 0.8
+  m_Intensity: 0.3
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 000000005f8bf93e29d0c2fbbd9f046965fe29655981fe3b4556f29efbdcbeb6b73a3be835e2b28da39985ac
@@ -519,8 +522,8 @@ MonoBehaviour:
     m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 0
-  m_PointLightOuterRadius: 5
+  m_PointLightInnerRadius: 0.65
+  m_PointLightOuterRadius: 4
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1

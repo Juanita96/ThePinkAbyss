@@ -27794,7 +27794,7 @@ PrefabInstance:
     - target: {fileID: 434481323565580191, guid: d3e52fe7f1015fc46b520b8a8b650b6a, type: 3}
       propertyPath: finalTime
       value: 
-      objectReference: {fileID: 897952852}
+      objectReference: {fileID: 1914118425}
     - target: {fileID: 434481323565580191, guid: d3e52fe7f1015fc46b520b8a8b650b6a, type: 3}
       propertyPath: victoryScreen
       value: 
@@ -28880,6 +28880,10 @@ PrefabInstance:
       propertyPath: configMenu
       value: 
       objectReference: {fileID: 311127340}
+    - target: {fileID: 8383514119968477751, guid: 046c5c40206a40349a6858c205d7555d, type: 3}
+      propertyPath: pausedTimerText
+      value: 
+      objectReference: {fileID: 1914118425}
     - target: {fileID: 9074492002859211931, guid: 046c5c40206a40349a6858c205d7555d, type: 3}
       propertyPath: m_Size.y
       value: 1.6950788
@@ -28897,6 +28901,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 046c5c40206a40349a6858c205d7555d, type: 3}
+--- !u!114 &1914118425 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1110180533693888038, guid: 046c5c40206a40349a6858c205d7555d, type: 3}
+  m_PrefabInstance: {fileID: 1914118424}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1931648176
 PrefabInstance:
   m_ObjectHideFlags: 0
