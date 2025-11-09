@@ -360,6 +360,7 @@ GameObject:
   - component: {fileID: 926633106}
   - component: {fileID: 926633105}
   - component: {fileID: 926633104}
+  - component: {fileID: 926633107}
   m_Layer: 5
   m_Name: Credits_Button
   m_TagString: Untagged
@@ -442,6 +443,18 @@ MonoBehaviour:
           m_StringArgument: Credits
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 935637877}
+        m_TargetAssemblyTypeName: LoadScene, Assembly-CSharp
+        m_MethodName: PlayClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &926633105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -480,6 +493,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 926633102}
   m_CullTransparentMesh: 1
+--- !u!114 &926633107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926633102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 935637877}
+          m_TargetAssemblyTypeName: LoadScene, Assembly-CSharp
+          m_MethodName: PlayHover
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!114 &935637877 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4288371092100616868, guid: 53e6925fd7e053846943e395ba6fa1a6, type: 3}
@@ -503,6 +545,7 @@ GameObject:
   - component: {fileID: 1122251960}
   - component: {fileID: 1122251959}
   - component: {fileID: 1122251958}
+  - component: {fileID: 1122251961}
   m_Layer: 5
   m_Name: Play_Button
   m_TagString: Untagged
@@ -585,6 +628,30 @@ MonoBehaviour:
           m_StringArgument: Levels Menu
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 935637877}
+        m_TargetAssemblyTypeName: LoadScene, Assembly-CSharp
+        m_MethodName: PlayPlay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 935637877}
+        m_TargetAssemblyTypeName: LoadScene, Assembly-CSharp
+        m_MethodName: PlayClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1122251959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -623,6 +690,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1122251956}
   m_CullTransparentMesh: 1
+--- !u!114 &1122251961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122251956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 935637877}
+          m_TargetAssemblyTypeName: LoadScene, Assembly-CSharp
+          m_MethodName: PlayHover
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1001 &1341666053
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -631,6 +727,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1323754381670826337, guid: 319bb19bad17bc54b82ad2688b7e53a0, type: 3}
+      propertyPath: sfxManager
+      value: 
+      objectReference: {fileID: 1785834134}
     - target: {fileID: 1837186079763703476, guid: 319bb19bad17bc54b82ad2688b7e53a0, type: 3}
       propertyPath: m_Name
       value: SoundManager
@@ -801,6 +901,7 @@ GameObject:
   - component: {fileID: 1358331011}
   - component: {fileID: 1358331010}
   - component: {fileID: 1358331009}
+  - component: {fileID: 1358331012}
   m_Layer: 5
   m_Name: Exit_Button
   m_TagString: Untagged
@@ -883,6 +984,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 935637877}
+        m_TargetAssemblyTypeName: LoadScene, Assembly-CSharp
+        m_MethodName: PlayClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1358331010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -921,6 +1034,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1358331007}
   m_CullTransparentMesh: 1
+--- !u!114 &1358331012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358331007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 935637877}
+          m_TargetAssemblyTypeName: LoadScene, Assembly-CSharp
+          m_MethodName: PlayHover
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1462029684
 GameObject:
   m_ObjectHideFlags: 0
@@ -1022,11 +1164,11 @@ MonoBehaviour:
   playerAttack: {fileID: 8300000, guid: e9316d33cc5af4c418247d9d4eca052e, type: 3}
   playerPower: {fileID: 8300000, guid: 6b53d3f86c04b0b4a95d3891a105a6fc, type: 3}
   playerHurt: {fileID: 8300000, guid: 3b07e667f9df09e45822c68373a44d5f, type: 3}
-  enemyHurt: {fileID: 8300000, guid: d4f1dfb54da1ee74098ed52a8158cee6, type: 3}
+  enemyHurt: {fileID: 8300000, guid: ea152335130985b4497bd5f19ebffed5, type: 3}
   candyPickup: {fileID: 8300000, guid: 93d7c35262f1bff48b82595e0aa820ab, type: 3}
   orbPickup: {fileID: 8300000, guid: 6c8aeb03819b27f4bb9778c1d132b96c, type: 3}
   portal: {fileID: 8300000, guid: 9584192405c1d0845b263df1cf3388f5, type: 3}
-  ramp: {fileID: 8300000, guid: d4f1dfb54da1ee74098ed52a8158cee6, type: 3}
+  ramp: {fileID: 8300000, guid: d2abc5451a383844890d9ebd8a471135, type: 3}
   torch: {fileID: 8300000, guid: 3f197fe9351573d4b9621d6cada579d3, type: 3}
   death: {fileID: 8300000, guid: d4f1dfb54da1ee74098ed52a8158cee6, type: 3}
   darkness: {fileID: 8300000, guid: 6b8caada95de8cf469e622a019380e54, type: 3}
@@ -1040,39 +1182,49 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 1c201738e4d5cf3409feed1f0b64f008, type: 3}
   - {fileID: 8300000, guid: 01ffa5dd3e2e0e744bf8331df80b4ad8, type: 3}
   - {fileID: 8300000, guid: fe5547b2a3c8c5940aadd4eea9f69476, type: 3}
-  enemyOrange: []
-  enemyViolet: []
-  enemyBlue: []
-  powerGreen: []
-  powerOrange: []
+  enemyOrange:
+  - {fileID: 8300000, guid: ef0fa0ed0941bad4188b8570ec617303, type: 3}
+  enemyViolet:
+  - {fileID: 8300000, guid: 5273ccea3cc4ef24c9310b47c18159fc, type: 3}
+  enemyBlue:
+  - {fileID: 8300000, guid: 98d036bd63361ac428e68f0887c16dcb, type: 3}
+  powerGreen:
+  - {fileID: 8300000, guid: cc9cee82383e5a34b8fdd0ee71315366, type: 3}
+  powerOrange:
+  - {fileID: 8300000, guid: d604b4546d6d4d249a0e8b20f4356b26, type: 3}
+  - {fileID: 8300000, guid: 396ecce2e5079fa42897140551a538eb, type: 3}
   powerViolet: []
-  powerBlue: []
-  uiHoverIntensity: 0.25
-  uiPlayIntensity: 0.35
+  powerBlue:
+  - {fileID: 8300000, guid: e4ad4b015650291488dda6bf42939166, type: 3}
+  - {fileID: 8300000, guid: 39815b886e1ced44cb1c8db33e930472, type: 3}
+  - {fileID: 8300000, guid: 1708ec2923349a7488210b2df8c150f5, type: 3}
+  - {fileID: 8300000, guid: f2627f17614c55b4da183962d3609b61, type: 3}
+  uiHoverIntensity: 0.53
+  uiPlayIntensity: 1
   deathTransitionIntensity: 0.5
-  uiClickIntensity: 0.4
-  splashIntensity: 0.3
-  jumpIntensity: 0.25
-  landIntensity: 0.25
+  uiClickIntensity: 0.76
+  splashIntensity: 1
+  jumpIntensity: 0.3
+  landIntensity: 0.3
   playerAttackIntensity: 0.35
   playerHurtIntensity: 0.35
   deathIntensity: 0.5
   playerPowerIntensity: 0.35
-  candyPickupIntensity: 0.1
-  orbPickupIntensity: 0.1
+  candyPickupIntensity: 0.35
+  orbPickupIntensity: 0.23
   portalIntensity: 0.5
-  rampIntensity: 0.2
-  torchIntensity: 0.2
+  rampIntensity: 0.32
+  torchIntensity: 0.32
   darknessIntensity: 0.35
   enemyHurtIntensity: 0.25
-  enemyGreenIntensity: 0.1
-  enemyOrangeIntensity: 0.1
-  enemyVioletIntensity: 0.1
-  enemyBlueIntensity: 0.1
-  powerGreenIntensity: 0.35
-  powerOrangeIntensity: 0.35
-  powerVioletIntensity: 0.35
-  powerBlueIntensity: 0.35
+  enemyGreenIntensity: 0.15
+  enemyOrangeIntensity: 0.15
+  enemyVioletIntensity: 0.15
+  enemyBlueIntensity: 0.15
+  powerGreenIntensity: 0.2
+  powerOrangeIntensity: 0.2
+  powerVioletIntensity: 0.2
+  powerBlueIntensity: 0.2
 --- !u!1 &1914166849
 GameObject:
   m_ObjectHideFlags: 0
@@ -1085,6 +1237,7 @@ GameObject:
   - component: {fileID: 1914166853}
   - component: {fileID: 1914166852}
   - component: {fileID: 1914166851}
+  - component: {fileID: 1914166854}
   m_Layer: 5
   m_Name: Config_Button
   m_TagString: Untagged
@@ -1167,6 +1320,18 @@ MonoBehaviour:
           m_StringArgument: Configuration
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 935637877}
+        m_TargetAssemblyTypeName: LoadScene, Assembly-CSharp
+        m_MethodName: PlayClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1914166852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1205,6 +1370,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1914166849}
   m_CullTransparentMesh: 1
+--- !u!114 &1914166854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914166849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 935637877}
+          m_TargetAssemblyTypeName: LoadScene, Assembly-CSharp
+          m_MethodName: PlayHover
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1001 &7927903290013502534
 PrefabInstance:
   m_ObjectHideFlags: 0

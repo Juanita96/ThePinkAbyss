@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SFX : MonoBehaviour
 {
@@ -81,6 +82,23 @@ public class SFX : MonoBehaviour
             sfxSource = gameObject.AddComponent<AudioSource>();
         }
         audioManager = AudioManager.Instance;
+    }
+
+
+    public bool CanPlayEnemySound()
+    {
+        string sceneName = SceneManager.GetActiveScene().name;
+
+
+        string[] blockedScenes = { "Menu", "SplashScreen", "Credits", "Configuration", "Level Menu" };
+
+        foreach (string s in blockedScenes)
+        {
+            if (sceneName.Contains(s))
+                return false;
+        }
+
+        return true;
     }
 
     public void PlaySFX(AudioClip clip, float baseIntensity, float pitchVariation = 0f)
@@ -198,6 +216,7 @@ public class SFX : MonoBehaviour
 
     public void PlayEnemyIdleSound(string color)
     {
+        if (!CanPlayEnemySound()) return;
         switch (color.ToLower())
         {
             case "green":
@@ -240,6 +259,7 @@ public class SFX : MonoBehaviour
         }
     }
 
+    
 
 
 }

@@ -103,7 +103,15 @@ public class OrangeEnemy_Controller : MonoBehaviour
 
         if (!fireActive && fireTimer <= 0)
         {
-            AudioManager.Instance.sfxManager.PlayEnemyPower("orange");
+            if (player != null)
+            {
+                float distance = Vector2.Distance(transform.position, player.position);
+                if (distance <= soundDetectionRange)
+                {
+                    AudioManager.Instance.sfxManager.PlayEnemyPower("orange");
+                }
+            }
+
             StartCoroutine(ActiveFire());
             fireTimer = fireCooldown;
         }

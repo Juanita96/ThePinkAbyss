@@ -110,9 +110,19 @@ public class GreenCatMovement : MonoBehaviour
     void Jump()
     {
         isJumping = true;
-        AudioManager.Instance.sfxManager.PlayEnemyPower("green");
+
+        if (player != null)
+        {
+            float distance = Vector2.Distance(transform.position, player.position);
+            if (distance <= detectionRange)
+            {
+                AudioManager.Instance.sfxManager.PlayEnemyPower("green");
+            }
+        }
+
         rigidBody.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
     }
+
 
     private void Raycast()
     {

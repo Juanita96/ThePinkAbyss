@@ -65,7 +65,15 @@ public class BlueEnemy_Controller : MonoBehaviour
             if (waterParticles != null)
             {
                 waterParticles.SetActive(true);
-                AudioManager.Instance.sfxManager.PlayEnemyPower("blue");
+                if (player != null)
+                {
+                    float distance = Vector2.Distance(transform.position, player.position);
+                    if (distance <= soundDetectionRange)
+                    {
+                        AudioManager.Instance.sfxManager.PlayEnemyPower("blue");
+                    }
+                }
+
             }
 
             yield return new WaitForSeconds(damageDuration);
