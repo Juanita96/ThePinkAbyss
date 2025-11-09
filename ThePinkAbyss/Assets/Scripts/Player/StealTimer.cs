@@ -9,6 +9,7 @@ public class StealTimer : MonoBehaviour
     [SerializeField] private GameObject enemyPlayer;
     [SerializeField] private GameObject player;
     [SerializeField] private GameObject walls;
+    [SerializeField] private PlayerController playerController;
     public CameraFollow cameraFollow;
     public HUD hud;
 
@@ -40,6 +41,8 @@ public class StealTimer : MonoBehaviour
         enemyPlayer.SetActive(false);
 
         cameraFollow.StartCoroutine(cameraFollow.JakeCamera());
+
+        playerController.moveInput = Vector2.zero;
 
         player.SetActive(true);
 

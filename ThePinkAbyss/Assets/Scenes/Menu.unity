@@ -1200,7 +1200,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 1708ec2923349a7488210b2df8c150f5, type: 3}
   - {fileID: 8300000, guid: f2627f17614c55b4da183962d3609b61, type: 3}
   uiHoverIntensity: 0.53
-  uiPlayIntensity: 1
+  uiPlayIntensity: 0.7
   deathTransitionIntensity: 0.5
   uiClickIntensity: 0.76
   splashIntensity: 1
@@ -1219,7 +1219,7 @@ MonoBehaviour:
   enemyHurtIntensity: 0.25
   enemyGreenIntensity: 0.15
   enemyOrangeIntensity: 0.15
-  enemyVioletIntensity: 0.15
+  enemyVioletIntensity: 0
   enemyBlueIntensity: 0.15
   powerGreenIntensity: 0.2
   powerOrangeIntensity: 0.2

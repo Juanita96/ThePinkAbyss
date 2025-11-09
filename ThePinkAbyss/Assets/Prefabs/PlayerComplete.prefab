@@ -7603,6 +7603,7 @@ MonoBehaviour:
   enemyPlayer: {fileID: 2809728243031019478}
   player: {fileID: 5990074806691435472}
   walls: {fileID: 0}
+  playerController: {fileID: 1817451488305993215}
   cameraFollow: {fileID: 574134083503331155}
   hud: {fileID: 7202038584431266809}
 --- !u!114 &342071258779683440
@@ -18572,6 +18573,7 @@ MonoBehaviour:
   enemyPlayer: {fileID: 4897553023534110787}
   player: {fileID: 5990074806691435472}
   walls: {fileID: 0}
+  playerController: {fileID: 1817451488305993215}
   cameraFollow: {fileID: 574134083503331155}
   hud: {fileID: 7202038584431266809}
 --- !u!114 &8712885990555296299
@@ -18824,7 +18826,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 132, y: 120}
+  m_AnchoredPosition: {x: 132, y: 141}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7026226403226782594
@@ -18855,7 +18857,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c926b3636a5d1f54c83a247706a6f7fe, type: 2}
   m_sharedMaterial: {fileID: -7543579951459290539, guid: c926b3636a5d1f54c83a247706a6f7fe, type: 2}
@@ -19353,6 +19357,7 @@ MonoBehaviour:
   enemyPlayer: {fileID: 5341808151296124934}
   player: {fileID: 5990074806691435472}
   walls: {fileID: 0}
+  playerController: {fileID: 1817451488305993215}
   cameraFollow: {fileID: 574134083503331155}
   hud: {fileID: 7202038584431266809}
 --- !u!114 &4267951041582000563
@@ -20043,6 +20048,7 @@ MonoBehaviour:
   enemyPlayer: {fileID: 5792883492139184909}
   player: {fileID: 5990074806691435472}
   walls: {fileID: 0}
+  playerController: {fileID: 1817451488305993215}
   cameraFollow: {fileID: 574134083503331155}
   hud: {fileID: 7202038584431266809}
 --- !u!114 &777375067349250167
