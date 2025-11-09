@@ -1,0 +1,281 @@
+fileFormatVersion: 2
+guid: 7b1fc1e87892e674f874a937098ff882
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2477304323910666761
+    second: Sign 6_0
+  - first:
+      213: -2601674503327262881
+    second: Sign 6_1
+  - first:
+      213: 4692789048013916081
+    second: Sign 6_2
+  - first:
+      213: 288786838684727975
+    second: Sign 6_3
+  - first:
+      213: -343714329951065045
+    second: Sign 6_4
+  - first:
+      213: 2053730889869309126
+    second: Sign 6_5
+  - first:
+      213: -3284800364389028462
+    second: Sign 6_6
+  - first:
+      213: 3265680575415030376
+    second: Sign 6_7
+  - first:
+      213: 5490424618966819272
+    second: Sign 6_8
+  - first:
+      213: 7169186914264527004
+    second: Sign 6_9
+  - first:
+      213: 1040756515221120040
+    second: Sign 6_10
+  - first:
+      213: 8979100324065309384
+    second: Sign 6_11
+  - first:
+      213: 7476153442062976466
+    second: Sign 6_12
+  - first:
+      213: -5065278842325588833
+    second: Sign 6_13
+  - first:
+      213: -7927004200587349212
+    second: Sign 6_14
+  - first:
+      213: -1144353170147916598
+    second: Sign 6_15
+  - first:
+      213: -35517767375588503
+    second: Sign 6_16
+  - first:
+      213: -464131226838217683
+    second: Sign 6_17
+  - first:
+      213: 5526984365527036546
+    second: Sign 6_18
+  - first:
+      213: -4758303301304981013
+    second: Sign 6_19
+  - first:
+      213: -2409669273876946704
+    second: Sign 6_20
+  - first:
+      213: 1800250908980224111
+    second: Sign 6_21
+  - first:
+      213: 9207153891755606726
+    second: Sign 6_22
+  - first:
+      213: -6667349813752672478
+    second: Sign 6_23
+  - first:
+      213: 32542436248558528
+    second: Sign 6_24
+  - first:
+      213: 3618561378967149581
+    second: Sign 6_25
+  - first:
+      213: -4397966558053573622
+    second: Sign 6_26
+  - first:
+      213: -8728842056480601599
+    second: Sign 6_27
+  - first:
+      213: 4854112755298811371
+    second: Sign 6_28
+  - first:
+      213: 1218424049270522718
+    second: Sign 6_29
+  - first:
+      213: 6641015003458095546
+    second: Sign 6_30
+  - first:
+      213: 1321085075454210037
+    second: Sign 6_31
+  - first:
+      213: 3861881742439831617
+    second: Sign 6_32
+  - first:
+      213: -3655551295710808964
+    second: Sign 6_33
+  - first:
+      213: 5843819904838281921
+    second: Sign 6_34
+  - first:
+      213: -2733799703012397339
+    second: Sign 6_35
+  - first:
+      213: -7590818987669246912
+    second: Sign 6_36
+  - first:
+      213: 229943268904476037
+    second: Sign 6_37
+  - first:
+      213: -581745336491453310
+    second: Sign 6_38
+  - first:
+      213: 3353287706217535040
+    second: Sign 6_39
+  - first:
+      213: 6872415111729394246
+    second: Sign 6_40
+  - first:
+      213: 3970798095223861642
+    second: Sign 6_41
+  - first:
+      213: 2595485774018991245
+    second: Sign 6_42
+  - first:
+      213: 7896486866238506181
+    second: Sign 6_43
+  - first:
+      213: -8027388352765948178
+    second: Sign 6_44
+  - first:
+      213: -8760865148435315527
+    second: Sign 6_45
+  - first:
+      213: -1565449876443490927
+    second: Sign 6_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sign 6_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 977
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a0c334827216220800000000000000
+      internalID: 2477304323910666761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1006f0b083aacad429a5f90ef350e118
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sign 6_0: 2477304323910666761
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

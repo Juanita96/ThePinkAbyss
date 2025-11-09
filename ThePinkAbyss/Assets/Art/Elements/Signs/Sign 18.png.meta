@@ -1,0 +1,410 @@
+fileFormatVersion: 2
+guid: f6b5a977c71cc5247b1bef8fcd51f55b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8689062740634148736
+    second: Sign 18_0
+  - first:
+      213: -898199029827824152
+    second: Sign 18_1
+  - first:
+      213: 2556645339560431560
+    second: Sign 18_2
+  - first:
+      213: -1795862653161710254
+    second: Sign 18_3
+  - first:
+      213: -6710842425830962950
+    second: Sign 18_4
+  - first:
+      213: -229552674039005925
+    second: Sign 18_5
+  - first:
+      213: 1015676081120008094
+    second: Sign 18_6
+  - first:
+      213: 7195286514379156668
+    second: Sign 18_7
+  - first:
+      213: -752126929793221535
+    second: Sign 18_8
+  - first:
+      213: 7055105268896260316
+    second: Sign 18_9
+  - first:
+      213: 7596279092069280900
+    second: Sign 18_10
+  - first:
+      213: 1684964133713921497
+    second: Sign 18_11
+  - first:
+      213: -6263757275417755185
+    second: Sign 18_12
+  - first:
+      213: -5024622252941280225
+    second: Sign 18_13
+  - first:
+      213: -770773221492467346
+    second: Sign 18_14
+  - first:
+      213: -3188765082324912685
+    second: Sign 18_15
+  - first:
+      213: 386411011893420011
+    second: Sign 18_16
+  - first:
+      213: 2108719359422015121
+    second: Sign 18_17
+  - first:
+      213: 6411661774268857785
+    second: Sign 18_18
+  - first:
+      213: 6598155033730100687
+    second: Sign 18_19
+  - first:
+      213: 6245679381965841994
+    second: Sign 18_20
+  - first:
+      213: 4983658896789039156
+    second: Sign 18_21
+  - first:
+      213: -2373663490205748296
+    second: Sign 18_22
+  - first:
+      213: 2612653041638193448
+    second: Sign 18_23
+  - first:
+      213: 3247522001618395618
+    second: Sign 18_24
+  - first:
+      213: -676312298766089601
+    second: Sign 18_25
+  - first:
+      213: 5674134277145372679
+    second: Sign 18_26
+  - first:
+      213: 7817296024996355613
+    second: Sign 18_27
+  - first:
+      213: 2499057543096429756
+    second: Sign 18_28
+  - first:
+      213: 4986881235214898501
+    second: Sign 18_29
+  - first:
+      213: 3119752305663015935
+    second: Sign 18_30
+  - first:
+      213: -793942879182391650
+    second: Sign 18_31
+  - first:
+      213: -6434230408069786781
+    second: Sign 18_32
+  - first:
+      213: 4056055036451885165
+    second: Sign 18_33
+  - first:
+      213: 8771407715317434923
+    second: Sign 18_34
+  - first:
+      213: 5556021061956491533
+    second: Sign 18_35
+  - first:
+      213: -1368338346339683000
+    second: Sign 18_36
+  - first:
+      213: -4496525047174034551
+    second: Sign 18_37
+  - first:
+      213: 579728559576469840
+    second: Sign 18_38
+  - first:
+      213: -2106059909400259592
+    second: Sign 18_39
+  - first:
+      213: 475597907854645437
+    second: Sign 18_40
+  - first:
+      213: 3688013425179675345
+    second: Sign 18_41
+  - first:
+      213: -7941829522865722216
+    second: Sign 18_42
+  - first:
+      213: 6869847081483098115
+    second: Sign 18_43
+  - first:
+      213: -427646718937094325
+    second: Sign 18_44
+  - first:
+      213: 3041994819683335968
+    second: Sign 18_45
+  - first:
+      213: -7143186779359816900
+    second: Sign 18_46
+  - first:
+      213: -3061970614812353183
+    second: Sign 18_47
+  - first:
+      213: -2073844835180255219
+    second: Sign 18_48
+  - first:
+      213: 3781567739532609812
+    second: Sign 18_49
+  - first:
+      213: 7823690156538986534
+    second: Sign 18_50
+  - first:
+      213: 8333135527170515768
+    second: Sign 18_51
+  - first:
+      213: -3629413919761866059
+    second: Sign 18_52
+  - first:
+      213: 9043416363381555032
+    second: Sign 18_53
+  - first:
+      213: -2082145315524921313
+    second: Sign 18_54
+  - first:
+      213: -4468142941504208954
+    second: Sign 18_55
+  - first:
+      213: 2920322545913163554
+    second: Sign 18_56
+  - first:
+      213: -5758862223180003120
+    second: Sign 18_57
+  - first:
+      213: 2709273226032704180
+    second: Sign 18_58
+  - first:
+      213: 577941606276989968
+    second: Sign 18_59
+  - first:
+      213: 7256528211495855363
+    second: Sign 18_60
+  - first:
+      213: -8327714058321721110
+    second: Sign 18_61
+  - first:
+      213: -567024860293031080
+    second: Sign 18_62
+  - first:
+      213: 6641809100710376397
+    second: Sign 18_63
+  - first:
+      213: -814948557748279250
+    second: Sign 18_64
+  - first:
+      213: -6287119833754138166
+    second: Sign 18_65
+  - first:
+      213: -3179916404001369504
+    second: Sign 18_66
+  - first:
+      213: -3709303209959333559
+    second: Sign 18_67
+  - first:
+      213: -2285417825155785782
+    second: Sign 18_68
+  - first:
+      213: 1350604928548276280
+    second: Sign 18_69
+  - first:
+      213: 2594546361933782085
+    second: Sign 18_70
+  - first:
+      213: -1085813168860568241
+    second: Sign 18_71
+  - first:
+      213: -4153978531594184353
+    second: Sign 18_72
+  - first:
+      213: 3772072277207570743
+    second: Sign 18_73
+  - first:
+      213: -3875313688072601733
+    second: Sign 18_74
+  - first:
+      213: -6700059058187197893
+    second: Sign 18_75
+  - first:
+      213: 2835954449598763565
+    second: Sign 18_76
+  - first:
+      213: 8569597497194752616
+    second: Sign 18_77
+  - first:
+      213: 5819318274410466126
+    second: Sign 18_78
+  - first:
+      213: 8094217956157814701
+    second: Sign 18_79
+  - first:
+      213: -3672504398562464376
+    second: Sign 18_80
+  - first:
+      213: -5805191612837845615
+    second: Sign 18_81
+  - first:
+      213: 6311161452533222592
+    second: Sign 18_82
+  - first:
+      213: 7489772406187518175
+    second: Sign 18_83
+  - first:
+      213: 7441474789928956903
+    second: Sign 18_84
+  - first:
+      213: 250668978717428105
+    second: Sign 18_85
+  - first:
+      213: -1834829072856709948
+    second: Sign 18_86
+  - first:
+      213: 4562272967977260910
+    second: Sign 18_87
+  - first:
+      213: -1729926211010322098
+    second: Sign 18_88
+  - first:
+      213: -4836988598658602218
+    second: Sign 18_89
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sign 18_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 977
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f9496a680c59870800000000000000
+      internalID: 8689062740634148736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9e13f18bee00bbc4f896945b777396c5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sign 18_0: 8689062740634148736
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

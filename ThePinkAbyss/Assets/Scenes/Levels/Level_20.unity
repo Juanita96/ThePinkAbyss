@@ -473,6 +473,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_Fire
       objectReference: {fileID: 0}
+    - target: {fileID: 4866412752668748627, guid: f332a90dcb71cc143b26926a8489e9e2, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1245262184}
+    - target: {fileID: 4866412752668748627, guid: f332a90dcb71cc143b26926a8489e9e2, type: 3}
+      propertyPath: powerPlayers
+      value: 
+      objectReference: {fileID: 1245262183}
     - target: {fileID: 8895600071307606782, guid: f332a90dcb71cc143b26926a8489e9e2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 36.19736
@@ -4495,6 +4503,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_Fire (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4866412752668748627, guid: f332a90dcb71cc143b26926a8489e9e2, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1245262184}
+    - target: {fileID: 4866412752668748627, guid: f332a90dcb71cc143b26926a8489e9e2, type: 3}
+      propertyPath: powerPlayers
+      value: 
+      objectReference: {fileID: 1245262183}
     - target: {fileID: 8895600071307606782, guid: f332a90dcb71cc143b26926a8489e9e2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 77.28261
@@ -6509,6 +6525,22 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0eab186e91b1b08439006ae15b1e574e, type: 3}
+--- !u!114 &1245262183 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6688012805793049214, guid: 046c5c40206a40349a6858c205d7555d, type: 3}
+  m_PrefabInstance: {fileID: 1957682415}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e8b4aad4caeee2428b4613c3fab1850, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1245262184 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9126655522244618395, guid: 046c5c40206a40349a6858c205d7555d, type: 3}
+  m_PrefabInstance: {fileID: 1957682415}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1253792722
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7113,6 +7145,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_Fire (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4866412752668748627, guid: f332a90dcb71cc143b26926a8489e9e2, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1245262184}
+    - target: {fileID: 4866412752668748627, guid: f332a90dcb71cc143b26926a8489e9e2, type: 3}
+      propertyPath: powerPlayers
+      value: 
+      objectReference: {fileID: 1245262183}
     - target: {fileID: 8895600071307606782, guid: f332a90dcb71cc143b26926a8489e9e2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 68.013374

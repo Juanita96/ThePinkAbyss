@@ -1,0 +1,374 @@
+fileFormatVersion: 2
+guid: 3f5e806f29d3256458ff7489584e215d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8713123129640557979
+    second: Sign 2_0
+  - first:
+      213: 2304399063633356168
+    second: Sign 2_1
+  - first:
+      213: 6916839658101678411
+    second: Sign 2_2
+  - first:
+      213: 339722618260285089
+    second: Sign 2_3
+  - first:
+      213: -1994728148755283180
+    second: Sign 2_4
+  - first:
+      213: 6395819640675447259
+    second: Sign 2_5
+  - first:
+      213: 1408387756918153268
+    second: Sign 2_6
+  - first:
+      213: -655399382025454062
+    second: Sign 2_7
+  - first:
+      213: 6842159070561254785
+    second: Sign 2_8
+  - first:
+      213: -7603203507421704135
+    second: Sign 2_9
+  - first:
+      213: 9053907139269152223
+    second: Sign 2_10
+  - first:
+      213: -6812646008265917085
+    second: Sign 2_11
+  - first:
+      213: -4926738651130313543
+    second: Sign 2_12
+  - first:
+      213: 2906577526690895932
+    second: Sign 2_13
+  - first:
+      213: 5356641947319649433
+    second: Sign 2_14
+  - first:
+      213: -5471840019547529488
+    second: Sign 2_15
+  - first:
+      213: 5144819450954115677
+    second: Sign 2_16
+  - first:
+      213: 1707953691894651594
+    second: Sign 2_17
+  - first:
+      213: 682768348921505197
+    second: Sign 2_18
+  - first:
+      213: 8072065260484255382
+    second: Sign 2_19
+  - first:
+      213: 3976930863566988422
+    second: Sign 2_20
+  - first:
+      213: 9170039480653432589
+    second: Sign 2_21
+  - first:
+      213: 2550450221878796626
+    second: Sign 2_22
+  - first:
+      213: 6096702567860083488
+    second: Sign 2_23
+  - first:
+      213: -883153602528328371
+    second: Sign 2_24
+  - first:
+      213: 4260015358605038530
+    second: Sign 2_25
+  - first:
+      213: -7153842177170889540
+    second: Sign 2_26
+  - first:
+      213: -8984059346112286134
+    second: Sign 2_27
+  - first:
+      213: 4981994225344754205
+    second: Sign 2_28
+  - first:
+      213: 5549054106303904622
+    second: Sign 2_29
+  - first:
+      213: 2355451673191639460
+    second: Sign 2_30
+  - first:
+      213: -3987140670557440775
+    second: Sign 2_31
+  - first:
+      213: -4035386444575779457
+    second: Sign 2_32
+  - first:
+      213: -4400044294592917401
+    second: Sign 2_33
+  - first:
+      213: 2439130907032001953
+    second: Sign 2_34
+  - first:
+      213: -3414216221930657229
+    second: Sign 2_35
+  - first:
+      213: -7968328215501345033
+    second: Sign 2_36
+  - first:
+      213: 4964481838272079430
+    second: Sign 2_37
+  - first:
+      213: -4632521964487545959
+    second: Sign 2_38
+  - first:
+      213: -5109180720058533833
+    second: Sign 2_39
+  - first:
+      213: 1698466070050102069
+    second: Sign 2_40
+  - first:
+      213: -2186745971811984500
+    second: Sign 2_41
+  - first:
+      213: -7648796546701294796
+    second: Sign 2_42
+  - first:
+      213: -2786399036674174137
+    second: Sign 2_43
+  - first:
+      213: 3386343124377658705
+    second: Sign 2_44
+  - first:
+      213: -3797594831196464311
+    second: Sign 2_45
+  - first:
+      213: -4575401766322629483
+    second: Sign 2_46
+  - first:
+      213: -6888307492161584898
+    second: Sign 2_47
+  - first:
+      213: 6833702433844127436
+    second: Sign 2_48
+  - first:
+      213: -1613065291310271763
+    second: Sign 2_49
+  - first:
+      213: -3909568713579133194
+    second: Sign 2_50
+  - first:
+      213: -7375953669838853167
+    second: Sign 2_51
+  - first:
+      213: -8697798726434064848
+    second: Sign 2_52
+  - first:
+      213: -5699639017318956905
+    second: Sign 2_53
+  - first:
+      213: -7007642118371323438
+    second: Sign 2_54
+  - first:
+      213: -4103749781088380166
+    second: Sign 2_55
+  - first:
+      213: 6822047551105445432
+    second: Sign 2_56
+  - first:
+      213: -2478178358680656427
+    second: Sign 2_57
+  - first:
+      213: 6372362769518038854
+    second: Sign 2_58
+  - first:
+      213: 4483000465524402183
+    second: Sign 2_59
+  - first:
+      213: -7291473313857059950
+    second: Sign 2_60
+  - first:
+      213: 8490503159458167104
+    second: Sign 2_61
+  - first:
+      213: -44254084675001049
+    second: Sign 2_62
+  - first:
+      213: -2420287410408532756
+    second: Sign 2_63
+  - first:
+      213: -8304497094596353117
+    second: Sign 2_64
+  - first:
+      213: -4138030765845717186
+    second: Sign 2_65
+  - first:
+      213: 2107771197374831719
+    second: Sign 2_66
+  - first:
+      213: -2002156958948379197
+    second: Sign 2_67
+  - first:
+      213: -7485890347329204879
+    second: Sign 2_68
+  - first:
+      213: 376924171892311678
+    second: Sign 2_69
+  - first:
+      213: -204561918175428443
+    second: Sign 2_70
+  - first:
+      213: 1885917480867256833
+    second: Sign 2_71
+  - first:
+      213: -477900446670113770
+    second: Sign 2_72
+  - first:
+      213: -5768970222202506000
+    second: Sign 2_73
+  - first:
+      213: -2511828944444140373
+    second: Sign 2_74
+  - first:
+      213: 3533860805111592447
+    second: Sign 2_75
+  - first:
+      213: 3434456393147567937
+    second: Sign 2_76
+  - first:
+      213: -2909938316169970036
+    second: Sign 2_77
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sign 2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 977
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 562e88d7da4c41780800000000000000
+      internalID: -8713123129640557979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2df7bce0bc81675439986260b43e7e76
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sign 2_0: -8713123129640557979
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

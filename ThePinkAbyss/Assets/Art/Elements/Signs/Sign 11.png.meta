@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: 6a0253a6ab0706e4a8c3fa3f3f2ad71c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7748066383611557326
+    second: Sign 11_0
+  - first:
+      213: -708924086770554761
+    second: Sign 11_1
+  - first:
+      213: 3517656576887252270
+    second: Sign 11_2
+  - first:
+      213: 1834772159796378574
+    second: Sign 11_3
+  - first:
+      213: 4231283997027996364
+    second: Sign 11_4
+  - first:
+      213: 772390827829714743
+    second: Sign 11_5
+  - first:
+      213: 4030757674778517190
+    second: Sign 11_6
+  - first:
+      213: -2945947618446524887
+    second: Sign 11_7
+  - first:
+      213: -4570671519385770138
+    second: Sign 11_8
+  - first:
+      213: -3112602742429587852
+    second: Sign 11_9
+  - first:
+      213: -7048261642188951700
+    second: Sign 11_10
+  - first:
+      213: -8674126674016256659
+    second: Sign 11_11
+  - first:
+      213: 6112190432606882349
+    second: Sign 11_12
+  - first:
+      213: -8063728037184665413
+    second: Sign 11_13
+  - first:
+      213: -8743509506300204310
+    second: Sign 11_14
+  - first:
+      213: 2846324210091537575
+    second: Sign 11_15
+  - first:
+      213: -4051191501280965650
+    second: Sign 11_16
+  - first:
+      213: -6801165753478079323
+    second: Sign 11_17
+  - first:
+      213: -7820207861384731230
+    second: Sign 11_18
+  - first:
+      213: 7602567779593814225
+    second: Sign 11_19
+  - first:
+      213: 8428120583191512515
+    second: Sign 11_20
+  - first:
+      213: -7778220908473800303
+    second: Sign 11_21
+  - first:
+      213: -4918126547029669841
+    second: Sign 11_22
+  - first:
+      213: -9108683758237112801
+    second: Sign 11_23
+  - first:
+      213: -5649797145002195662
+    second: Sign 11_24
+  - first:
+      213: 5068240413233912855
+    second: Sign 11_25
+  - first:
+      213: 1735204653360817202
+    second: Sign 11_26
+  - first:
+      213: 1984463635722027101
+    second: Sign 11_27
+  - first:
+      213: -2424908832675293983
+    second: Sign 11_28
+  - first:
+      213: 4132763753757116491
+    second: Sign 11_29
+  - first:
+      213: -4482617241450109729
+    second: Sign 11_30
+  - first:
+      213: 5775297469205063082
+    second: Sign 11_31
+  - first:
+      213: 5406966241789548961
+    second: Sign 11_32
+  - first:
+      213: 4260617280213108523
+    second: Sign 11_33
+  - first:
+      213: -5804708563927859128
+    second: Sign 11_34
+  - first:
+      213: 5705120878885065215
+    second: Sign 11_35
+  - first:
+      213: -5403574623050822424
+    second: Sign 11_36
+  - first:
+      213: 90062069293901969
+    second: Sign 11_37
+  - first:
+      213: -477767971676747371
+    second: Sign 11_38
+  - first:
+      213: 4639010898269351298
+    second: Sign 11_39
+  - first:
+      213: -5192280915626941383
+    second: Sign 11_40
+  - first:
+      213: -4913889354488645883
+    second: Sign 11_41
+  - first:
+      213: -3579895161951405642
+    second: Sign 11_42
+  - first:
+      213: -8147952895874523106
+    second: Sign 11_43
+  - first:
+      213: -670054017853740584
+    second: Sign 11_44
+  - first:
+      213: -4771836364161951220
+    second: Sign 11_45
+  - first:
+      213: -299398040703936650
+    second: Sign 11_46
+  - first:
+      213: -5563522442460930031
+    second: Sign 11_47
+  - first:
+      213: 2429510900094274781
+    second: Sign 11_48
+  - first:
+      213: -4408637532639538548
+    second: Sign 11_49
+  - first:
+      213: -4823160210560416354
+    second: Sign 11_50
+  - first:
+      213: 514888856958146656
+    second: Sign 11_51
+  - first:
+      213: -3578834901895390912
+    second: Sign 11_52
+  - first:
+      213: -2095330137514030120
+    second: Sign 11_53
+  - first:
+      213: 2447683517549420251
+    second: Sign 11_54
+  - first:
+      213: 9117602518793300402
+    second: Sign 11_55
+  - first:
+      213: 2488183348476425013
+    second: Sign 11_56
+  - first:
+      213: -1933121669178756470
+    second: Sign 11_57
+  - first:
+      213: -5184499176042732831
+    second: Sign 11_58
+  - first:
+      213: -5462871109347667613
+    second: Sign 11_59
+  - first:
+      213: -3858539022955367016
+    second: Sign 11_60
+  - first:
+      213: 6612766875878518180
+    second: Sign 11_61
+  - first:
+      213: 3893188876008770788
+    second: Sign 11_62
+  - first:
+      213: -8042280515593164569
+    second: Sign 11_63
+  - first:
+      213: 3244584879223634034
+    second: Sign 11_64
+  - first:
+      213: 3471611362557936952
+    second: Sign 11_65
+  - first:
+      213: -5374925591664107050
+    second: Sign 11_66
+  - first:
+      213: -2933608682607575076
+    second: Sign 11_67
+  - first:
+      213: -2009126087848087535
+    second: Sign 11_68
+  - first:
+      213: 1334988500026515290
+    second: Sign 11_69
+  - first:
+      213: 5915027162454442310
+    second: Sign 11_70
+  - first:
+      213: -5381318202353713034
+    second: Sign 11_71
+  - first:
+      213: 4978043347646411267
+    second: Sign 11_72
+  - first:
+      213: -9161944512758407712
+    second: Sign 11_73
+  - first:
+      213: 923175979434020144
+    second: Sign 11_74
+  - first:
+      213: 4252139913380642376
+    second: Sign 11_75
+  - first:
+      213: -3319723880372171327
+    second: Sign 11_76
+  - first:
+      213: 7019615133924483257
+    second: Sign 11_77
+  - first:
+      213: 1165665758522405279
+    second: Sign 11_78
+  - first:
+      213: -883241845588285626
+    second: Sign 11_79
+  - first:
+      213: 7300721669771938233
+    second: Sign 11_80
+  - first:
+      213: 4905055014218220964
+    second: Sign 11_81
+  - first:
+      213: 2186833810692304746
+    second: Sign 11_82
+  - first:
+      213: 5161677583008267372
+    second: Sign 11_83
+  - first:
+      213: -898112347268435814
+    second: Sign 11_84
+  - first:
+      213: 1663016466547574093
+    second: Sign 11_85
+  - first:
+      213: -3199369736113209465
+    second: Sign 11_86
+  - first:
+      213: 6116010109515864644
+    second: Sign 11_87
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sign 11_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 977
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5ff4b2359a68b60800000000000000
+      internalID: 7748066383611557326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0b04ee31739bbb645ba8f2b06d14bd59
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sign 11_0: 7748066383611557326
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

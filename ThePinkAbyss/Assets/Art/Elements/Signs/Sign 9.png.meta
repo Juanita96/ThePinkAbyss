@@ -1,0 +1,356 @@
+fileFormatVersion: 2
+guid: 2ce6037a1fa53d247863556480cbd1fe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6647942302031839926
+    second: Sign 9_0
+  - first:
+      213: 3021409921439981282
+    second: Sign 9_1
+  - first:
+      213: 4977369134531133396
+    second: Sign 9_2
+  - first:
+      213: -7321259223538199875
+    second: Sign 9_3
+  - first:
+      213: 4170089013614221383
+    second: Sign 9_4
+  - first:
+      213: -7147130388437468136
+    second: Sign 9_5
+  - first:
+      213: 3878067340253095741
+    second: Sign 9_6
+  - first:
+      213: -299422968448776662
+    second: Sign 9_7
+  - first:
+      213: -4059954617645018743
+    second: Sign 9_8
+  - first:
+      213: 1940572623111726785
+    second: Sign 9_9
+  - first:
+      213: -2139831094781746408
+    second: Sign 9_10
+  - first:
+      213: 3334678105325579834
+    second: Sign 9_11
+  - first:
+      213: 6140837035148828247
+    second: Sign 9_12
+  - first:
+      213: 7696584030645166617
+    second: Sign 9_13
+  - first:
+      213: -5535117471069139454
+    second: Sign 9_14
+  - first:
+      213: 578299815208492501
+    second: Sign 9_15
+  - first:
+      213: -2930018686127666914
+    second: Sign 9_16
+  - first:
+      213: -6667877899370365832
+    second: Sign 9_17
+  - first:
+      213: -8262902549376316688
+    second: Sign 9_18
+  - first:
+      213: -1215912933500566288
+    second: Sign 9_19
+  - first:
+      213: 6129401257871988833
+    second: Sign 9_20
+  - first:
+      213: 1292118105156584209
+    second: Sign 9_21
+  - first:
+      213: 8354180415111667884
+    second: Sign 9_22
+  - first:
+      213: -276457548235946189
+    second: Sign 9_23
+  - first:
+      213: 3012618538842807031
+    second: Sign 9_24
+  - first:
+      213: 4329989441500467242
+    second: Sign 9_25
+  - first:
+      213: -6495493750860130334
+    second: Sign 9_26
+  - first:
+      213: 1168351285190614635
+    second: Sign 9_27
+  - first:
+      213: -4114585161671403977
+    second: Sign 9_28
+  - first:
+      213: -601975939455467582
+    second: Sign 9_29
+  - first:
+      213: 4701103596269394973
+    second: Sign 9_30
+  - first:
+      213: 5498561620045776960
+    second: Sign 9_31
+  - first:
+      213: 8234559916958705952
+    second: Sign 9_32
+  - first:
+      213: -2888959721948481241
+    second: Sign 9_33
+  - first:
+      213: -2984549220424664351
+    second: Sign 9_34
+  - first:
+      213: 4664325695578872111
+    second: Sign 9_35
+  - first:
+      213: 4292515589917117285
+    second: Sign 9_36
+  - first:
+      213: -1346309129851390157
+    second: Sign 9_37
+  - first:
+      213: -4612295895238287440
+    second: Sign 9_38
+  - first:
+      213: -9189798874153930257
+    second: Sign 9_39
+  - first:
+      213: 3915028197196217663
+    second: Sign 9_40
+  - first:
+      213: -8811535840471198081
+    second: Sign 9_41
+  - first:
+      213: -8083731966920057454
+    second: Sign 9_42
+  - first:
+      213: -2090212360366009685
+    second: Sign 9_43
+  - first:
+      213: 152871127431258221
+    second: Sign 9_44
+  - first:
+      213: 5617140609013540830
+    second: Sign 9_45
+  - first:
+      213: -8512366470179150678
+    second: Sign 9_46
+  - first:
+      213: -2774344841042217414
+    second: Sign 9_47
+  - first:
+      213: 2962363793144817426
+    second: Sign 9_48
+  - first:
+      213: -5413739851517727556
+    second: Sign 9_49
+  - first:
+      213: -2218012997509651874
+    second: Sign 9_50
+  - first:
+      213: -8372143616563201409
+    second: Sign 9_51
+  - first:
+      213: 6150680817911496161
+    second: Sign 9_52
+  - first:
+      213: -7078752863674049640
+    second: Sign 9_53
+  - first:
+      213: 2312227582020200245
+    second: Sign 9_54
+  - first:
+      213: 5814687092914720067
+    second: Sign 9_55
+  - first:
+      213: -6477689610089370826
+    second: Sign 9_56
+  - first:
+      213: 4773167650180291054
+    second: Sign 9_57
+  - first:
+      213: 6649160094229478686
+    second: Sign 9_58
+  - first:
+      213: -8538259591617986767
+    second: Sign 9_59
+  - first:
+      213: -2929557225276683277
+    second: Sign 9_60
+  - first:
+      213: 3524066476144108642
+    second: Sign 9_61
+  - first:
+      213: -3485895216222193508
+    second: Sign 9_62
+  - first:
+      213: 4250756641159502051
+    second: Sign 9_63
+  - first:
+      213: -1170817745355963140
+    second: Sign 9_64
+  - first:
+      213: 8112360711944154851
+    second: Sign 9_65
+  - first:
+      213: 4999290268617029263
+    second: Sign 9_66
+  - first:
+      213: -6203019418991353680
+    second: Sign 9_67
+  - first:
+      213: -8755804703015677940
+    second: Sign 9_68
+  - first:
+      213: 3103128898628841313
+    second: Sign 9_69
+  - first:
+      213: -67902680452735983
+    second: Sign 9_70
+  - first:
+      213: -8640590776163665834
+    second: Sign 9_71
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sign 9_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 977
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b286e72d4c324c50800000000000000
+      internalID: 6647942302031839926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0414a79657ef08345993f598ccd39216
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sign 9_0: 6647942302031839926
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

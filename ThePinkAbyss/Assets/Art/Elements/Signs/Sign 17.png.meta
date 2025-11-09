@@ -1,0 +1,371 @@
+fileFormatVersion: 2
+guid: df2d99260ae7fab49aa1a330304f9e82
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5433571990366558390
+    second: Sign 17_0
+  - first:
+      213: -1798103152460381747
+    second: Sign 17_1
+  - first:
+      213: 1407535267460123208
+    second: Sign 17_2
+  - first:
+      213: 6698388006200296470
+    second: Sign 17_3
+  - first:
+      213: -3104763838154434354
+    second: Sign 17_4
+  - first:
+      213: -1511569737373441618
+    second: Sign 17_5
+  - first:
+      213: 2439685388653738666
+    second: Sign 17_6
+  - first:
+      213: -5939750886877354795
+    second: Sign 17_7
+  - first:
+      213: -7077745204007472055
+    second: Sign 17_8
+  - first:
+      213: 261401368417493411
+    second: Sign 17_9
+  - first:
+      213: -6993693311701507333
+    second: Sign 17_10
+  - first:
+      213: 7561796479207224436
+    second: Sign 17_11
+  - first:
+      213: -1172321439686821163
+    second: Sign 17_12
+  - first:
+      213: -1765093063974059138
+    second: Sign 17_13
+  - first:
+      213: 2478660345813204778
+    second: Sign 17_14
+  - first:
+      213: 1629614206707063069
+    second: Sign 17_15
+  - first:
+      213: 2618859629652336573
+    second: Sign 17_16
+  - first:
+      213: -5428205368004000621
+    second: Sign 17_17
+  - first:
+      213: -6315267458723032641
+    second: Sign 17_18
+  - first:
+      213: -1004100947401254027
+    second: Sign 17_19
+  - first:
+      213: -2754390388429670747
+    second: Sign 17_20
+  - first:
+      213: 6680609020730342817
+    second: Sign 17_21
+  - first:
+      213: -2093481895731855049
+    second: Sign 17_22
+  - first:
+      213: -5183685681887852136
+    second: Sign 17_23
+  - first:
+      213: -5979900341767630575
+    second: Sign 17_24
+  - first:
+      213: 7091302634860038931
+    second: Sign 17_25
+  - first:
+      213: -8975148891965905477
+    second: Sign 17_26
+  - first:
+      213: -7352109886773825913
+    second: Sign 17_27
+  - first:
+      213: 4297128826294395424
+    second: Sign 17_28
+  - first:
+      213: -1093490023928174504
+    second: Sign 17_29
+  - first:
+      213: -7998434674741331074
+    second: Sign 17_30
+  - first:
+      213: 1029317507343320312
+    second: Sign 17_31
+  - first:
+      213: 6906830461546434135
+    second: Sign 17_32
+  - first:
+      213: -5759811709591848845
+    second: Sign 17_33
+  - first:
+      213: 5322633641753663143
+    second: Sign 17_34
+  - first:
+      213: -6143762220868762018
+    second: Sign 17_35
+  - first:
+      213: -1779127654939877351
+    second: Sign 17_36
+  - first:
+      213: 6066810353679962451
+    second: Sign 17_37
+  - first:
+      213: 5780940452564911491
+    second: Sign 17_38
+  - first:
+      213: -5651674372209677416
+    second: Sign 17_39
+  - first:
+      213: -8467355913682823971
+    second: Sign 17_40
+  - first:
+      213: -238263474967009964
+    second: Sign 17_41
+  - first:
+      213: -7673600956191878251
+    second: Sign 17_42
+  - first:
+      213: 5404134980718095459
+    second: Sign 17_43
+  - first:
+      213: 4614982215611970107
+    second: Sign 17_44
+  - first:
+      213: -4503287155482525385
+    second: Sign 17_45
+  - first:
+      213: -5945787774037091058
+    second: Sign 17_46
+  - first:
+      213: 2157575580324000979
+    second: Sign 17_47
+  - first:
+      213: 2788749728004225796
+    second: Sign 17_48
+  - first:
+      213: 2101644040349458592
+    second: Sign 17_49
+  - first:
+      213: -1982703495108761558
+    second: Sign 17_50
+  - first:
+      213: -217757698950205485
+    second: Sign 17_51
+  - first:
+      213: -5389815197496008453
+    second: Sign 17_52
+  - first:
+      213: 7884413215893617726
+    second: Sign 17_53
+  - first:
+      213: 900492268446087456
+    second: Sign 17_54
+  - first:
+      213: -4890577460023915961
+    second: Sign 17_55
+  - first:
+      213: 4520566513079520758
+    second: Sign 17_56
+  - first:
+      213: 5854884249519856034
+    second: Sign 17_57
+  - first:
+      213: -5602029144343545363
+    second: Sign 17_58
+  - first:
+      213: -1582940347237144652
+    second: Sign 17_59
+  - first:
+      213: 7924557629460657693
+    second: Sign 17_60
+  - first:
+      213: 6576295628986888444
+    second: Sign 17_61
+  - first:
+      213: -5667885836228837128
+    second: Sign 17_62
+  - first:
+      213: 247732139016782978
+    second: Sign 17_63
+  - first:
+      213: -7943808127060653569
+    second: Sign 17_64
+  - first:
+      213: -8339257967267562032
+    second: Sign 17_65
+  - first:
+      213: 2607926017821815540
+    second: Sign 17_66
+  - first:
+      213: -4856391287338266034
+    second: Sign 17_67
+  - first:
+      213: 4984551248975583305
+    second: Sign 17_68
+  - first:
+      213: 3747646333663325324
+    second: Sign 17_69
+  - first:
+      213: 954941478291119451
+    second: Sign 17_70
+  - first:
+      213: -3108645396726254686
+    second: Sign 17_71
+  - first:
+      213: -3102232387859568483
+    second: Sign 17_72
+  - first:
+      213: -5701296784432218630
+    second: Sign 17_73
+  - first:
+      213: 7781367224964159302
+    second: Sign 17_74
+  - first:
+      213: 6426439420418529315
+    second: Sign 17_75
+  - first:
+      213: -3361836588063681479
+    second: Sign 17_76
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sign 17_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 977
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4760b420131894b0800000000000000
+      internalID: -5433571990366558390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: baec6388346d355469c54b82dbd0280d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sign 17_0: -5433571990366558390
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,449 @@
+fileFormatVersion: 2
+guid: 4cbb4a76b07ef8a4caaf45504b6b0965
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8615887299963380497
+    second: Sign 15_0
+  - first:
+      213: 8757908985914500208
+    second: Sign 15_1
+  - first:
+      213: -4116523129680665874
+    second: Sign 15_2
+  - first:
+      213: 4463419417594077512
+    second: Sign 15_3
+  - first:
+      213: 2952232491793205831
+    second: Sign 15_4
+  - first:
+      213: 3415039394964666064
+    second: Sign 15_5
+  - first:
+      213: 147536167701125998
+    second: Sign 15_6
+  - first:
+      213: 5558902688365819677
+    second: Sign 15_7
+  - first:
+      213: 8564898563540798322
+    second: Sign 15_8
+  - first:
+      213: 7837519709032226458
+    second: Sign 15_9
+  - first:
+      213: 3777976972698382885
+    second: Sign 15_10
+  - first:
+      213: 5392602819401410352
+    second: Sign 15_11
+  - first:
+      213: -8501375796751720853
+    second: Sign 15_12
+  - first:
+      213: 1253176999327161102
+    second: Sign 15_13
+  - first:
+      213: -1581094696588813821
+    second: Sign 15_14
+  - first:
+      213: 6261476136706327814
+    second: Sign 15_15
+  - first:
+      213: 8361992764201976501
+    second: Sign 15_16
+  - first:
+      213: 5921448719942907850
+    second: Sign 15_17
+  - first:
+      213: -8704529147751147078
+    second: Sign 15_18
+  - first:
+      213: 8890284409655944387
+    second: Sign 15_19
+  - first:
+      213: 5953674398382443594
+    second: Sign 15_20
+  - first:
+      213: 7665679661797467074
+    second: Sign 15_21
+  - first:
+      213: -187524618827147465
+    second: Sign 15_22
+  - first:
+      213: 4954258643959832350
+    second: Sign 15_23
+  - first:
+      213: 3642328452152774674
+    second: Sign 15_24
+  - first:
+      213: 6210301154115682852
+    second: Sign 15_25
+  - first:
+      213: -3147006029901658645
+    second: Sign 15_26
+  - first:
+      213: -1868880383052139431
+    second: Sign 15_27
+  - first:
+      213: 6956400155990229097
+    second: Sign 15_28
+  - first:
+      213: -2334301848012641383
+    second: Sign 15_29
+  - first:
+      213: 7571380370869320308
+    second: Sign 15_30
+  - first:
+      213: -4710845977008609245
+    second: Sign 15_31
+  - first:
+      213: 1575871604492489840
+    second: Sign 15_32
+  - first:
+      213: -5010453275812228416
+    second: Sign 15_33
+  - first:
+      213: 368187190461428764
+    second: Sign 15_34
+  - first:
+      213: -3241866281305624570
+    second: Sign 15_35
+  - first:
+      213: -1990320578307751734
+    second: Sign 15_36
+  - first:
+      213: 7722142215015830076
+    second: Sign 15_37
+  - first:
+      213: 1849218317080714522
+    second: Sign 15_38
+  - first:
+      213: -5253244213300022630
+    second: Sign 15_39
+  - first:
+      213: 351446681218396686
+    second: Sign 15_40
+  - first:
+      213: -4214829912278963565
+    second: Sign 15_41
+  - first:
+      213: -6077059951877666310
+    second: Sign 15_42
+  - first:
+      213: 5503428980871689925
+    second: Sign 15_43
+  - first:
+      213: -8722928015899289752
+    second: Sign 15_44
+  - first:
+      213: -3784582946909947645
+    second: Sign 15_45
+  - first:
+      213: 6351946638445378266
+    second: Sign 15_46
+  - first:
+      213: 3497498918474457402
+    second: Sign 15_47
+  - first:
+      213: -2111590130331415424
+    second: Sign 15_48
+  - first:
+      213: 6048246146617723179
+    second: Sign 15_49
+  - first:
+      213: -6511816271810685385
+    second: Sign 15_50
+  - first:
+      213: -1572541472565176853
+    second: Sign 15_51
+  - first:
+      213: -3655849947298651455
+    second: Sign 15_52
+  - first:
+      213: 629636160488896015
+    second: Sign 15_53
+  - first:
+      213: -3271909051268662325
+    second: Sign 15_54
+  - first:
+      213: -3334255016607106637
+    second: Sign 15_55
+  - first:
+      213: -3154648579253326705
+    second: Sign 15_56
+  - first:
+      213: 2031511662323347666
+    second: Sign 15_57
+  - first:
+      213: 315578059908851124
+    second: Sign 15_58
+  - first:
+      213: 6078562579757200775
+    second: Sign 15_59
+  - first:
+      213: -4015106867025946246
+    second: Sign 15_60
+  - first:
+      213: 2326573149041062405
+    second: Sign 15_61
+  - first:
+      213: 4799883716668806845
+    second: Sign 15_62
+  - first:
+      213: -721904946250380402
+    second: Sign 15_63
+  - first:
+      213: 7034968659045128574
+    second: Sign 15_64
+  - first:
+      213: -5672208019194266389
+    second: Sign 15_65
+  - first:
+      213: -5340089095324409065
+    second: Sign 15_66
+  - first:
+      213: -4199476927824211791
+    second: Sign 15_67
+  - first:
+      213: 1914950122096573306
+    second: Sign 15_68
+  - first:
+      213: -6319061984024218043
+    second: Sign 15_69
+  - first:
+      213: -803764664069604317
+    second: Sign 15_70
+  - first:
+      213: 1070746679279706391
+    second: Sign 15_71
+  - first:
+      213: -3827725858785949451
+    second: Sign 15_72
+  - first:
+      213: -8772290596330142293
+    second: Sign 15_73
+  - first:
+      213: -4856499533135524503
+    second: Sign 15_74
+  - first:
+      213: 8235877528025861280
+    second: Sign 15_75
+  - first:
+      213: 8144137350079255336
+    second: Sign 15_76
+  - first:
+      213: 1385542644135262373
+    second: Sign 15_77
+  - first:
+      213: -3201950834798047602
+    second: Sign 15_78
+  - first:
+      213: -4506643762538864783
+    second: Sign 15_79
+  - first:
+      213: -978679839596001547
+    second: Sign 15_80
+  - first:
+      213: 6363543003906307746
+    second: Sign 15_81
+  - first:
+      213: 2339340297107337655
+    second: Sign 15_82
+  - first:
+      213: 4852897534727311435
+    second: Sign 15_83
+  - first:
+      213: 4480596689634003363
+    second: Sign 15_84
+  - first:
+      213: -3684299078446965596
+    second: Sign 15_85
+  - first:
+      213: 4611826682701511256
+    second: Sign 15_86
+  - first:
+      213: -6936110628204954333
+    second: Sign 15_87
+  - first:
+      213: 49660753239215477
+    second: Sign 15_88
+  - first:
+      213: 3064279444992823453
+    second: Sign 15_89
+  - first:
+      213: 1238056098619535635
+    second: Sign 15_90
+  - first:
+      213: 6417193255379895412
+    second: Sign 15_91
+  - first:
+      213: -8392553870728053253
+    second: Sign 15_92
+  - first:
+      213: 5026175836185963397
+    second: Sign 15_93
+  - first:
+      213: 7555808306289804707
+    second: Sign 15_94
+  - first:
+      213: 3669331639157872118
+    second: Sign 15_95
+  - first:
+      213: 6339723280737129350
+    second: Sign 15_96
+  - first:
+      213: 7059160369313097919
+    second: Sign 15_97
+  - first:
+      213: -8911511951983813733
+    second: Sign 15_98
+  - first:
+      213: 1321657336822111380
+    second: Sign 15_99
+  - first:
+      213: -6639522760612338574
+    second: Sign 15_100
+  - first:
+      213: 261784175052839645
+    second: Sign 15_101
+  - first:
+      213: -1377564872336012372
+    second: Sign 15_102
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sign 15_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 977
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec12ec46283e6880800000000000000
+      internalID: -8615887299963380497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e1ab3f013e33cd438c1ff826ec28ec6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sign 15_0: -8615887299963380497
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

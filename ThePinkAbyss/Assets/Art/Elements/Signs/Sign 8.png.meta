@@ -1,0 +1,380 @@
+fileFormatVersion: 2
+guid: 97ff9a68edc8e854785f8c2d865948e7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8861783710989951251
+    second: Sign 8_0
+  - first:
+      213: -6106992108213798982
+    second: Sign 8_1
+  - first:
+      213: -3750539693397871534
+    second: Sign 8_2
+  - first:
+      213: -8266839197126595123
+    second: Sign 8_3
+  - first:
+      213: 3733151119226168057
+    second: Sign 8_4
+  - first:
+      213: 1833382029069219795
+    second: Sign 8_5
+  - first:
+      213: 7020391664908883229
+    second: Sign 8_6
+  - first:
+      213: 4867862353072588492
+    second: Sign 8_7
+  - first:
+      213: -1594274238463433135
+    second: Sign 8_8
+  - first:
+      213: 8731402389817944692
+    second: Sign 8_9
+  - first:
+      213: -3215903645284618492
+    second: Sign 8_10
+  - first:
+      213: -8347387443971066625
+    second: Sign 8_11
+  - first:
+      213: -9060644063852944014
+    second: Sign 8_12
+  - first:
+      213: -8694686108269602928
+    second: Sign 8_13
+  - first:
+      213: 2396608578761439311
+    second: Sign 8_14
+  - first:
+      213: 3345750974767548531
+    second: Sign 8_15
+  - first:
+      213: -5950859790936494565
+    second: Sign 8_16
+  - first:
+      213: 7550498777252752363
+    second: Sign 8_17
+  - first:
+      213: -5641661359079821366
+    second: Sign 8_18
+  - first:
+      213: 3697076144529406674
+    second: Sign 8_19
+  - first:
+      213: -7537270899207549692
+    second: Sign 8_20
+  - first:
+      213: -4250003298842645960
+    second: Sign 8_21
+  - first:
+      213: 3818380039978637587
+    second: Sign 8_22
+  - first:
+      213: -7977817112794339697
+    second: Sign 8_23
+  - first:
+      213: 3606691693478527365
+    second: Sign 8_24
+  - first:
+      213: -5951093921890910503
+    second: Sign 8_25
+  - first:
+      213: -1065148390930699659
+    second: Sign 8_26
+  - first:
+      213: -8954689438281403699
+    second: Sign 8_27
+  - first:
+      213: 3251551301943325117
+    second: Sign 8_28
+  - first:
+      213: -4870246601715461444
+    second: Sign 8_29
+  - first:
+      213: 2432000462113080032
+    second: Sign 8_30
+  - first:
+      213: -769027865670156703
+    second: Sign 8_31
+  - first:
+      213: 6449734982255426057
+    second: Sign 8_32
+  - first:
+      213: 7405690186826747800
+    second: Sign 8_33
+  - first:
+      213: 9206685857645820268
+    second: Sign 8_34
+  - first:
+      213: 5066011881786087675
+    second: Sign 8_35
+  - first:
+      213: 2886274985918270884
+    second: Sign 8_36
+  - first:
+      213: 5923825254534348489
+    second: Sign 8_37
+  - first:
+      213: -6607187868268056631
+    second: Sign 8_38
+  - first:
+      213: 6740985270701870693
+    second: Sign 8_39
+  - first:
+      213: -8645941143723810859
+    second: Sign 8_40
+  - first:
+      213: -6726341706866162368
+    second: Sign 8_41
+  - first:
+      213: 1313638413407338123
+    second: Sign 8_42
+  - first:
+      213: 4473473067808830748
+    second: Sign 8_43
+  - first:
+      213: 6244491119409464273
+    second: Sign 8_44
+  - first:
+      213: -8566772996946426677
+    second: Sign 8_45
+  - first:
+      213: -3417065392629305836
+    second: Sign 8_46
+  - first:
+      213: 5944225784901171154
+    second: Sign 8_47
+  - first:
+      213: -8926150905842830773
+    second: Sign 8_48
+  - first:
+      213: 1761209244142271392
+    second: Sign 8_49
+  - first:
+      213: -2990666979982670504
+    second: Sign 8_50
+  - first:
+      213: -9221645298362741299
+    second: Sign 8_51
+  - first:
+      213: -2164627885468910469
+    second: Sign 8_52
+  - first:
+      213: 6684560468738541550
+    second: Sign 8_53
+  - first:
+      213: 4577013228613584565
+    second: Sign 8_54
+  - first:
+      213: 3885194078781818063
+    second: Sign 8_55
+  - first:
+      213: -8649968524822164877
+    second: Sign 8_56
+  - first:
+      213: -2641469862922462976
+    second: Sign 8_57
+  - first:
+      213: -5599696572803002129
+    second: Sign 8_58
+  - first:
+      213: 4206211537207034917
+    second: Sign 8_59
+  - first:
+      213: 8238543937140046313
+    second: Sign 8_60
+  - first:
+      213: -6599750102169769188
+    second: Sign 8_61
+  - first:
+      213: 464691053840204665
+    second: Sign 8_62
+  - first:
+      213: 6974208151747809622
+    second: Sign 8_63
+  - first:
+      213: -7983202775202737694
+    second: Sign 8_64
+  - first:
+      213: 6002912429803257113
+    second: Sign 8_65
+  - first:
+      213: -7968735753533992286
+    second: Sign 8_66
+  - first:
+      213: 3279187529831318661
+    second: Sign 8_67
+  - first:
+      213: -5375809973508428230
+    second: Sign 8_68
+  - first:
+      213: 3134543493020989937
+    second: Sign 8_69
+  - first:
+      213: 5057015386947322881
+    second: Sign 8_70
+  - first:
+      213: -3785327347491521001
+    second: Sign 8_71
+  - first:
+      213: 876937212967449911
+    second: Sign 8_72
+  - first:
+      213: -8583309698021087293
+    second: Sign 8_73
+  - first:
+      213: -2224589383631905779
+    second: Sign 8_74
+  - first:
+      213: 2502068792791411546
+    second: Sign 8_75
+  - first:
+      213: 2989202117179666517
+    second: Sign 8_76
+  - first:
+      213: 5806469178867148589
+    second: Sign 8_77
+  - first:
+      213: -7032435342405488963
+    second: Sign 8_78
+  - first:
+      213: 7578164544393675559
+    second: Sign 8_79
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sign 8_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 977
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deed916aaae940580800000000000000
+      internalID: -8861783710989951251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 62e5689878fed004abbcd5a855589757
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sign 8_0: -8861783710989951251
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

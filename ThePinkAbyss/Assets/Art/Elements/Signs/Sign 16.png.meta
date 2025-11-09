@@ -1,0 +1,302 @@
+fileFormatVersion: 2
+guid: 2daf78a6fb1e58f4b95f0a3685efb974
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5555979909596610239
+    second: Sign 16_0
+  - first:
+      213: 1972396891523967629
+    second: Sign 16_1
+  - first:
+      213: 7723418073067228972
+    second: Sign 16_2
+  - first:
+      213: -3179467133108241701
+    second: Sign 16_3
+  - first:
+      213: -1142963162143542
+    second: Sign 16_4
+  - first:
+      213: 5862683111117186390
+    second: Sign 16_5
+  - first:
+      213: 6322551201883016697
+    second: Sign 16_6
+  - first:
+      213: -8808639611316268371
+    second: Sign 16_7
+  - first:
+      213: 8368627215610478362
+    second: Sign 16_8
+  - first:
+      213: -74407941629145883
+    second: Sign 16_9
+  - first:
+      213: 2862537526453432188
+    second: Sign 16_10
+  - first:
+      213: 9140168576252759948
+    second: Sign 16_11
+  - first:
+      213: 4397153155243968943
+    second: Sign 16_12
+  - first:
+      213: 6464165923026861697
+    second: Sign 16_13
+  - first:
+      213: 1705742948821199180
+    second: Sign 16_14
+  - first:
+      213: -6722458740204443182
+    second: Sign 16_15
+  - first:
+      213: 5210669073950586971
+    second: Sign 16_16
+  - first:
+      213: -4395248882011398618
+    second: Sign 16_17
+  - first:
+      213: 4938501094031914280
+    second: Sign 16_18
+  - first:
+      213: -7997450862012594910
+    second: Sign 16_19
+  - first:
+      213: 4152817574666059934
+    second: Sign 16_20
+  - first:
+      213: -2339358013003180805
+    second: Sign 16_21
+  - first:
+      213: -2870390825099692150
+    second: Sign 16_22
+  - first:
+      213: 5967024837854515867
+    second: Sign 16_23
+  - first:
+      213: 5720466731135726189
+    second: Sign 16_24
+  - first:
+      213: 1890597080547150918
+    second: Sign 16_25
+  - first:
+      213: 7756052680671690575
+    second: Sign 16_26
+  - first:
+      213: -2581133686651284286
+    second: Sign 16_27
+  - first:
+      213: -134687250038891114
+    second: Sign 16_28
+  - first:
+      213: -4894228330253446136
+    second: Sign 16_29
+  - first:
+      213: -3305419869504087387
+    second: Sign 16_30
+  - first:
+      213: -8666064258983680580
+    second: Sign 16_31
+  - first:
+      213: 5574883439782967789
+    second: Sign 16_32
+  - first:
+      213: 8610438465840918600
+    second: Sign 16_33
+  - first:
+      213: -8317542427208365632
+    second: Sign 16_34
+  - first:
+      213: -6786433604389374951
+    second: Sign 16_35
+  - first:
+      213: -4697365357690677963
+    second: Sign 16_36
+  - first:
+      213: 2037188481025572543
+    second: Sign 16_37
+  - first:
+      213: 8617077529902758839
+    second: Sign 16_38
+  - first:
+      213: -2334920237065003979
+    second: Sign 16_39
+  - first:
+      213: 7440185607741725786
+    second: Sign 16_40
+  - first:
+      213: -7788531126540318501
+    second: Sign 16_41
+  - first:
+      213: 4240643280568064428
+    second: Sign 16_42
+  - first:
+      213: -3289601818443096186
+    second: Sign 16_43
+  - first:
+      213: 7625074875499885602
+    second: Sign 16_44
+  - first:
+      213: -5897207064273910505
+    second: Sign 16_45
+  - first:
+      213: -3443070698638868869
+    second: Sign 16_46
+  - first:
+      213: 6676588967496712610
+    second: Sign 16_47
+  - first:
+      213: -752479924408560980
+    second: Sign 16_48
+  - first:
+      213: -6065695369849707360
+    second: Sign 16_49
+  - first:
+      213: 6543777339379949743
+    second: Sign 16_50
+  - first:
+      213: -3098302684743377588
+    second: Sign 16_51
+  - first:
+      213: -6116586799902529638
+    second: Sign 16_52
+  - first:
+      213: 714375754995757895
+    second: Sign 16_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sign 16_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 977
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe76ba7a4eca1d40800000000000000
+      internalID: 5555979909596610239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 91fc96380c0124a40a7b8403eabba107
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sign 16_0: 5555979909596610239
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
