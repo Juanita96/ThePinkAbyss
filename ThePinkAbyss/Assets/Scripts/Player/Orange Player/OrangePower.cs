@@ -16,13 +16,18 @@ public class OrangePower : MonoBehaviour
 
     private void OnEnable()
     {
+        powerInput.action.Enable();
+    }
+
+    private void Start()
+    {
         powerInput.action.performed += HandlePowerInput;
     }
 
     private void OnDisable()
     {
         StopAllCoroutines();
-        powerInput.action.performed -= HandlePowerInput;
+        powerInput.action.Disable();
     }
 
     void HandlePowerInput(InputAction.CallbackContext context)

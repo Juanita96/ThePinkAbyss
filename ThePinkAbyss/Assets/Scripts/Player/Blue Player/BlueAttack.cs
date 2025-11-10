@@ -28,6 +28,7 @@ public class BlueAttack : MonoBehaviour
     }
     private void OnDisable()
     {
+        StopAllCoroutines();
         attackInput.action.Disable();
     }
     private void HandleAttackInput(InputAction.CallbackContext context)
