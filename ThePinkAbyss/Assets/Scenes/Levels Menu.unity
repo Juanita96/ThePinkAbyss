@@ -7932,7 +7932,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &876356911
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20970,7 +20970,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1380154741780846765, guid: 9d638bcae8ea32f4a86d4927d19952b3, type: 3}
       propertyPath: levels.Array.data[17].isActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1380154741780846765, guid: 9d638bcae8ea32f4a86d4927d19952b3, type: 3}
       propertyPath: levels.Array.data[18].isActive
