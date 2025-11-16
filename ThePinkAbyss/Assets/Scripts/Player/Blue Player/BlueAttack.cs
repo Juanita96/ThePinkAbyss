@@ -33,7 +33,11 @@ public class BlueAttack : MonoBehaviour
     }
     private void HandleAttackInput(InputAction.CallbackContext context)
     {
-        Debug.Log("Tocate hermano");
+        if (playerBlue == null)
+        {
+            Debug.Log("playerBlue is null");
+            return;
+        }
 
         if (playerBlue.lastViewX == -1)
         {

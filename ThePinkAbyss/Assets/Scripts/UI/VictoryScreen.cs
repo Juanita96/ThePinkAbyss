@@ -26,6 +26,7 @@ public class VictoryScreen : MonoBehaviour
         Time.timeScale = 0f;
         finalTime.text = timer.text;
         FinalCandies();
+        Debug.Log("HUD es null?: " + (hud == null));
         UpdateCandies();
     }
 
@@ -43,13 +44,16 @@ public class VictoryScreen : MonoBehaviour
     {
         int currentLevelIndex = SceneManager.GetActiveScene().buildIndex - 1;
         int currentCandies = Active_Levels.instance.GetCandies(currentLevelIndex);
+
+     
+        Active_Levels.instance.UnlockLevel(currentLevelIndex + 1);
+
         
         if (Active_Levels.instance != null && hud.candiesCollected > currentCandies)
         {
             Active_Levels.instance.SetCandies(currentLevelIndex, hud.candiesCollected);
-            Active_Levels.instance.UnlockLevel(currentLevelIndex + 1);
         }
-            
     }
+
 
 }

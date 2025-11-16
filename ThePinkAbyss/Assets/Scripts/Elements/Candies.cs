@@ -4,6 +4,8 @@ public class Candies : MonoBehaviour
 {
     public CandiesAndOrbsCounter candiesAndOrbsCounter;
 
+
+
     private void Start()
     {
         candiesAndOrbsCounter = FindAnyObjectByType<CandiesAndOrbsCounter>();

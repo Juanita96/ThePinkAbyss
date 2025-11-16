@@ -158,31 +158,26 @@ public class PowerPlayers : MonoBehaviour
         {
             collidesEnemy = false;
             cameraFollow.SetTarget(player.transform);
-            currentEnemy = enemyRoot;
         }
         if (collision.CompareTag(violetEnemy))
         {
             stoleViolet = false;
             cameraFollow.SetTarget(player.transform);
-            currentEnemy = enemyRoot;
         }
         if (collision.CompareTag(greenEnemy))
         {
             stoleGreen = false;
             cameraFollow.SetTarget(player.transform);
-            currentEnemy = enemyRoot;
         }
         if (collision.CompareTag(orangeEnemy))
         {
             stoleOrange = false;
             cameraFollow.SetTarget(player.transform);
-            currentEnemy = enemyRoot;
         }
         if (collision.CompareTag(blueEnemy))
         {
             stoleBlue = false;
             cameraFollow.SetTarget(player.transform);
-            currentEnemy = enemyRoot;
         }
     }
     void ResetStealFlags()
