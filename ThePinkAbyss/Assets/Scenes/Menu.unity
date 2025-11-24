@@ -527,10 +527,27 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4288371092100616868, guid: 53e6925fd7e053846943e395ba6fa1a6, type: 3}
   m_PrefabInstance: {fileID: 7927903290013502534}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 993982263}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fda4d8a048db5bf4ca8d70094d2d1b34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &993982263 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3067726339484283077, guid: 53e6925fd7e053846943e395ba6fa1a6, type: 3}
+  m_PrefabInstance: {fileID: 7927903290013502534}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &993982265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993982263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ff557091128a224a99420d7a78485ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1122251956
@@ -996,6 +1013,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 993982265}
+        m_TargetAssemblyTypeName: ExitGame, Assembly-CSharp
+        m_MethodName: GameClose
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1358331010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1054,6 +1083,18 @@ MonoBehaviour:
         - m_Target: {fileID: 935637877}
           m_TargetAssemblyTypeName: LoadScene, Assembly-CSharp
           m_MethodName: PlayHover
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 993982265}
+          m_TargetAssemblyTypeName: ExitGame, Assembly-CSharp
+          m_MethodName: GameClose
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1454,7 +1495,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3067726339484283077, guid: 53e6925fd7e053846943e395ba6fa1a6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 993982265}
   m_SourcePrefab: {fileID: 100100000, guid: 53e6925fd7e053846943e395ba6fa1a6, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
